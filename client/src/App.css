@@ -1,7 +1,47 @@
-.App{
+.App {
   display: flex;
   height: 100vh;
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+}
+.app_follow{
+  margin-bottom: 8px;
+  
+}
+.app_socialContainer{
+  display: flex;
+  flex-direction: column;
+}
+.app_linkedIn {
+  width: 108px;
+  height: 61.37px;
+  border-radius: 10;
+  margin-bottom: 8px;
+  
+}
+.app_github {
+  width: 108px;
+  height: 61.37px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  
+}
+.app_twitter {
+  width: 108px;
+  height: 61.37px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.app_instagram {
+  width: 108px;
+  height: 61.37px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.app_gmail {
+  width: 108px;
+  height: 61.37px;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
