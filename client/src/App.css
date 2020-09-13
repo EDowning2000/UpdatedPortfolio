@@ -10,7 +10,7 @@ body {
 }
 .app_me {
   display: flex;
-  flex: 0.6;
+  flex: 0.7;
   flex-direction: column;
   margin-top: 125px;
 }
@@ -24,7 +24,7 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .app_socialContainer {
