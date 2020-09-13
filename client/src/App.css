@@ -72,6 +72,16 @@ body {
   border-radius: 10px;
   margin-bottom: 8px;
 }
+button {
+  background-color: rgba(47, 47, 47, 1);
+  border: none !important;
+  padding: 0;
+  margin-bottom: 0 !important;
+  width: 88px;
+  height: 45.37px;
+}
+
+
 .app_right {
   flex: 0.15;
 }
