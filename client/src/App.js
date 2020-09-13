@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
 import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
+import HamburgerBtn from "./Components/HamburgerBtn/HamburgerBtn";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-
 
 function App() {
   return (
@@ -56,9 +56,7 @@ function App() {
         </div>
       </div>
       <div className="app_right">
-        <div className="app_menu">
-          <div className="app_burger"></div>
-        </div>
+        <HamburgerBtn />
       </div>
     </div>
   );

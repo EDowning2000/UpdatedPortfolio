@@ -71,6 +71,7 @@ body {
   height: 45.37px;
   border-radius: 10px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 button {
   background-color: rgba(47, 47, 47, 1);
@@ -81,7 +82,14 @@ button {
   height: 45.37px;
 }
 
-
 .app_right {
   flex: 0.15;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 30px;
+  background-color: white;
 }
