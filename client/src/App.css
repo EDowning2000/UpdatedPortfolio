@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(47, 47, 47, 1);
+}
 .App {
   display: flex;
   height: 100vh;
@@ -5,43 +8,70 @@
   margin-left: auto;
   margin-right: auto;
 }
-.app_follow{
-  margin-bottom: 8px;
-  
-}
-.app_socialContainer{
+.app_me {
   display: flex;
+  flex: 0.6;
   flex-direction: column;
+  margin-top: 125px;
 }
-.app_linkedIn {
-  width: 108px;
-  height: 61.37px;
-  border-radius: 10;
+.app_header {
+  color: rgba(255, 254, 254, 1);
+  text-align: center;
+  font-size: 34px;
+}
+.app_motto {
+  color: rgba(255, 254, 254, 1);
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.app_socialContainer {
+  display: flex;
+  flex: 0.15;
+  flex-direction: column;
+  padding-left: 5px;
+  margin-top: 245px;
+}
+.app_follow {
   margin-bottom: 8px;
-  
+  font-size: 16px;
+  color: rgba(180, 170, 170, 1);
+  margin-left: 8px;
+  font-weight: lighter;
 }
-.app_github {
-  width: 108px;
-  height: 61.37px;
+
+.app_linkedIn {
+  width: 88px;
+  height: 45.37px;
   border-radius: 10px;
   margin-bottom: 8px;
-  
+}
+.app_github {
+  width: 88px;
+  height: 45.37px;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
 .app_twitter {
-  width: 108px;
-  height: 61.37px;
+  width: 88px;
+  height: 45.37px;
   border-radius: 10px;
   margin-bottom: 8px;
 }
 .app_instagram {
-  width: 108px;
-  height: 61.37px;
+  width: 88px;
+  height: 45.37px;
   border-radius: 10px;
   margin-bottom: 8px;
 }
 .app_gmail {
-  width: 108px;
-  height: 61.37px;
+  width: 88px;
+  height: 45.37px;
   border-radius: 10px;
   margin-bottom: 8px;
+}
+.app_right {
+  flex: 0.15;
 }
