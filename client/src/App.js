@@ -15,17 +15,31 @@ import "tippy.js/dist/tippy.css";
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
   const [open, setOpen] = useState("menu-btn");
+  const [hide, setHide] = useState("app_hideElement");
+  const [show, setShow] = useState("app_showElement");
 
   const openSesame = () => {
+    //code to open and hide other portions of the center potion based on the links tab
     if (openMenu === "false") {
       setOpenMenu("true");
       setOpen("menu-btn open");
+      setHide("");
+      setShow("app_showElement");
     } else {
       setOpenMenu("false");
       setOpen("menu-btn");
+      setHide("app_hideElement");
+      setShow("");
     }
   };
-  const hide = "hide";
+
+  const showAndHide = () => {
+    if (hide === "") {
+      setShow("");
+    } else {
+      setShow("app_showElement");
+    }
+  };
 
   return (
     <div className="App">
@@ -63,8 +77,13 @@ function App() {
       </div>
 
       <div className="app_me">
-        <AboutMe />
-        <Links />
+        <div className={show}>
+          <AboutMe />
+        </div>
+
+        <div className={hide}>
+          <Links />
+        </div>
       </div>
       <div className="app_right">
         <div className={open} onClick={openSesame}>
