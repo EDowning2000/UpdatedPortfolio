@@ -1,7 +1,7 @@
 import React from "react";
 import './AboutMe.css'
 
-function AboutMe() {
+function AboutMe(hidden) {
   return (
     <div className="aboutMe">
       <div className="header"> Hi, my name is Emerson Downing! </div>

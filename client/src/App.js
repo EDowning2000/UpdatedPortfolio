@@ -6,7 +6,7 @@ import gmailPic from "../src/Images/gmailPic.jpeg";
 import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
-import Links from './Components/Links/Links'
+import Links from "./Components/Links/Links";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -15,6 +15,7 @@ import "tippy.js/dist/tippy.css";
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
   const [open, setOpen] = useState("menu-btn");
+
   const openSesame = () => {
     if (openMenu === "false") {
       setOpenMenu("true");
@@ -24,6 +25,7 @@ function App() {
       setOpen("menu-btn");
     }
   };
+  const hide = "hide";
 
   return (
     <div className="App">
@@ -61,10 +63,8 @@ function App() {
       </div>
 
       <div className="app_me">
-        {/* <AboutMe /> */}
-        <Links/>
-
-        
+        <AboutMe />
+        <Links />
       </div>
       <div className="app_right">
         <div className={open} onClick={openSesame}>
