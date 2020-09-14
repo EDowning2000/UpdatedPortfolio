@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
@@ -11,12 +11,13 @@ import Links from "./Components/Links/Links";
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
+import Anime from 'react-anime';
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
   const [open, setOpen] = useState("menu-btn");
   const [hide, setHide] = useState("app_hideElement");
-  const [show, setShow] = useState("app_showElement");
+  const [show, setShow] = useState("");
 
   const openSesame = () => {
     //code to open and hide other portions of the center potion based on the links tab
@@ -33,17 +34,11 @@ function App() {
     }
   };
 
-  const showAndHide = () => {
-    if (hide === "") {
-      setShow("");
-    } else {
-      setShow("app_showElement");
-    }
-  };
+  const anime 
 
   return (
     <div className="App">
-      <div className="app_socialContainer">
+      <div className="app_socialContainer slideInFromLeft">
         <div className="app_follow">Follow Me</div>
         <a
           href="https://www.linkedin.com/in/emerson-downing-baaa43195/"

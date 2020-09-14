@@ -129,15 +129,15 @@ button {
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
-.app_links{
+.app_links {
   z-index: 2;
-  background:rgba(47, 47, 47, 1); 
+  background: rgba(47, 47, 47, 1);
   height: 100vh;
   width: 100%;
 }
-.app_hideElement{
+.app_hideElement {
   display: none;
 }
-.app_showElement{
+.app_showElement {
   display: none;
 }
