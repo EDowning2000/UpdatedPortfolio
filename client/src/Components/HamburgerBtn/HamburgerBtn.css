@@ -6,7 +6,7 @@
   width: 80px;
   height: 80px;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   /* border: 3px solid #fff; */
 }
 /* .menu-btn__burger1{
@@ -25,21 +25,21 @@
   height: 4px;
   background: #fff;
   border-radius: 6px;
-  
-  transition: all .5s ease-in-out;
-  margin-top: 20px; 
+
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
 }
 
 .menu-btn__burger::before,
 .menu-btn__burger::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 38px;
   height: 4px;
   background: #fff;
   border-radius: 20px;
-  
-  transition: all .5s ease-in-out;
+
+  transition: all 0.5s ease-in-out;
 }
 .menu-btn__burger::before {
   transform: translateY(-16px);
@@ -47,4 +47,3 @@
 .menu-btn__burger::after {
   transform: translateY(16px);
 }
-

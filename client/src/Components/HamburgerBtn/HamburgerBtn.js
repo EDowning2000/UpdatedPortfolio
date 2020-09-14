@@ -7,11 +7,11 @@ function HamburgerBtn() {
 
   const openSesame = () => {
     if (openMenu === "false") {
-      setOpenMenu("true")
-      setOpen("menu-btn open")
+      setOpenMenu("true");
+      setOpen("menu-btn open");
     } else {
-      setOpenMenu("false")
-      setOpen("menu-btn")
+      setOpenMenu("false");
+      setOpen("menu-btn");
     }
   };
 

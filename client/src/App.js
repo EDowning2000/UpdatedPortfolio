@@ -6,6 +6,7 @@ import gmailPic from "../src/Images/gmailPic.jpeg";
 import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import HamburgerBtn from "./Components/HamburgerBtn/HamburgerBtn";
+import AboutMe from "./Components/AboutMe/AboutMe";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -48,12 +49,7 @@ function App() {
       </div>
 
       <div className="app_me">
-        <div className="app_header">Hi, my name is Emerson Downing!</div>
-        <div className="app_motto">
-          I am a full-stack developer with a passion for beautiful and highly
-          functional Front-End components, learning new technologies, and best
-          practices
-        </div>
+        <AboutMe />
       </div>
       <div className="app_right">
         <HamburgerBtn />
