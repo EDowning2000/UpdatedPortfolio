@@ -14,19 +14,6 @@ body {
   flex-direction: column;
   margin-top: 125px;
 }
-/* .app_header {
-  color: rgba(255, 254, 254, 1);
-  text-align: center;
-  font-size: 34px;
-}
-.app_motto {
-  color: rgba(255, 254, 254, 1);
-  text-align: center;
-  font-size: 24px;
-  font-weight: lighter;
-  margin-top: 20px;
-} */
-
 .app_socialContainer {
   display: flex;
   flex: 0.15;
@@ -41,7 +28,6 @@ body {
   margin-left: 8px;
   font-weight: lighter;
 }
-
 .app_linkedIn {
   width: 88px;
   height: 45.37px;
@@ -92,4 +78,60 @@ button {
   width: 100vw;
   height: 30px;
   background-color: white;
+}
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger {
+  width: 38px;
+  height: 4px;
+  background: #fff;
+  border-radius: 6px;
+
+  transition: all 0.5s ease-in-out;
+  margin-top: 20px;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 4px;
+  background: #fff;
+  border-radius: 20px;
+
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-16px);
+}
+.menu-btn__burger::after {
+  transform: translateY(16px);
+}
+/* animation */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+.app_links{
+  z-index: 2;
+  background:rgba(47, 47, 47, 1); 
+  height: 100vh;
+  width: 100%;
 }

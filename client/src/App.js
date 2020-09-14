@@ -5,14 +5,26 @@ import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
 import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
-import HamburgerBtn from "./Components/HamburgerBtn/HamburgerBtn";
 import AboutMe from "./Components/AboutMe/AboutMe";
+import Links from './Components/Links/Links'
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
 function App() {
+  const [openMenu, setOpenMenu] = useState("false");
+  const [open, setOpen] = useState("menu-btn");
+  const openSesame = () => {
+    if (openMenu === "false") {
+      setOpenMenu("true");
+      setOpen("menu-btn open");
+    } else {
+      setOpenMenu("false");
+      setOpen("menu-btn");
+    }
+  };
+
   return (
     <div className="App">
       <div className="app_socialContainer">
@@ -49,10 +61,15 @@ function App() {
       </div>
 
       <div className="app_me">
-        <AboutMe />
+        {/* <AboutMe /> */}
+        <Links/>
+
+        
       </div>
       <div className="app_right">
-        <HamburgerBtn />
+        <div className={open} onClick={openSesame}>
+          <div className="menu-btn__burger"></div>
+        </div>
       </div>
     </div>
   );
