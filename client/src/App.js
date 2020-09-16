@@ -77,6 +77,7 @@ function App() {
 
   return (
     <div className="App">
+      <Router>
       <div className="app_topContainer" id="app_topContainer">
         <div className="app_follow">Follow Me</div>
         <a
@@ -125,14 +126,14 @@ function App() {
       <div className="app_me">
         <div className={show}>
 
-      <Router>
+      {/* <Router> */}
         <Switch>
           <Route path="/" exact component={AboutMe}/>
           {/* to be finished later*/}
           {/* <Route path="/projects" exact component={MyProjects}/>
           <Route path="/technologies" exact component={MtTechnologies}/> */}
         </Switch>
-      </Router>
+      {/* </Router> */}
 
           {/* <AboutMe /> */}
         </div>
@@ -142,10 +143,13 @@ function App() {
         </div>
       </div>
       <div className="app_right">
+        
         <div className={open} onClick={openSesame}>
           <div className="menu-btn__burger"></div>
         </div>
+        
       </div>
+      </Router>
     </div>
   );
 }
