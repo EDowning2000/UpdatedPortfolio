@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
@@ -12,6 +13,19 @@ import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
+ 
+//how to do  routes template
+//<Router>
+//  <Switch>
+//    <Route path ='/' exact component={LandingPage} />
+//    <Route path ='socia' exact component={socialPage} />
+//  </Switch>
+//</Router>
+
+//how to do links example
+//<Link to='/'>
+//  <div>Random filler text</div>
+//<Link/>
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
@@ -110,7 +124,17 @@ function App() {
 
       <div className="app_me">
         <div className={show}>
-          <AboutMe />
+
+      <Router>
+        <Switch>
+          <Route path="/" exact component={AboutMe}/>
+          {/* to be finished later*/}
+          {/* <Route path="/projects" exact component={MyProjects}/>
+          <Route path="/technologies" exact component={MtTechnologies}/> */}
+        </Switch>
+      </Router>
+
+          {/* <AboutMe /> */}
         </div>
 
         <div className={hide}>
