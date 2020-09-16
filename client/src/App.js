@@ -11,15 +11,13 @@ import Links from "./Components/Links/Links";
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import anime from 'animejs/lib/anime.es.js';
+import anime from "animejs/lib/anime.es.js";
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
   const [open, setOpen] = useState("menu-btn");
   const [hide, setHide] = useState("app_hideElement");
   const [show, setShow] = useState("");
-
-  
 
   const openSesame = () => {
     //code to open and hide other portions of the center potion based on the links tab
@@ -36,24 +34,36 @@ function App() {
     }
   };
 
- const animateSocial = ()=>{
+  const animateSocial = () => {
     anime({
-      targets: '.app_topContainer',
-      translateX: 20,
-      
-    })
-  }
+      targets: ".app_topContainer",
+      translateY: 685,
+    });
+  };
+  const animateMain = () => {
+    anime({
+      targets: ".app_me",
+      translateY: 300,
+    });
+  };
+
+  const animateRight = () => {
+    anime({
+      targets: ".app_right",
+      translateY: 100,
+      delay: 100,
+    });
+  };
 
   useEffect(() => {
-    animateSocial()
+    animateSocial();
+    animateMain();
+    animateRight();
   }, []);
-  
 
   return (
     <div className="App">
       <div className="app_topContainer" id="app_topContainer">
-        
-        
         <div className="app_follow">Follow Me</div>
         <a
           href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
@@ -66,7 +76,11 @@ function App() {
           ></img>
         </a>
         <a href="https://github.com/EDowning2000" target="blank">
-          <img src={ghPic} className="app_github socialLink" alt="Github Logo"></img>
+          <img
+            src={ghPic}
+            className="app_github socialLink"
+            alt="Github Logo"
+          ></img>
         </a>
         <a href="https://twitter.com/EmersonDowning1" target="blank">
           <img
@@ -79,14 +93,20 @@ function App() {
           href="https://www.instagram.com/emersondowning__/?hl=en"
           target="blank"
         >
-          <img src={igPic} className="app_instagram socialLink" alt="Instagram Logo"></img>
+          <img
+            src={igPic}
+            className="app_instagram socialLink"
+            alt="Instagram Logo"
+          ></img>
         </a>
         <Clipboard data-clipboard-text="emersondowning@gmail.com">
-          <img src={gmailPic} className="app_gmail socialLink" alt="Gmail Logo"></img>
+          <img
+            src={gmailPic}
+            className="app_gmail socialLink"
+            alt="Gmail Logo"
+          ></img>
         </Clipboard>
-        
       </div>
-      
 
       <div className="app_me">
         <div className={show}>
@@ -103,7 +123,6 @@ function App() {
         </div>
       </div>
     </div>
-    
   );
 }
 
