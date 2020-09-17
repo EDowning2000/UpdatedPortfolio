@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
@@ -124,11 +124,12 @@ function App() {
       </div>
 
       <div className="app_me">
-        <div className={show}>
+        {/* <div className={show}> */}
 
       {/* <Router> */}
         <Switch>
           <Route path="/" exact component={AboutMe}/>
+          <Route path ='/links' component={Links}/>
           {/* to be finished later*/}
           {/* <Route path="/projects" exact component={MyProjects}/>
           <Route path="/technologies" exact component={MtTechnologies}/> */}
@@ -136,17 +137,19 @@ function App() {
       {/* </Router> */}
 
           {/* <AboutMe /> */}
-        </div>
+        {/* </div> */}
 
-        <div className={hide}>
+        {/* <div className={hide}>
           <Links />
-        </div>
+        </div> */}
       </div>
       <div className="app_right">
         
+        <Link to='/links'>
         <div className={open} onClick={openSesame}>
           <div className="menu-btn__burger"></div>
         </div>
+        </Link>
         
       </div>
       </Router>
