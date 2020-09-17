@@ -8,24 +8,12 @@ import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Links from "./Components/Links/Links";
+import Technologies from "./Components/Technologies/Technologies";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
-
-//how to do  routes template
-//<Router>
-//  <Switch>
-//    <Route path ='/' exact component={LandingPage} />
-//    <Route path ='socia' exact component={socialPage} />
-//  </Switch>
-//</Router>
-
-//how to do links example
-//<Link to='/'>
-//  <div>Random filler text</div>
-//<Link/>
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
@@ -46,6 +34,18 @@ function App() {
       setHide("app_hideElement");
       setShow("");
     }
+  };
+const randomClose = ()=>{
+  setShow('')
+  setHide('app_hideElement')
+  setOpenMenu('false')
+  setOpen('menu-btn')
+}
+
+  const linkReshow = () => {
+    setOpenMenu("false");
+    setHide("app_hideElement");
+    setShow("");
   };
 
   const animateSocial = () => {
@@ -125,25 +125,31 @@ function App() {
 
         <div className="app_me">
           <div className={show}>
-
-          <Switch>
-            <Route path="/" exact component={AboutMe} />
-          <div className={hide}>
-          <Links />
-        </div> 
-          </Switch>
-
-          {/* <AboutMe /> */}
+            <Switch>
+              <Route exact path="/" exact component={AboutMe} />
+              <Route path="/technologies" exact component={Technologies} />
+              {/* <Route to="/projects" exact component={Projects}/> */}
+            </Switch>
+            {/* <AboutMe /> */}
           </div>
 
-           
+          <div className={hide}>
+            <div className="links">
+              <Link to="/">
+                <h1 onClick={randomClose}>Home</h1>
+              </Link>
+              {/* <h1>Home</h1> */}
+              <h1>Projects</h1>
+              <Link to="/technologies">
+                <h1 onClick={randomClose}>Technologies</h1>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="app_right">
-          <Link to="/links">
-            <div className={open} onClick={openSesame}>
-              <div className="menu-btn__burger"></div>
-            </div>
-          </Link>
+          <div className={open} onClick={openSesame}>
+            <div className="menu-btn__burger"></div>
+          </div>
         </div>
       </Router>
     </div>
