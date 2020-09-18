@@ -14,12 +14,12 @@
 }
 .htmlTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .stylingTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .styling {
@@ -38,7 +38,7 @@
 }
 .jsTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .backend {
@@ -50,7 +50,7 @@
 }
 .backendTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .databases {
@@ -62,7 +62,7 @@
 }
 .databaseTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .design {
@@ -74,7 +74,7 @@
 }
 .designTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 .deployment {
@@ -86,7 +86,7 @@
 }
 .deploymentTech {
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 
