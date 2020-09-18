@@ -1,22 +1,19 @@
 import React, { useEffect } from "react";
-import './AboutMe.css'
+import "./AboutMe.css";
 import anime from "animejs/lib/anime.es.js";
 
-
 function AboutMe() {
-
-  const animateAbt =()=>{
+  const animateAbt = () => {
     anime({
-      targets: '.aboutMe',
-      translateY: 300
-    })
-  }
+      targets: ".aboutMe",
+      translateY: 300,
+      delay: 100
+    });
+  };
 
   useEffect(() => {
     animateAbt();
   }, []);
-
-
 
   return (
     <div className="aboutMe">

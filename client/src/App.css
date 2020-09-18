@@ -75,6 +75,7 @@ button {
 .app_right {
   flex: 0.15;
   margin-top: -100px;
+  
 }
 
 .menu-btn {
@@ -148,19 +149,19 @@ button {
   color: var(--twitterColor);
   transition: color 150ms ease-out;
 }
-.links{
+.links {
   justify-content: space-evenly;
   text-align: center;
 }
-.links > h1{
+.links > h1 {
   padding-top: 40px;
   padding-bottom: 40px;
   color: rgba(180, 170, 170, 1);
 }
-.links > h1:hover{
-background: rgba(180, 170, 170, 1);
-color: rgba(47, 47, 47, 1);
-transition: color 500ms ease-in-out;
-transition: background 500ms ease-in-out;
-border-radius: 20px;
-} 
+.links > h1:hover {
+  background: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  transition: color 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+  border-radius: 20px;
+}

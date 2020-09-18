@@ -29,7 +29,8 @@ function Technologies() {
 const animateTech =()=>{
   anime({
     targets: '.technologies',
-    translateY: 300
+    translateY: 1800,
+    delay: 100
   })
 }
 

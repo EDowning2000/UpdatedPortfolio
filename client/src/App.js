@@ -45,6 +45,7 @@ function App() {
     anime({
       targets: ".app_topContainer",
       translateY: 685,
+      delay: 100
     });
   };
   // const animateMain = () => {
