@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+} from "react-router-dom";
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
@@ -45,7 +50,7 @@ function App() {
     anime({
       targets: ".app_topContainer",
       translateY: 685,
-      delay: 100
+      delay: 100,
     });
   };
   // const animateMain = () => {
@@ -129,15 +134,34 @@ function App() {
 
           <div className={hide}>
             <div className="links">
-              <NavLink to="/" 
-              activeClassName="links" >
-                <h1 onClick={randomClose} className="homeLink">Home</h1>
+              <NavLink
+                to="/"
+                activeClassName="links"
+                activeStyle={{ textDecoration: "none" }}
+              >
+                <h1 onClick={randomClose} className="homeLink">
+                  Home
+                </h1>
               </NavLink>
               {/* <h1>Home</h1> */}
-              <h1>Projects</h1>
-              <NavLink to="/technologies" activeClassName="links">
-                <h1 onClick={randomClose} className="technologyLink"
-                >Technologies</h1>
+              <NavLink
+                to="/"
+                className="projectsLink"
+                activeClassName="links"
+                activeStyle={{ textDecoration: "none" }}
+              >
+                <h1 className="projectsLink">Projects</h1>
+              </NavLink>
+
+              <NavLink
+                to="/technologies"
+                className="technologyLink"
+                activeClassName="links"
+                activeStyle={{ textDecoration: "none" }}
+              >
+                <h1 onClick={randomClose} className="technologyLink">
+                  Technologies
+                </h1>
               </NavLink>
             </div>
           </div>
