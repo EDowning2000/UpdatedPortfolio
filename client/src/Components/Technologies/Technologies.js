@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Technologies.css";
 
 import htmlPic from "../../Images/htmlIcon.ico";
@@ -21,7 +21,22 @@ import sketchPic from "../../Images/sketchIcon.png";
 import sqlPic from "../../Images/sqlIcon.png";
 import herokuPic from "../../Images/herokuIcon.png";
 
+import anime from "animejs/lib/anime.es.js";
+
+
 function Technologies() {
+
+const animateTech =()=>{
+  anime({
+    targets: '.technologies',
+    translateY: 300
+  })
+}
+
+useEffect(() => {
+  animateTech();
+}, []);
+
   return (
     <div className="technologies">
       <div className="myTech">My Technologies</div>

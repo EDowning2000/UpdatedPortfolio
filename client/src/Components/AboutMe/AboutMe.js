@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './AboutMe.css'
+import anime from "animejs/lib/anime.es.js";
 
-function AboutMe(hidden) {
+
+function AboutMe() {
+
+
+
   return (
     <div className="aboutMe">
       <div className="header"> Hi, my name is Emerson Downing! </div>

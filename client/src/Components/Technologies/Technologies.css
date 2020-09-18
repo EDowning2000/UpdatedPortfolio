@@ -1,3 +1,6 @@
+.technologies{
+  margin-top:-300px;
+}
 .myTech {
   color: rgba(255, 254, 254, 1);
   text-align: center;
@@ -16,11 +19,14 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  padding: 20px;
 }
 .stylingTech {
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  /* padding: 20px; */
+  margin-top: 20px;
 }
 .styling {
   color: rgba(255, 254, 254, 1);
@@ -40,6 +46,7 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 20px;
 }
 .backend {
   color: rgba(255, 254, 254, 1);
@@ -52,6 +59,7 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 20px;
 }
 .databases {
   color: rgba(255, 254, 254, 1);
@@ -64,6 +72,7 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 20px;
 }
 .design {
   color: rgba(255, 254, 254, 1);
@@ -76,6 +85,7 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top:20px;
 }
 .deployment {
   color: rgba(255, 254, 254, 1);
@@ -88,77 +98,97 @@
   text-align: center;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .htmlLogo {
   width: 100px;
   height: 100px;
+  padding: 20px;
+  
 }
 .cssLogo {
   width: 80px;
   height: 80px;
+  padding: 20px;
 }
 .materialLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .bootstrapLogo {
   height: 100px;
   width: 140px;
+  padding: 20px;
 }
 .sassLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .javascriptLogo {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
+  padding: 20px;
 }
 .reactLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .jqueryLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .handlebarsLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .nodeLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .npmLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .mongoLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .sqlLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .firebaseLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .sketchLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .figmaLogo {
   height: 100px;
   width: 160px;
+  padding: 20px;
 }
 .gitLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }
 .herokuLogo {
   height: 100px;
   width: 100px;
+  padding: 20px;
 }

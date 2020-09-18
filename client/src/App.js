@@ -7,7 +7,6 @@ import gmailPic from "../src/Images/gmailPic.jpeg";
 import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
-
 import Technologies from "./Components/Technologies/Technologies";
 
 import Clipboard from "react-clipboard.js";
@@ -35,14 +34,12 @@ function App() {
       setShow("");
     }
   };
-const randomClose = ()=>{
-  setShow('')
-  setHide('app_hideElement')
-  setOpenMenu('false')
-  setOpen('menu-btn')
-}
-
-  
+  const randomClose = () => {
+    setShow("");
+    setHide("app_hideElement");
+    setOpenMenu("false");
+    setOpen("menu-btn");
+  };
 
   const animateSocial = () => {
     anime({
