@@ -129,13 +129,13 @@ function App() {
 
           <div className={hide}>
             <div className="links">
-              <Link to="/">
-                <h1 onClick={randomClose}>Home</h1>
+              <Link to="/" >
+                <h1 onClick={randomClose} className="homeLink">Home</h1>
               </Link>
               {/* <h1>Home</h1> */}
               <h1>Projects</h1>
               <Link to="/technologies">
-                <h1 onClick={randomClose}>Technologies</h1>
+                <h1 onClick={randomClose} className="technologyLink">Technologies</h1>
               </Link>
             </div>
           </div>
