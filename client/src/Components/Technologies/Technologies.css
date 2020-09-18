@@ -2,6 +2,7 @@
   color: rgba(255, 254, 254, 1);
   text-align: center;
   font-size: 34px;
+  padding-bottom: 20px;
 }
 
 .html {
@@ -11,6 +12,16 @@
   font-weight: lighter;
   margin-top: 20px;
 }
+.htmlTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.stylingTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
 .styling {
   color: rgba(255, 254, 254, 1);
   text-align: center;
@@ -18,12 +29,17 @@
   font-weight: lighter;
   margin-top: 20px;
 }
-.jsTech {
+.js {
   color: rgba(255, 254, 254, 1);
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
   margin-top: 20px;
+}
+.jsTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 .backend {
   color: rgba(255, 254, 254, 1);
@@ -32,12 +48,22 @@
   font-weight: lighter;
   margin-top: 20px;
 }
+.backendTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
 .databases {
   color: rgba(255, 254, 254, 1);
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
   margin-top: 20px;
+}
+.databaseTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 .design {
   color: rgba(255, 254, 254, 1);
@@ -46,10 +72,93 @@
   font-weight: lighter;
   margin-top: 20px;
 }
+.designTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
 .deployment {
   color: rgba(255, 254, 254, 1);
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
   margin-top: 20px;
+}
+.deploymentTech {
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.htmlLogo {
+  width: 100px;
+  height: 100px;
+}
+.cssLogo {
+  width: 80px;
+  height: 80px;
+}
+.materialLogo {
+  height: 100px;
+  width: 100px;
+}
+.bootstrapLogo {
+  height: 100px;
+  width: 140px;
+}
+.sassLogo {
+  height: 100px;
+  width: 100px;
+}
+.javascriptLogo {
+  height: 100px;
+  width: 100px;
+}
+.reactLogo {
+  height: 100px;
+  width: 100px;
+}
+.jqueryLogo {
+  height: 100px;
+  width: 100px;
+}
+.handlebarsLogo {
+  height: 100px;
+  width: 100px;
+}
+.nodeLogo {
+  height: 100px;
+  width: 100px;
+}
+.npmLogo {
+  height: 100px;
+  width: 100px;
+}
+.mongoLogo {
+  height: 100px;
+  width: 100px;
+}
+.sqlLogo {
+  height: 100px;
+  width: 100px;
+}
+.firebaseLogo {
+  height: 100px;
+  width: 100px;
+}
+.sketchLogo {
+  height: 100px;
+  width: 100px;
+}
+.figmaLogo {
+  height: 100px;
+  width: 160px;
+}
+.gitLogo {
+  height: 100px;
+  width: 100px;
+}
+.herokuLogo {
+  height: 100px;
+  width: 100px;
 }
