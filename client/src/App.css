@@ -12,8 +12,8 @@ body {
   display: flex;
   flex: 0.7;
   flex-direction: column;
-  /* margin-top: 125px; */
-  margin-top: -200px;
+  margin-top: 125px;
+  /* margin-top: -200px; */
 }
 .app_topContainer {
   display: flex;

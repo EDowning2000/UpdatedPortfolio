@@ -47,12 +47,12 @@ function App() {
       translateY: 685,
     });
   };
-  const animateMain = () => {
-    anime({
-      targets: ".app_me",
-      translateY: 300,
-    });
-  };
+  // const animateMain = () => {
+  //   anime({
+  //     targets: ".app_me",
+  //     translateY: 300,
+  //   });
+  // };
 
   const animateRight = () => {
     anime({
@@ -64,7 +64,7 @@ function App() {
 
   useEffect(() => {
     animateSocial();
-    animateMain();
+    // animateMain();
     animateRight();
   }, []);
 

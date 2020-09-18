@@ -5,6 +5,17 @@ import anime from "animejs/lib/anime.es.js";
 
 function AboutMe() {
 
+  const animateAbt =()=>{
+    anime({
+      targets: '.aboutMe',
+      translateY: 300
+    })
+  }
+
+  useEffect(() => {
+    animateAbt();
+  }, []);
+
 
 
   return (
