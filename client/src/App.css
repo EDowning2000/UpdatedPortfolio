@@ -156,6 +156,7 @@ button {
   padding-top: 40px;
   padding-bottom: 40px;
   color: rgba(180, 170, 170, 1);
+  text-decoration: none !important;
 }
 
 .links > h1:hover {

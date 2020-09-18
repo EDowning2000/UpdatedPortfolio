@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import igPic from "../src/Images/instagramPic.jpg";
 import ghPic from "../src/Images/githubPic.png";
 import gmailPic from "../src/Images/gmailPic.jpeg";
@@ -129,14 +129,16 @@ function App() {
 
           <div className={hide}>
             <div className="links">
-              <Link to="/" >
+              <NavLink to="/" 
+              activeClassName="links" >
                 <h1 onClick={randomClose} className="homeLink">Home</h1>
-              </Link>
+              </NavLink>
               {/* <h1>Home</h1> */}
               <h1>Projects</h1>
-              <Link to="/technologies">
-                <h1 onClick={randomClose} className="technologyLink">Technologies</h1>
-              </Link>
+              <NavLink to="/technologies" activeClassName="links">
+                <h1 onClick={randomClose} className="technologyLink"
+                >Technologies</h1>
+              </NavLink>
             </div>
           </div>
         </div>
