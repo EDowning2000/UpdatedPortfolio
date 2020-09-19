@@ -38,16 +38,16 @@ function Technologies() {
 
   return (
     <div className="technologies">
-      <div className="myTech">My Technologies</div>
+      <div className="myTech">My Technologies</div>{" "}
+      <div className="html">Markup</div>
       <div className="htmlTech">
-        <div className="html">Markup</div>
         <div className="one">
           <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
         </div>
         {/* <div className="htmlToolTip">HTML</div> */}
-      </div>
+      </div>{" "}
+      <div className="styling">Styling</div>
       <div className="stylingTech">
-        <div className="styling">Styling</div>
         <div className="two">
           <img className="cssLogo" src={cssPic} alt="Css Logo" />
         </div>
@@ -69,9 +69,9 @@ function Technologies() {
         <div className="five">
           <img className="sassLogo" src={sassPic} alt="Sass Logo" />
         </div>
-      </div>
+      </div>{" "}
+      <div className="js">JavaScript</div>
       <div className="jsTech">
-        <div className="js">JavaScript</div>
         <div className="six">
           <img
             className="javascriptLogo"
@@ -92,18 +92,18 @@ function Technologies() {
             alt="Handlebars Logo"
           />
         </div>
-      </div>
+      </div>{" "}
+      <div className="backend">Backend</div>
       <div className="backendTech">
-        <div className="backend">Backend</div>
         <div className="ten">
           <img className="nodeLogo" src={nodePic} alt="Node Logo" />
         </div>
         <div className="eleven">
           <img className="npmLogo" src={npmPic} alt="NPM Logo" />
         </div>
-      </div>
+      </div>{" "}
+      <div className="databases">Databases</div>
       <div className="databaseTech">
-        <div className="databases">Databases</div>
         <div className="twelve">
           <img className="mongoLogo" src={mongoPic} alt="Mongo Logo" />
         </div>
@@ -113,18 +113,18 @@ function Technologies() {
         <div className="fourteen">
           <img className="firebaseLogo" src={firebasePic} alt="Firebase Logo" />
         </div>
-      </div>
+      </div>{" "}
+      <div className="design">Design</div>
       <div className="designTech">
-        <div className="design">Design</div>
         <div className="fifteen">
           <img className="sketchLogo" src={sketchPic} alt="Sketch Logo" />
         </div>
         <div className="sixteen">
           <img className="figmaLogo" src={figmaPic} alt="Figma Logo" />
         </div>
-      </div>
+      </div>{" "}
+      <div className="deployment">Deployment</div>
       <div className="deploymentTech">
-        <div className="deployment">Deployment</div>
         <div className="seventeen">
           <img className="gitLogo" src={gitPic} alt="Git Logo" />
         </div>

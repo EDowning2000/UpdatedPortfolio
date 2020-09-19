@@ -1,5 +1,5 @@
-.technologies{
-  margin-top:-1800px;
+.technologies {
+  margin-top: -1800px;
 }
 .myTech {
   color: rgba(255, 254, 254, 1);
@@ -17,15 +17,15 @@
 }
 .htmlTech {
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   padding: 20px;
 }
 .stylingTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
-  /* padding: 20px; */
+  justify-content: center;
+  display: flex;
+  padding: 20px;
   margin-top: 20px;
 }
 .styling {
@@ -44,8 +44,9 @@
 }
 .jsTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
   margin-top: 20px;
 }
 .backend {
@@ -57,8 +58,9 @@
 }
 .backendTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
   margin-top: 20px;
 }
 .databases {
@@ -70,8 +72,10 @@
 }
 .databaseTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding:20px;
+
   margin-top: 20px;
 }
 .design {
@@ -83,9 +87,11 @@
 }
 .designTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-top:20px;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+
+  margin-top: 20px;
 }
 .deployment {
   color: rgba(255, 254, 254, 1);
@@ -96,8 +102,10 @@
 }
 .deploymentTech {
   text-align: center;
-  justify-content: space-between;
-  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+
   margin-top: 20px;
 }
 
@@ -105,7 +113,6 @@
   width: 100px;
   height: 100px;
   padding: 20px;
-  
 }
 .cssLogo {
   width: 80px;
@@ -192,21 +199,3 @@
   width: 100px;
   padding: 20px;
 }
-.one:hover .hoverToolTip{
-  background: rgba(201,47,41,1);
-  color:rgba(47, 47, 47, 1);
-  padding: 10px;
-  width: 50px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:-10px;
-}
-.htmlToolTip{
-  display: none;
-}
-
