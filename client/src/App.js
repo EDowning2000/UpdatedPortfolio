@@ -24,6 +24,7 @@ function App() {
   const [open, setOpen] = useState("menu-btn");
   const [hide, setHide] = useState("app_hideElement");
   const [show, setShow] = useState("");
+  const [copy, setCopy] = useState("Click To Copy!");
 
   const openSesame = () => {
     //code to open and hide other portions of the center potion based on the links tab
@@ -74,6 +75,11 @@ function App() {
     animateRight();
   }, []);
 
+  const copyFunc = () => {
+    setCopy("Copied!");
+    
+  };
+
   return (
     <div className="App">
       <Router>
@@ -82,21 +88,33 @@ function App() {
           <a
             href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
             target="blank"
+            className="app_linkedInHover"
           >
+            <div className="clickMeLI">Click Me!</div>
             <img
               src={linkedInPic}
               className="app_linkedIn socialLink"
               alt="LinkedIn Logo"
             ></img>
           </a>
-          <a href="https://github.com/EDowning2000" target="blank">
+          <a
+            href="https://github.com/EDowning2000"
+            target="blank"
+            className="app_githubHover"
+          >
+            <div className="clickMeGH">Click Me!</div>
             <img
               src={ghPic}
               className="app_github socialLink"
               alt="Github Logo"
             ></img>
           </a>
-          <a href="https://twitter.com/EmersonDowning1" target="blank">
+          <a
+            href="https://twitter.com/EmersonDowning1"
+            target="blank"
+            className="app_twitterHover"
+          >
+            <div className="clickMeTwit">Click Me!</div>
             <img
               src={twitterPic}
               className="app_twitter socialLink"
@@ -106,14 +124,21 @@ function App() {
           <a
             href="https://www.instagram.com/emersondowning__/?hl=en"
             target="blank"
+            className="app_instagramHover"
           >
+            <div className="clickMeIG">Click Me!</div>
             <img
               src={igPic}
               className="app_instagram socialLink"
               alt="Instagram Logo"
             ></img>
           </a>
-          <Clipboard data-clipboard-text="emersondowning@gmail.com">
+          <Clipboard
+            data-clipboard-text="emersondowning@gmail.com"
+            className="app_gmailHover"
+            onClick={copyFunc}
+          >
+            <div className="clickToCopy" >{copy}</div>
             <img
               src={gmailPic}
               className="app_gmail socialLink"
