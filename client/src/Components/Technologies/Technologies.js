@@ -41,51 +41,51 @@ function Technologies() {
       <div className="myTech">My Technologies</div>
       <div className="htmlTech">
         <div className="html">Markup</div>
-        <div className="1">
+        <div className="one">
           <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
         </div>
         {/* <div className="htmlToolTip">HTML</div> */}
       </div>
       <div className="stylingTech">
         <div className="styling">Styling</div>
-        <div className="2">
+        <div className="two">
           <img className="cssLogo" src={cssPic} alt="Css Logo" />
         </div>
         {/* <div className="cssToolTip">CSS</div> */}
-        <div className="3">
+        <div className="three">
           <img
             className="materialLogo"
             src={materialPic}
             alt="Material UI Logo"
           />
         </div>
-        <div className="4">
+        <div className="four">
           <img
             className="bootstrapLogo"
             src={bootstrapPic}
             alt="Bootstrap Logo"
           />
         </div>
-        <div className="5">
+        <div className="five">
           <img className="sassLogo" src={sassPic} alt="Sass Logo" />
         </div>
       </div>
       <div className="jsTech">
         <div className="js">JavaScript</div>
-        <div className="6">
+        <div className="six">
           <img
             className="javascriptLogo"
             src={javascriptPic}
             alt="Javascript Logo"
           />
         </div>
-        <div className="7">
+        <div className="seven">
           <img className="reactLogo" src={reactPic} alt="React Logo" />
         </div>
-        <div className="8">
+        <div className="eight">
           <img className="jqueryLogo" src={jqueryPic} alt="Jquery Logo" />
         </div>
-        <div className="9">
+        <div className="nine">
           <img
             className="handlebarsLogo"
             src={handlebarsPic}
@@ -95,40 +95,40 @@ function Technologies() {
       </div>
       <div className="backendTech">
         <div className="backend">Backend</div>
-        <div className="10">
+        <div className="ten">
           <img className="nodeLogo" src={nodePic} alt="Node Logo" />
         </div>
-        <div className="11">
+        <div className="eleven">
           <img className="npmLogo" src={npmPic} alt="NPM Logo" />
         </div>
       </div>
       <div className="databaseTech">
         <div className="databases">Databases</div>
-        <div className="12">
+        <div className="twelve">
           <img className="mongoLogo" src={mongoPic} alt="Mongo Logo" />
         </div>
-        <div className="13">
+        <div className="thirteen">
           <img className="sqlLogo" src={sqlPic} alt="SQL Logo" />
         </div>
-        <div className="14">
+        <div className="fourteen">
           <img className="firebaseLogo" src={firebasePic} alt="Firebase Logo" />
         </div>
       </div>
       <div className="designTech">
         <div className="design">Design</div>
-        <div className="15">
+        <div className="fifteen">
           <img className="sketchLogo" src={sketchPic} alt="Sketch Logo" />
         </div>
-        <div className="16">
+        <div className="sixteen">
           <img className="figmaLogo" src={figmaPic} alt="Figma Logo" />
         </div>
       </div>
       <div className="deploymentTech">
         <div className="deployment">Deployment</div>
-        <div className="17">
+        <div className="seventeen">
           <img className="gitLogo" src={gitPic} alt="Git Logo" />
         </div>
-        <div className="18">
+        <div className="eighteen">
           <img className="herokuLogo" src={herokuPic} alt="Heroku Logo" />
         </div>
       </div>
