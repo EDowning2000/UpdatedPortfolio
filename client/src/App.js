@@ -54,12 +54,6 @@ function App() {
       delay: 100,
     });
   };
-  // const animateMain = () => {
-  //   anime({
-  //     targets: ".app_me",
-  //     translateY: 300,
-  //   });
-  // };
 
   const animateRight = () => {
     anime({
@@ -77,7 +71,6 @@ function App() {
 
   const copyFunc = () => {
     setCopy("Copied!");
-    
   };
 
   return (
@@ -138,7 +131,7 @@ function App() {
             className="app_gmailHover"
             onClick={copyFunc}
           >
-            <div className="clickToCopy" >{copy}</div>
+            <div className="clickToCopy">{copy}</div>
             <img
               src={gmailPic}
               className="app_gmail socialLink"
@@ -154,7 +147,6 @@ function App() {
               <Route path="/technologies" exact component={Technologies} />
               {/* <Route to="/projects" exact component={Projects}/> */}
             </Switch>
-            {/* <AboutMe /> */}
           </div>
 
           <div className={hide}>

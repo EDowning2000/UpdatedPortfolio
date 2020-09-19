@@ -192,3 +192,16 @@
   width: 100px;
   padding: 20px;
 }
+.htmlToolTip{
+  background: rgba(201,47,41,1);
+   color:rgba(47, 47, 47, 1);
+   padding: 10px;
+   width: 50px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-weight: 700;
+   margin: auto;
+}
+

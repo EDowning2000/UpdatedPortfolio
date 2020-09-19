@@ -23,27 +23,28 @@ import herokuPic from "../../Images/herokuIcon.png";
 
 import anime from "animejs/lib/anime.es.js";
 
-
 function Technologies() {
+  const animateTech = () => {
+    anime({
+      targets: ".technologies",
+      translateY: 1800,
+      delay: 100,
+    });
+  };
 
-const animateTech =()=>{
-  anime({
-    targets: '.technologies',
-    translateY: 1800,
-    delay: 100
-  })
-}
-
-useEffect(() => {
-  animateTech();
-}, []);
+  useEffect(() => {
+    animateTech();
+  }, []);
 
   return (
     <div className="technologies">
       <div className="myTech">My Technologies</div>
       <div className="htmlTech">
         <div className="html">Markup</div>
-        <img className="htmlLogo" src={htmlPic} alt="Html Logo"></img>
+
+        <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
+
+        <div className="htmlToolTip">HTML</div>
       </div>
       <div className="stylingTech">
         <div className="styling">Styling</div>
