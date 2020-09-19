@@ -41,65 +41,96 @@ function Technologies() {
       <div className="myTech">My Technologies</div>
       <div className="htmlTech">
         <div className="html">Markup</div>
-
-        <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
-
-        <div className="htmlToolTip">HTML</div>
+        <div className="1">
+          <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
+        </div>
+        {/* <div className="htmlToolTip">HTML</div> */}
       </div>
       <div className="stylingTech">
         <div className="styling">Styling</div>
-        <img className="cssLogo" src={cssPic} alt="Css Logo"></img>
-        <img
-          className="materialLogo"
-          src={materialPic}
-          alt="Material UI Logo"
-        ></img>
-        <img
-          className="bootstrapLogo"
-          src={bootstrapPic}
-          alt="Bootstrap Logo"
-        ></img>
-        <img className="sassLogo" src={sassPic} alt="Sass Logo"></img>
+        <div className="2">
+          <img className="cssLogo" src={cssPic} alt="Css Logo" />
+        </div>
+        {/* <div className="cssToolTip">CSS</div> */}
+        <div className="3">
+          <img
+            className="materialLogo"
+            src={materialPic}
+            alt="Material UI Logo"
+          />
+        </div>
+        <div className="4">
+          <img
+            className="bootstrapLogo"
+            src={bootstrapPic}
+            alt="Bootstrap Logo"
+          />
+        </div>
+        <div className="5">
+          <img className="sassLogo" src={sassPic} alt="Sass Logo" />
+        </div>
       </div>
       <div className="jsTech">
         <div className="js">JavaScript</div>
-        <img
-          className="javascriptLogo"
-          src={javascriptPic}
-          alt="Javascript Logo"
-        ></img>
-        <img className="reactLogo" src={reactPic} alt="React Logo"></img>
-        <img className="jqueryLogo" src={jqueryPic} alt="Jquery Logo"></img>
-        <img
-          className="handlebarsLogo"
-          src={handlebarsPic}
-          alt="Handlebars Logo"
-        ></img>
+        <div className="6">
+          <img
+            className="javascriptLogo"
+            src={javascriptPic}
+            alt="Javascript Logo"
+          />
+        </div>
+        <div className="7">
+          <img className="reactLogo" src={reactPic} alt="React Logo" />
+        </div>
+        <div className="8">
+          <img className="jqueryLogo" src={jqueryPic} alt="Jquery Logo" />
+        </div>
+        <div className="9">
+          <img
+            className="handlebarsLogo"
+            src={handlebarsPic}
+            alt="Handlebars Logo"
+          />
+        </div>
       </div>
       <div className="backendTech">
         <div className="backend">Backend</div>
-        <img className="nodeLogo" src={nodePic} alt="Node Logo"></img>
-        <img className="npmLogo" src={npmPic} alt="NPM Logo"></img>
+        <div className="10">
+          <img className="nodeLogo" src={nodePic} alt="Node Logo" />
+        </div>
+        <div className="11">
+          <img className="npmLogo" src={npmPic} alt="NPM Logo" />
+        </div>
       </div>
       <div className="databaseTech">
         <div className="databases">Databases</div>
-        <img className="mongoLogo" src={mongoPic} alt="Mongo Logo"></img>
-        <img className="sqlLogo" src={sqlPic} alt="SQL Logo"></img>
-        <img
-          className="firebaseLogo"
-          src={firebasePic}
-          alt="Firebase Logo"
-        ></img>
+        <div className="12">
+          <img className="mongoLogo" src={mongoPic} alt="Mongo Logo" />
+        </div>
+        <div className="13">
+          <img className="sqlLogo" src={sqlPic} alt="SQL Logo" />
+        </div>
+        <div className="14">
+          <img className="firebaseLogo" src={firebasePic} alt="Firebase Logo" />
+        </div>
       </div>
       <div className="designTech">
         <div className="design">Design</div>
-        <img className="sketchLogo" src={sketchPic} alt="Sketch Logo"></img>
-        <img className="figmaLogo" src={figmaPic} alt="Figma Logo"></img>
+        <div className="15">
+          <img className="sketchLogo" src={sketchPic} alt="Sketch Logo" />
+        </div>
+        <div className="16">
+          <img className="figmaLogo" src={figmaPic} alt="Figma Logo" />
+        </div>
       </div>
       <div className="deploymentTech">
         <div className="deployment">Deployment</div>
-        <img className="gitLogo" src={gitPic} alt="Git Logo"></img>
-        <img className="herokuLogo" src={herokuPic} alt="Heroku Logo"></img>
+        <div className="17">
+          <img className="gitLogo" src={gitPic} alt="Git Logo" />
+        </div>
+        <div className="18">
+          <img className="herokuLogo" src={herokuPic} alt="Heroku Logo" />
+        </div>
       </div>
     </div>
   );
