@@ -4,3 +4,8 @@
   font-size: 34px;
   margin-top:-200px;
 }
+.projectLinks{
+  display: flex; 
+  margin-top: 20px;
+  justify-content: space-between;
+}
