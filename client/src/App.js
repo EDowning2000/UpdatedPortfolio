@@ -13,6 +13,7 @@ import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
+import Projects from "./Components/Projects/Projects";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -145,7 +146,7 @@ function App() {
             <Switch>
               <Route exact path="/" exact component={AboutMe} />
               <Route path="/technologies" exact component={Technologies} />
-              {/* <Route to="/projects" exact component={Projects}/> */}
+              <Route to="/projects" exact component={Projects} />
             </Switch>
           </div>
 
@@ -162,12 +163,13 @@ function App() {
               </NavLink>
               {/* <h1>Home</h1> */}
               <NavLink
-                to="/"
+                to="/projects"
                 className="projectsLink"
                 activeClassName="links"
                 activeStyle={{ textDecoration: "none" }}
               >
-                <h1 className="projectsLink">Projects</h1>
+                <h1 className="projectsLink" onClick={randomClose}>Projects</h1>
+                
               </NavLink>
 
               <NavLink
