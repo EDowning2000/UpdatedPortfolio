@@ -168,8 +168,9 @@ function App() {
                 activeClassName="links"
                 activeStyle={{ textDecoration: "none" }}
               >
-                <h1 className="projectsLink" onClick={randomClose}>Projects</h1>
-                
+                <h1 className="projectsLink" onClick={randomClose}>
+                  Projects
+                </h1>
               </NavLink>
 
               <NavLink
