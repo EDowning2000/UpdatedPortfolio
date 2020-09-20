@@ -202,23 +202,23 @@ NavLink:hover {
 }
 .clickMeLI {
   display: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .clickMeGH {
   display: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .clickMeTwit {
   display: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .clickMeIG {
   display: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .clickToCopy {
   display: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   opacity: 0;
 }
 .app_linkedInHover {
@@ -246,82 +246,3 @@ NavLink:hover {
 
   display: flex;
 }
-
-/* .app_linkedInHover:hover .clickMeLI {
-  display: block;
-  width: 88px;
-  height: 32.37px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 13px;
-  position: absolute;
- 
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-} */
-/* .app_githubHover:hover .clickMeGH {
-  display: block;
-  width: 88px;
-  height: 32.37px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 13px;
-  position: absolute;
-  
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-} */
-/* .app_twitterHover:hover .clickMeTwit {
-  display: block;
-  width: 88px;
-  height: 32.37px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 13px;
-  position: absolute;
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-} */
-/* .app_instagramHover:hover .clickMeIG {
-  display: block;
-  width: 88px;
-  height: 32.37px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 13px;
-  position: absolute;
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-} */
-/* .app_gmailHover:hover .clickToCopy {
-  display: block;
-  width: 88px;
-  height: 35.37px;
-  border-radius: 9px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 10px;
-  position: absolute;
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-  opacity: 1;
-} */

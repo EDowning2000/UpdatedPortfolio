@@ -136,7 +136,7 @@ function App() {
               className="app_gmailHover"
               onClick={copyFunc}
             >
-             <Tippy content={copy} interactive='true' placement='right' duration='500'>
+             <Tippy content={copy} interactive={true} placement='right' duration='500'>
               <img
                 src={gmailPic}
                 className="app_gmail socialLink"
