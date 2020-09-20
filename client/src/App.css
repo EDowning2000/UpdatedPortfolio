@@ -202,18 +202,24 @@ NavLink:hover {
 }
 .clickMeLI {
   display: none;
+  transition: all .2s ease-in-out;
 }
 .clickMeGH {
   display: none;
+  transition: all .2s ease-in-out;
 }
 .clickMeTwit {
   display: none;
+  transition: all .2s ease-in-out;
 }
 .clickMeIG {
   display: none;
+  transition: all .2s ease-in-out;
 }
 .clickToCopy {
   display: none;
+  transition: all .2s ease-in-out;
+  opacity: 0;
 }
 .app_linkedInHover {
   margin-right: 100px;
@@ -255,6 +261,7 @@ NavLink:hover {
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
+  transition: all .2s ease-in-out;
 }
 .app_githubHover:hover .clickMeGH {
   display: block;
@@ -270,6 +277,7 @@ NavLink:hover {
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
+  transition: all .2s ease-in-out;
 }
 .app_twitterHover:hover .clickMeTwit {
   display: block;
@@ -284,6 +292,7 @@ NavLink:hover {
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
+  transition: all .2s ease-in-out;
 }
 .app_instagramHover:hover .clickMeIG {
   display: block;
@@ -298,6 +307,7 @@ NavLink:hover {
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
+  transition: all .2s ease-in-out;
 }
 .app_gmailHover:hover .clickToCopy {
   display: block;
@@ -312,4 +322,6 @@ NavLink:hover {
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
+  transition: all .2s ease-in-out;
+  opacity: 1;
 }
