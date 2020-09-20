@@ -22,20 +22,17 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
-  
-
+  transition: all 0.2s ease-in-out;
 }
-.htmlLink:hover{
+.htmlLink:hover {
   width: auto;
   background-color: rgba(214, 50, 44, 1);
-  color: rgba(255,254,254,1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
-
 }
 .cssLink {
   width: auto;
@@ -45,12 +42,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.cssLink:hover{
+.cssLink:hover {
   width: auto;
-  background-color: rgba(0,88,161,1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(0, 88, 161, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -65,12 +62,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.sassLink:hover{
+.sassLink:hover {
   width: auto;
-  background-color: rgba(211,90,144,1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(211, 90, 144, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -85,12 +82,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.materialLink:hover{
+.materialLink:hover {
   width: auto;
-  background-color: rgba(0,167,251, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(0, 167, 251, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -105,12 +102,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.bootstrapLink:hover{
+.bootstrapLink:hover {
   width: auto;
-  background-color: rgba(110,64,177, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(110, 64, 177, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -125,12 +122,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.javascriptLink:hover{
+.javascriptLink:hover {
   width: auto;
-  background-color: rgba(255,217,72, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(255, 217, 72, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -145,12 +142,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.reactLink:hover{
+.reactLink:hover {
   width: auto;
-  background-color: rgba(55,213,248, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(55, 213, 248, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -165,12 +162,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.jqueryLink:hover{
+.jqueryLink:hover {
   width: auto;
-  background-color: rgba(0,93,159, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(0, 93, 159, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -185,12 +182,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.handlebarsLink:hover{
+.handlebarsLink:hover {
   width: auto;
-  background-color: rgba(59,46,35, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(59, 46, 35, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -208,12 +205,12 @@
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.nodeLink:hover{
+.nodeLink:hover {
   width: auto;
-  background-color: rgba(61,147,64, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(61, 147, 64, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -229,12 +226,12 @@
   border-radius: 10px;
   padding: 10px;
   margin-left: 60px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.npmLink:hover{
+.npmLink:hover {
   width: auto;
-  background-color: rgba(219,5,22, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(219, 5, 22, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -249,12 +246,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.mongoLink:hover{
+.mongoLink:hover {
   width: auto;
-  background-color: rgba(53,160,64, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(53, 160, 64, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -269,12 +266,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.sqlLink:hover{
+.sqlLink:hover {
   width: auto;
-  background-color: rgba(38,90,162, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(38, 90, 162, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -289,12 +286,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.firebaseLink:hover{
+.firebaseLink:hover {
   width: auto;
-  background-color: rgba(255,150,39, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(255, 150, 39, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -309,12 +306,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.sketchLink:hover{
+.sketchLink:hover {
   width: auto;
-  background-color: rgba(235,95,31, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(235, 95, 31, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -329,12 +326,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.figmaLink:hover{
+.figmaLink:hover {
   width: auto;
-  background-color: rgba(0,180,250, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(0, 180, 250, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -349,12 +346,12 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.gitLink:hover{
+.gitLink:hover {
   width: auto;
-  background-color: rgba(250,72,53, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(250, 72, 53, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;
@@ -370,12 +367,12 @@
   border-radius: 10px;
   padding: 10px;
   margin-right: 60px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.herokuLink:hover{
+.herokuLink:hover {
   width: auto;
-  background-color: rgba(119,88,155, 1);
-  color: rgba(255,254,254,1);
+  background-color: rgba(119, 88, 155, 1);
+  color: rgba(255, 254, 254, 1);
   height: auto;
   text-align: center;
   border-radius: 10px;

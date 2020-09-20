@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./Projects.css";
 import anime from "animejs/lib/anime.es.js";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 function Projects() {
   const animateProjects = () => {
@@ -18,7 +20,9 @@ function Projects() {
     <div className="projects">
       <div className="myProjects">My Projects</div>
       <div className="projectLinks">
+        
         <div className="htmlLink">HTML</div>
+        
         <div className="cssLink">CSS</div>
         <div className="sassLink">SASS</div>
         <div className="materialLink">Material UI</div>
@@ -28,18 +32,17 @@ function Projects() {
         <div className="jqueryLink">Jquery</div>
         <div className="handlebarsLink">Handlebars</div>
         <div className="nodeLink">Node</div>
-        </div>
-        <div className="projectLinks2">
-          <div className="npmLink">npm</div>
-          <div className="mongoLink">MongoDB</div>
-          <div className="sqlLink">MySQL</div>
-          <div className="firebaseLink">Firebase</div>
-          <div className="sketchLink">Sketch</div>
-          <div className="figmaLink">Figma</div>
-          <div className="gitLink">Git</div>
-          <div className="herokuLink">Heroku</div>
-        </div>
-      
+      </div>
+      <div className="projectLinks2">
+        <div className="npmLink">npm</div>
+        <div className="mongoLink">MongoDB</div>
+        <div className="sqlLink">MySQL</div>
+        <div className="firebaseLink">Firebase</div>
+        <div className="sketchLink">Sketch</div>
+        <div className="figmaLink">Figma</div>
+        <div className="gitLink">Git</div>
+        <div className="herokuLink">Heroku</div>
+      </div>
     </div>
   );
 }

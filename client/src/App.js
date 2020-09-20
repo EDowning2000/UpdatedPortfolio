@@ -79,66 +79,70 @@ function App() {
       <Router>
         <div className="app_topContainer" id="app_topContainer">
           <div className="app_follow">Follow Me</div>
-          <a
-            href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
-            target="blank"
-            className="app_linkedInHover"
-          >
-            <div className="clickMeLI">Click Me!</div>
-            <img
-              src={linkedInPic}
-              className="app_linkedIn socialLink"
-              alt="LinkedIn Logo"
-            ></img>
-          </a>
-          <a
-            href="https://github.com/EDowning2000"
-            target="blank"
-            className="app_githubHover"
-          >
-            <div className="clickMeGH">Click Me!</div>
-            <img
-              src={ghPic}
-              className="app_github socialLink"
-              alt="Github Logo"
-            ></img>
-          </a>
-          <a
-            href="https://twitter.com/EmersonDowning1"
-            target="blank"
-            className="app_twitterHover"
-          >
-            <div className="clickMeTwit">Click Me!</div>
-            <img
-              src={twitterPic}
-              className="app_twitter socialLink"
-              alt="Twitter Logo"
-            ></img>
-          </a>
-          <a
-            href="https://www.instagram.com/emersondowning__/?hl=en"
-            target="blank"
-            className="app_instagramHover"
-          >
-            <div className="clickMeIG">Click Me!</div>
-            <img
-              src={igPic}
-              className="app_instagram socialLink"
-              alt="Instagram Logo"
-            ></img>
-          </a>
-          <Clipboard
-            data-clipboard-text="emersondowning@gmail.com"
-            className="app_gmailHover"
-            onClick={copyFunc}
-          >
-            <div className="clickToCopy">{copy}</div>
-            <img
-              src={gmailPic}
-              className="app_gmail socialLink"
-              alt="Gmail Logo"
-            ></img>
-          </Clipboard>
+          <Tippy content="Click Me!" placement='right' duration="500">
+            <a
+              href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
+              target="blank"
+              className="app_linkedInHover"
+            >
+              <img
+                src={linkedInPic}
+                className="app_linkedIn socialLink"
+                alt="LinkedIn Logo"
+              ></img>
+            </a>
+          </Tippy>
+          <Tippy content="Click Me!"placement='right' duration="500">
+            <a
+              href="https://github.com/EDowning2000"
+              target="blank"
+              className="app_githubHover"
+            >
+              <img
+                src={ghPic}
+                className="app_github socialLink"
+                alt="Github Logo"
+              ></img>
+            </a>
+          </Tippy>
+          <Tippy content="Click Me!" placement='right' duration="500">
+            <a
+              href="https://twitter.com/EmersonDowning1"
+              target="blank"
+              className="app_twitterHover"
+            >
+              <img
+                src={twitterPic}
+                className="app_twitter socialLink"
+                alt="Twitter Logo"
+              ></img>
+            </a>
+          </Tippy>
+          <Tippy content="Click Me!" placement="right" duration='500'>
+            <a
+              href="https://www.instagram.com/emersondowning__/?hl=en"
+              target="blank"
+              className="app_instagramHover"
+            >
+              <img
+                src={igPic}
+                className="app_instagram socialLink"
+                alt="Instagram Logo"
+              ></img>
+            </a>
+          </Tippy>
+            <Clipboard
+              data-clipboard-text="emersondowning@gmail.com"
+              className="app_gmailHover"
+              onClick={copyFunc}
+            >
+             <Tippy content={copy} interactive='true' placement='right' duration='500'>
+              <img
+                src={gmailPic}
+                className="app_gmail socialLink"
+                alt="Gmail Logo"
+              ></img></Tippy>
+            </Clipboard>
         </div>
 
         <div className="app_me">
