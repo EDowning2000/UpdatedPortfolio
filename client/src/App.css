@@ -247,7 +247,7 @@ NavLink:hover {
   display: flex;
 }
 
-.app_linkedInHover:hover .clickMeLI {
+/* .app_linkedInHover:hover .clickMeLI {
   display: block;
   width: 88px;
   height: 32.37px;
@@ -256,14 +256,14 @@ NavLink:hover {
   text-align: center;
   padding-top: 13px;
   position: absolute;
-  /* padding-top: 13px; */
+ 
   color: rgba(47, 47, 47, 1);
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
   transition: all .2s ease-in-out;
-}
-.app_githubHover:hover .clickMeGH {
+} */
+/* .app_githubHover:hover .clickMeGH {
   display: block;
   width: 88px;
   height: 32.37px;
@@ -272,29 +272,14 @@ NavLink:hover {
   text-align: center;
   padding-top: 13px;
   position: absolute;
-  /* padding-top: 13px; */
+  
   color: rgba(47, 47, 47, 1);
   font-weight: 600;
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
   transition: all .2s ease-in-out;
-}
-.app_twitterHover:hover .clickMeTwit {
-  display: block;
-  width: 88px;
-  height: 32.37px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 13px;
-  position: absolute;
-  color: rgba(47, 47, 47, 1);
-  font-weight: 600;
-  background-color: rgba(180, 170, 170, 1);
-  z-index: 100;
-  transition: all .2s ease-in-out;
-}
-.app_instagramHover:hover .clickMeIG {
+} */
+/* .app_twitterHover:hover .clickMeTwit {
   display: block;
   width: 88px;
   height: 32.37px;
@@ -308,8 +293,23 @@ NavLink:hover {
   background-color: rgba(180, 170, 170, 1);
   z-index: 100;
   transition: all .2s ease-in-out;
-}
-.app_gmailHover:hover .clickToCopy {
+} */
+/* .app_instagramHover:hover .clickMeIG {
+  display: block;
+  width: 88px;
+  height: 32.37px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 13px;
+  position: absolute;
+  color: rgba(47, 47, 47, 1);
+  font-weight: 600;
+  background-color: rgba(180, 170, 170, 1);
+  z-index: 100;
+  transition: all .2s ease-in-out;
+} */
+/* .app_gmailHover:hover .clickToCopy {
   display: block;
   width: 88px;
   height: 35.37px;
@@ -324,4 +324,4 @@ NavLink:hover {
   z-index: 100;
   transition: all .2s ease-in-out;
   opacity: 1;
-}
+} */
