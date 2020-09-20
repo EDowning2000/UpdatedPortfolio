@@ -1,11 +1,183 @@
-.myProjects{
+.myProjects {
   color: rgba(255, 254, 554, 1);
   text-align: center;
   font-size: 34px;
-  margin-top:-200px;
+  margin-top: -200px;
 }
-.projectLinks{
-  display: flex; 
+.projectLinks {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.projectLinks2 {
+  display: flex;
   margin-top: 20px;
   justify-content: space-between;
+}
+.htmlLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.cssLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sassLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.materialLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.bootstrapLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.javascriptLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.reactLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.jqueryLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.handlebarsLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.nodeLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.npmLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 60px;
+}
+.mongoLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sqlLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.firebaseLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sketchLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.figmaLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.gitLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.herokuLink {
+  width: auto;
+  background-color: rgba(180, 170, 170, 1);
+  color: rgba(47, 47, 47, 1);
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 60px;
 }
