@@ -75,8 +75,7 @@
   text-align: center;
   justify-content: center;
   display: flex;
-  padding:20px;
-
+  padding: 20px;
   margin-top: 20px;
 }
 .design {
@@ -91,7 +90,6 @@
   justify-content: center;
   display: flex;
   padding: 20px;
-
   margin-top: 20px;
 }
 .deployment {
@@ -106,7 +104,6 @@
   justify-content: center;
   display: flex;
   padding: 20px;
-
   margin-top: 20px;
 }
 
@@ -133,7 +130,7 @@
   height: 100px;
   width: 140px;
   margin-left: -20px;
-  margin-right: -20px
+  margin-right: -20px;
 }
 .sassLogo {
   height: 100px;
@@ -201,7 +198,6 @@
   width: 100px;
   padding-right: 20px;
   padding-left: 20px;
-  
 }
 .figmaLogo {
   height: 100px;

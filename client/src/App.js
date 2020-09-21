@@ -48,11 +48,46 @@ function App() {
     setOpen("menu-btn");
   };
 
-  const animateSocial = () => {
+  const animateSocial1 = () => {
     anime({
-      targets: ".app_topContainer",
+      targets: ".app_follow",
       translateY: 685,
-      delay: 100,
+      delay: 100
+    });
+  };
+  const animateSocial2 = () => {
+    anime({
+      targets: ".app_linkedInHover",
+      translateY: 685,
+      delay: 200
+    });
+  };
+  const animateSocial3 = () => {
+    anime({
+      targets: ".app_githubHover",
+      translateY: 685,
+      delay: 300
+    });
+  };
+  const animateSocial4 = () => {
+    anime({
+      targets: ".app_twitterHover",
+      translateY: 685,
+      delay: 400
+    });
+  };
+  const animateSocial5 = () => {
+    anime({
+      targets: ".app_instagramHover",
+      translateY: 685,
+      delay: 500
+    });
+  };
+  const animateSocial6 = () => {
+    anime({
+      targets: ".app_gmailHover",
+      translateY: 685,
+      delay: 600
     });
   };
 
@@ -65,7 +100,12 @@ function App() {
   };
 
   useEffect(() => {
-    animateSocial();
+    animateSocial1();
+    animateSocial2()
+    animateSocial3()
+    animateSocial4()
+    animateSocial5()
+    animateSocial6()
     // animateMain();
     animateRight();
   }, []);
