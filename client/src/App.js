@@ -13,7 +13,7 @@ import twitterPic from "../src/Images/twitterPic.jpg";
 import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
-import Projects from "./Components/Projects/Projects";
+import Projects from "./Components/ProjectsTemplate/Projects";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";

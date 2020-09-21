@@ -6,7 +6,6 @@ import bootstrapPic from "../../Images/bootstrapIcon.png";
 import cssPic from "../../Images/cssIcon.png";
 import figmaPic from "../../Images/figmaIcon.png";
 import firebasePic from "../../Images/firebaseIcon.png";
-// import githubPic from "../../Images/githubPic.png";
 import gitPic from "../../Images/gitIcon.png";
 import handlebarsPic from "../../Images/handlebarsIcon.png";
 import javascriptPic from "../../Images/javascriptIcon.png";

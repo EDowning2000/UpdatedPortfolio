@@ -11,6 +11,8 @@ function AboutMe() {
     });
   };
 
+  
+
   useEffect(() => {
     animateAbt();
   }, []);
