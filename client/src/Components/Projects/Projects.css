@@ -225,7 +225,7 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  margin-left: 60px;
+  margin-left: 80px;
   transition: all 0.2s ease-in-out;
 }
 .npmLink:hover {
@@ -366,7 +366,7 @@
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  margin-right: 60px;
+  margin-right: 80px;
   transition: all 0.2s ease-in-out;
 }
 .herokuLink:hover {

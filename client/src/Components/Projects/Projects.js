@@ -20,29 +20,67 @@ function Projects() {
     <div className="projects">
       <div className="myProjects">My Projects</div>
       <div className="projectLinks">
-        
-        <div className="htmlLink">HTML</div>
-        
-        <div className="cssLink">CSS</div>
-        <div className="sassLink">SASS</div>
-        <div className="materialLink">Material UI</div>
-        <div className="bootstrapLink">Bootstrap</div>
-        <div className="javascriptLink">Javascript</div>
-        <div className="reactLink">React</div>
-        <div className="jqueryLink">Jquery</div>
-        <div className="handlebarsLink">Handlebars</div>
-        <div className="nodeLink">Node</div>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="htmlLink">HTML</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="cssLink">CSS</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="sassLink">SASS</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="materialLink">Material UI</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="bootstrapLink">Bootstrap</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="javascriptLink">Javascript</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="reactLink">React</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="jqueryLink">Jquery</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="handlebarsLink">Handlebars</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="nodeLink">Node</div>
+        </Tippy>
       </div>
       <div className="projectLinks2">
-        <div className="npmLink">npm</div>
-        <div className="mongoLink">MongoDB</div>
-        <div className="sqlLink">MySQL</div>
-        <div className="firebaseLink">Firebase</div>
-        <div className="sketchLink">Sketch</div>
-        <div className="figmaLink">Figma</div>
-        <div className="gitLink">Git</div>
-        <div className="herokuLink">Heroku</div>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="npmLink">npm</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="mongoLink">MongoDB</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="sqlLink">MySQL</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="firebaseLink">Firebase</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="sketchLink">Sketch</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="figmaLink">Figma</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="gitLink">Git</div>
+        </Tippy>
+        <Tippy content="blank projects" placement="bottom" duration="200">
+          <div className="herokuLink">Heroku</div>
+        </Tippy>
       </div>
+      <div className="projectsContainer">
+        
+      </div>
+
     </div>
   );
 }

@@ -15,6 +15,7 @@
   font-weight: lighter;
   margin-top: 20px;
 }
+
 .htmlTech {
   text-align: center;
   justify-content: center;
@@ -112,90 +113,115 @@
 .htmlLogo {
   width: 100px;
   height: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .cssLogo {
   width: 80px;
   height: 80px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 .materialLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .bootstrapLogo {
   height: 100px;
   width: 140px;
-  padding: 20px;
+  margin-left: -20px;
+  margin-right: -20px
 }
 .sassLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .javascriptLogo {
   height: 80px;
   width: 80px;
-  padding: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .reactLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .jqueryLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .handlebarsLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .nodeLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .npmLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .mongoLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .sqlLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .firebaseLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .sketchLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
 }
 .figmaLogo {
   height: 100px;
   width: 160px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: -30px;
+  margin-left: -30px;
 }
 .gitLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 .herokuLogo {
   height: 100px;
   width: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
 }

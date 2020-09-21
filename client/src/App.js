@@ -74,12 +74,14 @@ function App() {
     setCopy("Copied!");
   };
 
+
+
   return (
     <div className="App">
       <Router>
         <div className="app_topContainer" id="app_topContainer">
           <div className="app_follow">Follow Me</div>
-          <Tippy content="Click Me!" placement='right' duration="500">
+          <Tippy content="Click Me!" placement="right" duration="500" >
             <a
               href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
               target="blank"
@@ -92,7 +94,7 @@ function App() {
               ></img>
             </a>
           </Tippy>
-          <Tippy content="Click Me!"placement='right' duration="500">
+          <Tippy content="Click Me!" placement="right" duration="500">
             <a
               href="https://github.com/EDowning2000"
               target="blank"
@@ -105,7 +107,7 @@ function App() {
               ></img>
             </a>
           </Tippy>
-          <Tippy content="Click Me!" placement='right' duration="500">
+          <Tippy content="Click Me!" placement="right" duration="500">
             <a
               href="https://twitter.com/EmersonDowning1"
               target="blank"
@@ -118,7 +120,7 @@ function App() {
               ></img>
             </a>
           </Tippy>
-          <Tippy content="Click Me!" placement="right" duration='500'>
+          <Tippy content="Click Me!" placement="right" duration="500">
             <a
               href="https://www.instagram.com/emersondowning__/?hl=en"
               target="blank"
@@ -131,18 +133,24 @@ function App() {
               ></img>
             </a>
           </Tippy>
-            <Clipboard
-              data-clipboard-text="emersondowning@gmail.com"
-              className="app_gmailHover"
-              onClick={copyFunc}
+          <Clipboard
+            data-clipboard-text="emersondowning@gmail.com"
+            className="app_gmailHover"
+            onClick={copyFunc}
+          >
+            <Tippy
+              content={copy}
+              interactive={true}
+              placement="right"
+              duration="500"
             >
-             <Tippy content={copy} interactive={true} placement='right' duration='500'>
               <img
                 src={gmailPic}
                 className="app_gmail socialLink"
                 alt="Gmail Logo"
-              ></img></Tippy>
-            </Clipboard>
+              ></img>
+            </Tippy>
+          </Clipboard>
         </div>
 
         <div className="app_me">

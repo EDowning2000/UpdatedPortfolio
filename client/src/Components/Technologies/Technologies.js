@@ -21,6 +21,8 @@ import sketchPic from "../../Images/sketchIcon.png";
 import sqlPic from "../../Images/sqlIcon.png";
 import herokuPic from "../../Images/herokuIcon.png";
 
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
 
 function Technologies() {
@@ -38,99 +40,102 @@ function Technologies() {
 
   return (
     <div className="technologies">
-      <div className="myTech">My Technologies</div>{" "}
+      <div className="myTech">My Technologies</div>
       <div className="html">Markup</div>
       <div className="htmlTech">
-        <div className="one">
+        <Tippy content="HTML" placement="bottom" duration="200">
           <img className="htmlLogo" src={htmlPic} alt="Html Logo" />
-        </div>
-        {/* <div className="htmlToolTip">HTML</div> */}
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="styling">Styling</div>
       <div className="stylingTech">
-        <div className="two">
+        <Tippy content="CSS" placement="bottom" duration="200">
           <img className="cssLogo" src={cssPic} alt="Css Logo" />
-        </div>
-        {/* <div className="cssToolTip">CSS</div> */}
-        <div className="three">
+        </Tippy>
+
+        <Tippy content="Material UI" placement="bottom" duration="200">
           <img
             className="materialLogo"
             src={materialPic}
             alt="Material UI Logo"
           />
-        </div>
-        <div className="four">
+        </Tippy>
+
+        <Tippy content="Bootstrap" placement="bottom" duration="200">
           <img
             className="bootstrapLogo"
             src={bootstrapPic}
             alt="Bootstrap Logo"
           />
-        </div>
-        <div className="five">
+        </Tippy>
+
+        <Tippy content="SASS" placement="bottom" duration="200">
           <img className="sassLogo" src={sassPic} alt="Sass Logo" />
-        </div>
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="js">JavaScript</div>
       <div className="jsTech">
-        <div className="six">
+        <Tippy content="Javascript (ES6)" placement="bottom" duration="200">
           <img
             className="javascriptLogo"
             src={javascriptPic}
             alt="Javascript Logo"
           />
-        </div>
-        <div className="seven">
+        </Tippy>
+        <Tippy content="React" placement="bottom" duration="200">
           <img className="reactLogo" src={reactPic} alt="React Logo" />
-        </div>
-        <div className="eight">
+        </Tippy>
+        <Tippy content="Jquery" placement="bottom" duration="200">
           <img className="jqueryLogo" src={jqueryPic} alt="Jquery Logo" />
-        </div>
-        <div className="nine">
+        </Tippy>
+        <Tippy content="HandlebarsJS" placement="bottom" duration="200">
           <img
             className="handlebarsLogo"
             src={handlebarsPic}
             alt="Handlebars Logo"
           />
-        </div>
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="backend">Backend</div>
       <div className="backendTech">
-        <div className="ten">
+        <Tippy content="NodeJS" placement="bottom" duration="200">
           <img className="nodeLogo" src={nodePic} alt="Node Logo" />
-        </div>
-        <div className="eleven">
+        </Tippy>
+        <Tippy content="npm" placement="bottom" duration="200">
           <img className="npmLogo" src={npmPic} alt="NPM Logo" />
-        </div>
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="databases">Databases</div>
       <div className="databaseTech">
-        <div className="twelve">
+        <Tippy content="MongoDb (Mongoose)" placement="bottom" duration="200">
           <img className="mongoLogo" src={mongoPic} alt="Mongo Logo" />
-        </div>
-        <div className="thirteen">
+        </Tippy>
+        <Tippy content="MySQL (Sequelize)" placement="bottom" duration="200">
           <img className="sqlLogo" src={sqlPic} alt="SQL Logo" />
-        </div>
-        <div className="fourteen">
+        </Tippy>
+        <Tippy content="Firebase" placement="bottom" duration="200">
           <img className="firebaseLogo" src={firebasePic} alt="Firebase Logo" />
-        </div>
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="design">Design</div>
       <div className="designTech">
-        <div className="fifteen">
+        <Tippy content="Sketch" placement="bottom" duration="200">
           <img className="sketchLogo" src={sketchPic} alt="Sketch Logo" />
-        </div>
-        <div className="sixteen">
+        </Tippy>
+
+        <Tippy content="Figma" placement="bottom" duration="200">
           <img className="figmaLogo" src={figmaPic} alt="Figma Logo" />
-        </div>
-      </div>{" "}
+        </Tippy>
+      </div>
       <div className="deployment">Deployment</div>
       <div className="deploymentTech">
-        <div className="seventeen">
+        <Tippy content="Git" placement="bottom" duration="200">
           <img className="gitLogo" src={gitPic} alt="Git Logo" />
-        </div>
-        <div className="eighteen">
+        </Tippy>
+
+        <Tippy content="Heroku" placement="bottom" duration="200">
           <img className="herokuLogo" src={herokuPic} alt="Heroku Logo" />
-        </div>
+        </Tippy>
       </div>
     </div>
   );
