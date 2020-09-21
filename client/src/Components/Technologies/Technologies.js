@@ -26,7 +26,7 @@ import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
 
 function Technologies() {
-  const animateTech = () => {
+  const animateTech1 = () => {
     anime({
       targets: ".technologies",
       translateY: 2500,
@@ -35,7 +35,7 @@ function Technologies() {
   };
 
   useEffect(() => {
-    animateTech();
+    animateTech1();
   }, []);
 
   return (
