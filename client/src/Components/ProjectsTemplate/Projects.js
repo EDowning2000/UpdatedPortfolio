@@ -4,7 +4,7 @@ import anime from "animejs/lib/anime.es.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import placeholderPic from "../../Images/placeholderPic.webp";
-import HomeTemplate from "../ProjectsTemplate/Projects/HomeTemplate";
+import HomeTemplate from "./ProjectsHome/HomeTemplate";
 
 function Projects() {
   const animateProjects = () => {
