@@ -15,6 +15,9 @@
   font-weight: lighter;
   margin-top: 20px;
 }
+.lightup:hover{
+  filter: brightness(135%);
+}
 
 .htmlTech {
   text-align: center;
