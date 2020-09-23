@@ -3,6 +3,8 @@ import "./Projects.css";
 import anime from "animejs/lib/anime.es.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
+import placeholderPic from "../../Images/placeholderPic.webp";
+import HomeTemplate from "../ProjectsTemplate/Projects/HomeTemplate";
 
 function Projects() {
   const animateProjects = () => {
@@ -12,7 +14,7 @@ function Projects() {
     });
   };
 
-  
+ 
 
   useEffect(() => {
     animateProjects();
@@ -80,9 +82,15 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        <HomeTemplate homepagePic={placeholderPic} title="idk" />
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        <HomeTemplate homepagePic={placeholderPic} title="random" />
         
       </div>
-
     </div>
   );
 }
