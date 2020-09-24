@@ -2,20 +2,42 @@ import React from "react";
 import "./IndividualProject.css";
 import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
 import ghIcon from "../../../Images/githubPic.png";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import CoreStyles from "react-awesome-slider/src/core/styles.scss";
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import AnimationStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
+
+import image1 from "../../../Images/cssIcon.png";
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function IndividualProject({
   individualPic,
   individualGHLink,
   individualTitle,
 }) {
+
   return (
     <div className="projectsContainer">
       <div className="projectColumn">
-      
-      
+        <div className="projectPhoto">
+        <AwesomeSlider animation="cubeAnimation">
+    <div data-src={image1} />
+    <div data-src="/path/to/image-1.png" />
+    <div data-src="/path/to/image-2.jpg" />
+  </AwesomeSlider>
+          {/* <AwesomeSlider
+            animation="foldOutAnimation"
+            cssModule={[ AnimationStyles]}
+          >
+            <div data-src={image1} />
+            <div data-src={ghIcon} />
+            <div data-src="/path/to/image-2.jpg" />
+          </AwesomeSlider> */}
+        </div>
 
-
-        <img className="projectPhoto" src={individualPic} />
+        {/* <img className="projectPhoto" src={individualPic} /> */}
 
         <a classname="individualGH " href={individualGHLink} target="blank">
           <img className="ghIcon darken" src={ghIcon} />
