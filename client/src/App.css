@@ -67,6 +67,9 @@ body {
   margin-bottom: 8px;
   cursor: pointer;
 }
+.socialLink:hover{
+  filter: brightness(135%);
+}
 button {
   background-color: rgba(47, 47, 47, 1);
   border: none !important;
