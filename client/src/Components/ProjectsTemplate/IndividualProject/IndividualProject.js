@@ -11,6 +11,10 @@ function IndividualProject({
   return (
     <div className="projectsContainer">
       <div className="projectColumn">
+      
+      
+
+
         <img className="projectPhoto" src={individualPic} />
 
         <a classname="individualGH " href={individualGHLink} target="blank">
