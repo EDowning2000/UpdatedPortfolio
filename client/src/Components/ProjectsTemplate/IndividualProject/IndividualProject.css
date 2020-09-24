@@ -1,0 +1,27 @@
+.projectsContainer{
+  display: flex; 
+  margin-top: 35px;
+}
+.projectColumn{
+  display: flex; 
+  flex-direction: column;
+}
+.projectPhoto{
+  width: 450px;
+  height: 300px; 
+}
+
+.ghIcon{
+  width: 60px;
+  height: 23px;
+  margin-left: 375px; 
+  position: absolute;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.twitterShare{
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

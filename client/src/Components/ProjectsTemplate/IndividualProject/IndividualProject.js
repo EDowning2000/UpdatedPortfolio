@@ -1,6 +1,7 @@
 import React from "react";
 import "./IndividualProject.css";
 import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
+import ghIcon from "../../../Images/githubPic.png";
 
 function IndividualProject({
   individualPic,
@@ -8,19 +9,24 @@ function IndividualProject({
   individualTitle,
 }) {
   return (
-    <div className="projectsColumn">
-      <img className="projectPhoto" src={individualPic} />
-      <a classname="individualGH" href={individualGHLink} target="blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <TwitterShareButton
-        url={individualGHLink}
-        options={{
-          text:
-            "This project from Emerson is pretty good, i can find it here =>",
-          via: "EmersonDowning1",
-        }}
-      />
+    <div className="projectsContainer">
+      <div className="projectColumn">
+        <img className="projectPhoto" src={individualPic} />
+
+        <a classname="individualGH" href={individualGHLink} target="blank">
+          <img className="ghIcon" src={ghIcon} />
+        </a>
+        <div className="twitterShare">
+          <TwitterShareButton
+            url={individualGHLink}
+            options={{
+              text:
+                "This project from Emerson is pretty good, i can find it here =>",
+              via: "EmersonDowning1",
+            }}
+          />
+        </div>
+      </div>
       <div className="projectsColumn2">
         <div className="individualTitle">Filler title goes here</div>
         <div className="individualDescription">

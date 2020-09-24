@@ -9,6 +9,7 @@
     "@tippyjs/react": "^4.1.0",
     "animate.css": "^4.1.1",
     "animejs": "^3.2.0",
+    "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-anime": "^3.0.3",
     "react-clipboard.js": "^2.0.16",
