@@ -13,8 +13,8 @@ function IndividualProject({
       <div className="projectColumn">
         <img className="projectPhoto" src={individualPic} />
 
-        <a classname="individualGH" href={individualGHLink} target="blank">
-          <img className="ghIcon" src={ghIcon} />
+        <a classname="individualGH " href={individualGHLink} target="blank">
+          <img className="ghIcon darken" src={ghIcon} />
         </a>
         <div className="twitterShare">
           <TwitterShareButton
@@ -34,10 +34,10 @@ function IndividualProject({
           but im just using it as a filler at the moment
         </div>
         <div className="techUsed">HTML CSS Javascript React</div>
-        <dic className="individualTrials">
+        <div className="individualTrials">
           This is the trials and tribulations section where i can explain what
           was good, what was bad, what i had a hard time with and what i learned
-        </dic>
+        </div>
       </div>
     </div>
   );
