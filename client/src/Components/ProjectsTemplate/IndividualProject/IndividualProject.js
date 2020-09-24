@@ -2,34 +2,29 @@ import React from "react";
 import "./IndividualProject.css";
 import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
 import ghIcon from "../../../Images/githubPic.png";
-import AwesomeSlider from 'react-awesome-slider';
-import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
-
-
-import image1 from "../../../Images/cssIcon.png";
-
+import AwesomeSlider from "react-awesome-slider";
+import AwesomeSliderStyles from "react-awesome-slider/src/styles";
 
 function IndividualProject({
-  individualPic,
   individualGHLink,
   individualTitle,
-})
-
-{
+  image1,
+  image2,
+  image3,
+  individualDescription,
+  individualTrials, 
+  individualTech
+}) {
   return (
     <div className="projectsContainer">
       <div className="projectColumn">
         <div className="projectPhoto">
-
-
-        <AwesomeSlider cssModule={AwesomeSliderStyles} >
-    <div data-src={image1} />
-    <div data-src="/path/to/image-1.png" />
-    <div data-src="/path/to/image-2.jpg" />
-  </AwesomeSlider>
+          <AwesomeSlider cssModule={AwesomeSliderStyles}>
+            <div data-src={image1} />
+            <div data-src={image2} />
+            <div data-src={image3} />
+          </AwesomeSlider>
         </div>
-
-
 
         {/* <img className="projectPhoto" src={individualPic} /> */}
 
@@ -48,16 +43,11 @@ function IndividualProject({
         </div>
       </div>
       <div className="projectsColumn2">
-        <div className="individualTitle">Filler title goes here</div>
-        <div className="individualDescription">
-          this is a long description that will be filled with a prop here soon
-          but im just using it as a filler at the moment
-        </div>
-        <div className="techUsed">HTML CSS Javascript React</div>
-        <div className="individualTrials">
-          This is the trials and tribulations section where i can explain what
-          was good, what was bad, what i had a hard time with and what i learned
-        </div>
+        <div className="individualTitle">{individualTitle}</div>
+        <div className="individualDescription">{individualDescription}</div>
+
+        <div className="individualTrials">{individualTrials}</div>
+        <div className="techUsed">{individualTech}</div>
       </div>
     </div>
   );
