@@ -5,6 +5,7 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import placeholderPic from "../../Images/placeholderPic.webp";
 import HomeTemplate from "./ProjectsHome/HomeTemplate";
+import IndividualProject from "./IndividualProject/IndividualProject";
 
 function Projects() {
   const animateProjects = () => {
@@ -13,8 +14,6 @@ function Projects() {
       translateY: 200,
     });
   };
-
- 
 
   useEffect(() => {
     animateProjects();
@@ -82,14 +81,14 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
+        {/* <HomeTemplate homepagePic={placeholderPic} title="random" />
         <HomeTemplate homepagePic={placeholderPic} title="idk" />
         <HomeTemplate homepagePic={placeholderPic} title="random" />
         <HomeTemplate homepagePic={placeholderPic} title="random" />
         <HomeTemplate homepagePic={placeholderPic} title="random" />
         <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
-        
+        <HomeTemplate homepagePic={placeholderPic} title="random" /> */}
+        <IndividualProject/>
       </div>
     </div>
   );
