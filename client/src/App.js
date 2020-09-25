@@ -19,6 +19,7 @@ import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
+import IndividualProject from "./Components/ProjectsTemplate/IndividualProject/IndividualProject";
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
@@ -199,6 +200,7 @@ function App() {
               <Route exact path="/" exact component={AboutMe} />
               <Route path="/technologies" exact component={Technologies} />
               <Route to="/projects" exact component={Projects} />
+              <Route to='/proj1' exact component={IndividualProject}></Route>
             </Switch>
           </div>
 

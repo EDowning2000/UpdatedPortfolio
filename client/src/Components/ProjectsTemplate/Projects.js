@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { NavLink } from 'react-router-dom'
 import "./Projects.css";
 import anime from "animejs/lib/anime.es.js";
 import Tippy from "@tippyjs/react";
@@ -21,7 +22,8 @@ function Projects() {
 
   return (
     <div className="projects">
-      <div className="myProjects">My Projects</div>
+        <div className="myProjects">My Projects</div>
+      
       <div className="projectLinks">
         <Tippy content="blank projects" placement="bottom" duration="200">
           <div className="htmlLink">HTML</div>
@@ -81,14 +83,24 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-        {/* <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="idk" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" />
-        <HomeTemplate homepagePic={placeholderPic} title="random" /> */}
-        <IndividualProject/>
+      <HomeTemplate title='Grouped' homepagePic={placeholderPic}/>
+      <HomeTemplate title="Covid 19 Tracker" homepagePic={placeholderPic}/>
+      <HomeTemplate title="Workout Tracker" homepagePic={placeholderPic}/>
+      <HomeTemplate title="Blog App" homepagePic={placeholderPic}/>
+      <HomeTemplate title="Twitter Clone" homepagePic={placeholderPic}/>
+      <HomeTemplate title="Employee Tracker" homepagePic={placeholderPic}/>
+      <HomeTemplate title="Book Finder" homepagePic={}/>
+      <HomeTemplate title="Budget Tracker" homepagePic={}/>
+      <HomeTemplate title="Password Generator" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="5" homepagePic={}/>
+
+      
+       
       </div>
     </div>
   );
