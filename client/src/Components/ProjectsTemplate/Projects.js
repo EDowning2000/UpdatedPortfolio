@@ -92,8 +92,8 @@ function Projects() {
       <HomeTemplate title="Book Finder" homepagePic={}/>
       <HomeTemplate title="Budget Tracker" homepagePic={}/>
       <HomeTemplate title="Password Generator" homepagePic={}/>
-      <HomeTemplate title="5" homepagePic={}/>
-      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="Weather Dashboard" homepagePic={}/>
+      <HomeTemplate title="Movie A Lister" homepagePic={}/>
       <HomeTemplate title="5" homepagePic={}/>
       <HomeTemplate title="5" homepagePic={}/>
       <HomeTemplate title="5" homepagePic={}/>
