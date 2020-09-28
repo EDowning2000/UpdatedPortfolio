@@ -104,7 +104,7 @@ function Projects() {
         <HomeTemplate title="Movie A Lister" homepagePic={} />
         <HomeTemplate title="Note Taker" homepagePic={notesHome} />
         <HomeTemplate title="Burger Devourer" homepagePic={burgerHome} />
-        <HomeTemplate title="5" homepagePic={} />
+        <HomeTemplate title="Team Profile Generator" homepagePic={} />
         <HomeTemplate title="5" homepagePic={} />
       </div>
     </div>
