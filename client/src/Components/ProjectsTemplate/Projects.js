@@ -7,6 +7,12 @@ import "tippy.js/dist/tippy.css";
 import placeholderPic from "../../Images/placeholderPic.webp";
 import HomeTemplate from "./ProjectsHome/HomeTemplate";
 import IndividualProject from "./IndividualProject/IndividualProject";
+import covidHome from '../../Images/Covid19 HomePic.png'
+import groupedHome from '../../Images/groupedHome.png'
+import fitnessHome from '../../Images/fitnessTrackerHome.png'
+import notesHome from '../../Images/notesHome.png'
+import burgerHome from '../../Images/burgerHome.png'
+import budgetHome from '../../Images/budgetHome.png'
 
 function Projects() {
   const animateProjects = () => {
@@ -83,19 +89,19 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-      <HomeTemplate title='Grouped' homepagePic={placeholderPic}/>
-      <HomeTemplate title="Covid 19 Tracker" homepagePic={placeholderPic}/>
-      <HomeTemplate title="Workout Tracker" homepagePic={placeholderPic}/>
+      <HomeTemplate title='Grouped' homepagePic={groupedHome}/>
+      <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome}/>
+      <HomeTemplate title="Workout Tracker" homepagePic={fitnessHome}/>
       <HomeTemplate title="Blog App" homepagePic={placeholderPic}/>
       <HomeTemplate title="Twitter Clone" homepagePic={placeholderPic}/>
       <HomeTemplate title="Employee Tracker" homepagePic={placeholderPic}/>
       <HomeTemplate title="Book Finder" homepagePic={}/>
-      <HomeTemplate title="Budget Tracker" homepagePic={}/>
+      <HomeTemplate title="Budget Tracker" homepagePic={budgetHome}/>
       <HomeTemplate title="Password Generator" homepagePic={}/>
       <HomeTemplate title="Weather Dashboard" homepagePic={}/>
       <HomeTemplate title="Movie A Lister" homepagePic={}/>
-      <HomeTemplate title="5" homepagePic={}/>
-      <HomeTemplate title="5" homepagePic={}/>
+      <HomeTemplate title="Note Taker" homepagePic={notesHome}/>
+      <HomeTemplate title="Burger Devourer" homepagePic={burgerHome}/>
       <HomeTemplate title="5" homepagePic={}/>
       <HomeTemplate title="5" homepagePic={}/>
 
