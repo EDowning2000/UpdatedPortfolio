@@ -15,6 +15,7 @@ import burgerHome from "../../Images/burgerHome.png";
 import budgetHome from "../../Images/budgetHome.png";
 import passwordHome from "../../Images/passwordHome.png";
 import employeeHome from "../../Images/employeeHome.png";
+import twitterHome from "../../Images/twitterHome.png";
 
 function Projects() {
   const animateProjects = () => {
@@ -95,17 +96,17 @@ function Projects() {
         <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome} />
         <HomeTemplate title="Workout Tracker" homepagePic={fitnessHome} />
         <HomeTemplate title="Blog App" homepagePic={placeholderPic} />
-        <HomeTemplate title="Twitter Clone" homepagePic={placeholderPic} />
+        <HomeTemplate title="Twitter Clone" homepagePic={twitterHome} />
         <HomeTemplate title="Employee Tracker" homepagePic={employeeHome} />
-        <HomeTemplate title="Book Finder" homepagePic={} />
+        {/* <HomeTemplate title="Book Finder" homepagePic={} /> */}
         <HomeTemplate title="Budget Tracker" homepagePic={budgetHome} />
         <HomeTemplate title="Password Generator" homepagePic={passwordHome} />
-        <HomeTemplate title="Weather Dashboard" homepagePic={} />
-        <HomeTemplate title="Movie A Lister" homepagePic={} />
+        {/* <HomeTemplate title="Weather Dashboard" homepagePic={} />
+        <HomeTemplate title="Movie A Lister" homepagePic={} /> */}
         <HomeTemplate title="Note Taker" homepagePic={notesHome} />
         <HomeTemplate title="Burger Devourer" homepagePic={burgerHome} />
-        <HomeTemplate title="Team Profile Generator" homepagePic={} />
-        <HomeTemplate title="5" homepagePic={} />
+        {/* <HomeTemplate title="Team Profile Generator" homepagePic={} />
+        <HomeTemplate title="5" homepagePic={} /> */}
       </div>
     </div>
   );
