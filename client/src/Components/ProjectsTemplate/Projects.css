@@ -388,10 +388,7 @@
   justify-content: space-between;
   
 }
-img{
-  width: 220px;
-  height: 180px;
-}
+
 NavLink{
   text-decoration: none !important;
 }

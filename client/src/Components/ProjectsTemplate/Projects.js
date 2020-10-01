@@ -7,16 +7,19 @@ import "tippy.js/dist/tippy.css";
 import placeholderPic from "../../Images/placeholderPic.webp";
 import HomeTemplate from "./ProjectsHome/HomeTemplate";
 import IndividualProject from "./IndividualProject/IndividualProject";
-import covidHome from "../../Images/Covid19 HomePic.png";
-import groupedHome from "../../Images/groupedHome.png";
+import covidHome2 from "../../Images/covidHome2.png";
+import groupedHome2 from "../../Images/groupedHome2.png";
 import workoutHome from "../../Images/workoutHome.png";
-import notesHome from "../../Images/notesHome.png";
-import burgerHome from "../../Images/burgerHome.png";
-import budgetHome from "../../Images/budgetHome.png";
-import passwordHome from "../../Images/passwordHome.png";
-import employeeHome from "../../Images/employeeHome.png";
-import twitterHome from "../../Images/twitterHome.png";
-import booksHome from "../../Images/booksHome.png";
+import noteHome2 from "../../Images/noteHome2.png";
+import burgerHome2 from "../../Images/burgerHome2.png";
+import budgetHome2 from "../../Images/budgetHome2.png";
+import passwordHome2 from "../../Images/passwordHome2.png";
+import employeeHome2 from "../../Images/employeeHome2.png";
+import twitterHome2 from "../../Images/twitterHome2.png";
+import booksHome2 from "../../Images/booksHome2.png";
+import teamProfileHome from "../../Images/teamProfileHome.png";
+import weatherHome2 from "../../Images/weatherHome2.png";
+import blogHome2 from '../../Images/blogHome2.png'
 
 function Projects() {
   const animateProjects = () => {
@@ -93,21 +96,24 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-        <HomeTemplate title="Grouped" homepagePic={groupedHome} />
-        <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome} />
+        <HomeTemplate title="Grouped" homepagePic={groupedHome2} />
+        <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome2} />
         <HomeTemplate title="Workout Tracker" homepagePic={workoutHome} />
-        <HomeTemplate title="Blog App" homepagePic={placeholderPic} />
-        <HomeTemplate title="Twitter Clone" homepagePic={twitterHome} />
-        <HomeTemplate title="Employee Tracker" homepagePic={employeeHome} />
-        <HomeTemplate title="Book Finder" homepagePic={booksHome} />
-        <HomeTemplate title="Budget Tracker" homepagePic={budgetHome} />
-        <HomeTemplate title="Password Generator" homepagePic={passwordHome} />
-        {/* <HomeTemplate title="Weather Dashboard" homepagePic={} />
-        <HomeTemplate title="Movie A Lister" homepagePic={} /> */}
-        <HomeTemplate title="Note Taker" homepagePic={notesHome} />
-        <HomeTemplate title="Burger Devourer" homepagePic={burgerHome} />
-        {/* <HomeTemplate title="Team Profile Generator" homepagePic={} />
-        <HomeTemplate title="5" homepagePic={} /> */}
+        <HomeTemplate title="Blog App" homepagePic={blogHome2} />
+        <HomeTemplate title="Twitter Clone" homepagePic={twitterHome2} />
+        <HomeTemplate title="Employee Tracker" homepagePic={employeeHome2} />
+        <HomeTemplate title="Book Finder" homepagePic={booksHome2} />
+        <HomeTemplate title="Budget Tracker" homepagePic={budgetHome2} />
+        <HomeTemplate title="Password Generator" homepagePic={passwordHome2} />
+        <HomeTemplate title="Weather Dashboard" homepagePic={weatherHome2} />
+        {/* <HomeTemplate title="Movie A Lister" homepagePic={} /> */}
+        <HomeTemplate title="Note Taker" homepagePic={noteHome2} />
+        <HomeTemplate title="Burger Devourer" homepagePic={burgerHome2} />
+        <HomeTemplate
+          title="Team Profile Generator"
+          homepagePic={teamProfileHome}
+        />
+        {/* <HomeTemplate title="5" homepagePic={} /> */}
       </div>
     </div>
   );
