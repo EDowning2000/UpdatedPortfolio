@@ -9,13 +9,14 @@ import HomeTemplate from "./ProjectsHome/HomeTemplate";
 import IndividualProject from "./IndividualProject/IndividualProject";
 import covidHome from "../../Images/Covid19 HomePic.png";
 import groupedHome from "../../Images/groupedHome.png";
-import fitnessHome from "../../Images/fitnessTrackerHome.png";
+import workoutHome from "../../Images/workoutHome.png";
 import notesHome from "../../Images/notesHome.png";
 import burgerHome from "../../Images/burgerHome.png";
 import budgetHome from "../../Images/budgetHome.png";
 import passwordHome from "../../Images/passwordHome.png";
 import employeeHome from "../../Images/employeeHome.png";
 import twitterHome from "../../Images/twitterHome.png";
+import booksHome from "../../Images/booksHome.png";
 
 function Projects() {
   const animateProjects = () => {
@@ -94,11 +95,11 @@ function Projects() {
       <div className="projectsContainer">
         <HomeTemplate title="Grouped" homepagePic={groupedHome} />
         <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome} />
-        <HomeTemplate title="Workout Tracker" homepagePic={fitnessHome} />
+        <HomeTemplate title="Workout Tracker" homepagePic={workoutHome} />
         <HomeTemplate title="Blog App" homepagePic={placeholderPic} />
         <HomeTemplate title="Twitter Clone" homepagePic={twitterHome} />
         <HomeTemplate title="Employee Tracker" homepagePic={employeeHome} />
-        {/* <HomeTemplate title="Book Finder" homepagePic={} /> */}
+        <HomeTemplate title="Book Finder" homepagePic={booksHome} />
         <HomeTemplate title="Budget Tracker" homepagePic={budgetHome} />
         <HomeTemplate title="Password Generator" homepagePic={passwordHome} />
         {/* <HomeTemplate title="Weather Dashboard" homepagePic={} />
