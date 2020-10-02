@@ -19,8 +19,8 @@ import twitterHome2 from "../../Images/twitterHome2.png";
 import booksHome2 from "../../Images/booksHome2.png";
 import teamProfileHome from "../../Images/teamProfileHome.png";
 import weatherHome2 from "../../Images/weatherHome2.png";
-import blogHome2 from '../../Images/blogHome2.png'
-import teamHome from '../../Images/teamHome.png';
+import blogHome2 from "../../Images/blogHome2.png";
+import teamHome from "../../Images/teamHome.png";
 
 function Projects() {
   const animateProjects = () => {
@@ -97,23 +97,49 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-        <HomeTemplate title="Grouped" homepagePic={groupedHome2} />
-        <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome2} />
-        <HomeTemplate title="Workout Tracker" homepagePic={workoutHome} />
-        <HomeTemplate title="Blog App" homepagePic={blogHome2} />
-        <HomeTemplate title="Twitter Clone" homepagePic={twitterHome2} />
-        <HomeTemplate title="Employee Tracker" homepagePic={employeeHome2} />
-        <HomeTemplate title="Book Finder" homepagePic={booksHome2} />
-        <HomeTemplate title="Budget Tracker" homepagePic={budgetHome2} />
-        <HomeTemplate title="Password Generator" homepagePic={passwordHome2} />
-        <HomeTemplate title="Weather Dashboard" homepagePic={weatherHome2} />
+        <NavLink to="/grouped">
+          <HomeTemplate title="Grouped" homepagePic={groupedHome2} />
+        </NavLink>
+        <NavLink to="/covid">
+          <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome2} />
+        </NavLink>
+        <NavLink to="/workout">
+          <HomeTemplate title="Workout Tracker" homepagePic={workoutHome} />
+        </NavLink>
+        <NavLink to="/blog">
+          <HomeTemplate title="Blog App" homepagePic={blogHome2} />
+        </NavLink>
+        <NavLink to="/twitter">
+          <HomeTemplate title="Twitter Clone" homepagePic={twitterHome2} />
+        </NavLink>
+        <NavLink to="/employee">
+          <HomeTemplate title="Employee Tracker" homepagePic={employeeHome2} />
+        </NavLink>
+        <NavLink to="/book">
+          <HomeTemplate title="Book Finder" homepagePic={booksHome2} />
+        </NavLink>
+        <NavLink to="/budget">
+          <HomeTemplate title="Budget Tracker" homepagePic={budgetHome2} />
+        </NavLink>
+        <NavLink to="/password">
+          <HomeTemplate
+            title="Password Generator"
+            homepagePic={passwordHome2}
+          />
+        </NavLink>
+        <NavLink to="/weather">
+          <HomeTemplate title="Weather Dashboard" homepagePic={weatherHome2} />
+        </NavLink>
         {/* <HomeTemplate title="Movie A Lister" homepagePic={} /> */}
-        <HomeTemplate title="Note Taker" homepagePic={noteHome2} />
-        <HomeTemplate title="Burger Devourer" homepagePic={burgerHome2} />
-        <HomeTemplate
-          title="Team Profile Generator"
-          homepagePic={teamHome}
-        />
+        <NavLink to="/note">
+          <HomeTemplate title="Note Taker" homepagePic={noteHome2} />
+        </NavLink>
+        <NavLink to="/burger">
+          <HomeTemplate title="Burger Devourer" homepagePic={burgerHome2} />
+        </NavLink>
+        <NavLink to="/team">
+          <HomeTemplate title="Team Profile Generator" homepagePic={teamHome} />
+        </NavLink>
         {/* <HomeTemplate title="5" homepagePic={} /> */}
       </div>
     </div>
