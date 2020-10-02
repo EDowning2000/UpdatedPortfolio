@@ -20,6 +20,7 @@ import booksHome2 from "../../Images/booksHome2.png";
 import teamProfileHome from "../../Images/teamProfileHome.png";
 import weatherHome2 from "../../Images/weatherHome2.png";
 import blogHome2 from '../../Images/blogHome2.png'
+import teamHome from '../../Images/teamHome.png';
 
 function Projects() {
   const animateProjects = () => {
@@ -111,7 +112,7 @@ function Projects() {
         <HomeTemplate title="Burger Devourer" homepagePic={burgerHome2} />
         <HomeTemplate
           title="Team Profile Generator"
-          homepagePic={teamProfileHome}
+          homepagePic={teamHome}
         />
         {/* <HomeTemplate title="5" homepagePic={} /> */}
       </div>
