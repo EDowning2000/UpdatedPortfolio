@@ -1,12 +1,14 @@
-.title{
+.title {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 45px;
   color: rgba(180, 170, 170, 1);
   font-weight: lighter;
 }
-img{
-  width:250px;
-  height: 175px;
- 
+img {
+  width: 250px;
+  height: 150px;
+}
+img:hover{
+  filter: brightness(85%);
 }
