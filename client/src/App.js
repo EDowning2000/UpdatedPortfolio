@@ -14,6 +14,7 @@ import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/ProjectsTemplate/Projects";
+import individualProject from './Components/ProjectsTemplate/IndividualProject/IndividualProject'
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -201,6 +202,21 @@ function App() {
               <Route path="/technologies" exact component={Technologies} />
               <Route to="/projects" exact component={Projects} />
               <Route to='/proj1' exact component={IndividualProject}></Route>
+              <Route to='/grouped'></Route>
+              <Route to='/covid'></Route>
+              <Route to='/workout'></Route>
+              <Route to='/blog'></Route>
+              <Route to='/twitter'></Route>
+              <Route to='/employee'></Route>
+              <Route to='/book'></Route>
+              <Route to='/budget'></Route>
+              <Route to='/password'></Route>
+              <Route to='/weather'></Route>
+              <Route to='/note'></Route>
+              <Route to='/burger'></Route>
+              <Route to='/team'></Route>
+
+
             </Switch>
           </div>
 
