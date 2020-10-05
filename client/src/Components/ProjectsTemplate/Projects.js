@@ -97,47 +97,47 @@ function Projects() {
         </Tippy>
       </div>
       <div className="projectsContainer">
-        <NavLink to="/grouped">
+        <NavLink to="/grouped" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Grouped" homepagePic={groupedHome2} />
         </NavLink>
-        <NavLink to="/covid">
+        <NavLink to="/covid" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Covid 19 Tracker" homepagePic={covidHome2} />
         </NavLink>
-        <NavLink to="/workout">
+        <NavLink to="/workout" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Workout Tracker" homepagePic={workoutHome} />
         </NavLink>
-        <NavLink to="/blog">
+        <NavLink to="/blog" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Blog App" homepagePic={blogHome2} />
         </NavLink>
-        <NavLink to="/twitter">
+        <NavLink to="/twitter" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Twitter Clone" homepagePic={twitterHome2} />
         </NavLink>
-        <NavLink to="/employee">
+        <NavLink to="/employee" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Employee Tracker" homepagePic={employeeHome2} />
         </NavLink>
-        <NavLink to="/book">
+        <NavLink to="/book" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Book Finder" homepagePic={booksHome2} />
         </NavLink>
-        <NavLink to="/budget">
+        <NavLink to="/budget" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Budget Tracker" homepagePic={budgetHome2} />
         </NavLink>
-        <NavLink to="/password">
+        <NavLink to="/password" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate
             title="Password Generator"
             homepagePic={passwordHome2}
           />
         </NavLink>
-        <NavLink to="/weather">
+        <NavLink to="/weather" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Weather Dashboard" homepagePic={weatherHome2} />
         </NavLink>
         {/* <HomeTemplate title="Movie A Lister" homepagePic={} /> */}
-        <NavLink to="/note">
+        <NavLink to="/note" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Note Taker" homepagePic={noteHome2} />
         </NavLink>
-        <NavLink to="/burger">
+        <NavLink to="/burger" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Burger Devourer" homepagePic={burgerHome2} />
         </NavLink>
-        <NavLink to="/team">
+        <NavLink to="/team" className="textNone" activeStyle={{ textDecoration: "none" }}>
           <HomeTemplate title="Team Profile Generator" homepagePic={teamHome} />
         </NavLink>
         {/* <HomeTemplate title="5" homepagePic={} /> */}
