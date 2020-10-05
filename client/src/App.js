@@ -14,7 +14,7 @@ import linkedInPic from "../src/Images/LinkedInPic.png";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/ProjectsTemplate/Projects";
-import individualProject from './Components/ProjectsTemplate/IndividualProject/IndividualProject'
+import IndividualProject from "./Components/ProjectsTemplate/IndividualProject/IndividualProject";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -54,42 +54,42 @@ function App() {
     anime({
       targets: ".app_follow",
       translateY: 685,
-      delay: 100
+      delay: 100,
     });
   };
   const animateSocial2 = () => {
     anime({
       targets: ".app_linkedInHover",
       translateY: 685,
-      delay: 200
+      delay: 200,
     });
   };
   const animateSocial3 = () => {
     anime({
       targets: ".app_githubHover",
       translateY: 685,
-      delay: 300
+      delay: 300,
     });
   };
   const animateSocial4 = () => {
     anime({
       targets: ".app_twitterHover",
       translateY: 685,
-      delay: 400
+      delay: 400,
     });
   };
   const animateSocial5 = () => {
     anime({
       targets: ".app_instagramHover",
       translateY: 685,
-      delay: 500
+      delay: 500,
     });
   };
   const animateSocial6 = () => {
     anime({
       targets: ".app_gmailHover",
       translateY: 685,
-      delay: 600
+      delay: 600,
     });
   };
 
@@ -103,11 +103,11 @@ function App() {
 
   useEffect(() => {
     animateSocial1();
-    animateSocial2()
-    animateSocial3()
-    animateSocial4()
-    animateSocial5()
-    animateSocial6()
+    animateSocial2();
+    animateSocial3();
+    animateSocial4();
+    animateSocial5();
+    animateSocial6();
     // animateMain();
     animateRight();
   }, []);
@@ -116,14 +116,12 @@ function App() {
     setCopy("Copied!");
   };
 
-
-
   return (
     <div className="App">
       <Router>
         <div className="app_topContainer" id="app_topContainer">
           <div className="app_follow">Follow Me</div>
-          <Tippy content="Click Me!" placement="right" duration="500" >
+          <Tippy content="Click Me!" placement="right" duration="500">
             <a
               href="https://www.linkedin.com/in/emerson-downing-baaa43195/"
               target="blank"
@@ -199,24 +197,171 @@ function App() {
           <div className={show}>
             <Switch>
               <Route exact path="/" exact component={AboutMe} />
-              <Route path="/technologies" exact component={Technologies} />
-              <Route to="/projects" exact component={Projects} />
-              <Route to='/proj1' exact component={IndividualProject}></Route>
-              <Route to='/grouped'></Route>
-              <Route to='/covid'></Route>
-              <Route to='/workout'></Route>
-              <Route to='/blog'></Route>
-              <Route to='/twitter'></Route>
-              <Route to='/employee'></Route>
-              <Route to='/book'></Route>
-              <Route to='/budget'></Route>
-              <Route to='/password'></Route>
-              <Route to='/weather'></Route>
-              <Route to='/note'></Route>
-              <Route to='/burger'></Route>
-              <Route to='/team'></Route>
-
-
+              <Route
+                exact
+                path="/technologies"
+                exact
+                component={Technologies}
+              />
+              <Route exact path="/projects" exact component={Projects} />
+              {/* <Route exact path='/proj1' exact component={IndividualProject}></Route> */}
+              <Route path="/grouped">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/covid">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/workout">
+                {" "}
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/blog">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/twitter">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/employee">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/book">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/budget">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/password">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/weather">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/note">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/burger">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
+              <Route path="/team">
+                <IndividualProject
+                  individualGHLink=""
+                  individualTitle=""
+                  image1=""
+                  image2=""
+                  image3=""
+                  individualDescription=""
+                  individualTrials=""
+                  individualTech=""
+                />
+              </Route>
             </Switch>
           </div>
 
