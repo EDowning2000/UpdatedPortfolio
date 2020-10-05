@@ -20,7 +20,6 @@ import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import anime from "animejs/lib/anime.es.js";
-import IndividualProject from "./Components/ProjectsTemplate/IndividualProject/IndividualProject";
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
@@ -207,14 +206,14 @@ function App() {
               {/* <Route exact path='/proj1' exact component={IndividualProject}></Route> */}
               <Route path="/grouped">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/Grouped"
+                  individualTitle="Grouped"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application allows for the user to find and create meetups and parties in their area. It is ideal for people moving to new areas and searching for people with common interests or just things to do!"
+                  individualTrials="This application gave me some pretty big problems as it was my first really large react application. I wasnt great with components, moving around data, or being able to figure out things like a filter function in order to make the searching of events possible. However it did teach me about how powerful react can be, routing, a bit about components, and styling."
+                  individualTech="HTML, SCSS, React, Node, Express, Mongo, Sketch, Heroku"
                 />
               </Route>
               <Route path="/covid">
@@ -244,14 +243,14 @@ function App() {
               </Route>
               <Route path="/blog">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/BlogApp"
+                  individualTitle="Blog App"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This is a really basic application that allows you to make blog posts, as well as filter them by category."
+                  individualTrials="This application gave me some troubles with the Context API portion as it was really difficult to wrap my head around the global state thought process. In the end it showed me about a good structured react app, as well as served as a nice intro to global state in a pretty basic way"
+                  individualTech="HTML, CSS, React, Express, Node, Mongo"
                 />
               </Route>
               <Route path="/twitter">
@@ -316,14 +315,14 @@ function App() {
               </Route>
               <Route path="/weather">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/weather-dashboard"
+                  individualTitle="Weather Dashboard"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application allows you to see the weather for any given city for the day, as well as in 5 hour incriments"
+                  individualTrials="This was one of my first JS sites and the whole process of appending cards to the html file as well as drilling into an API was tricky at first, luckily after this i became really comfortable with both of those."
+                  individualTech="HTML, CSS, Javascript"
                 />
               </Route>
               <Route path="/note">
