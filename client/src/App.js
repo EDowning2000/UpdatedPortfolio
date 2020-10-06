@@ -218,27 +218,27 @@ function App() {
               </Route>
               <Route path="/covid">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/Covid19Tracker"
+                  individualTitle="Covid 19 Tracker"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This is an application that gets all of the most recent covid 19 data and displayss it in multiple different ways that are easy for the user to take in and digest. It shows it on a map, chart, as well as you are able to switch between different countries or just do the entire world if that is what the user desires."
+                  individualTrials="This application gave me quite a few troubles when it came to the graphs, as well as the map that i used via leaflet. Both were new technologies to me and didnt come super naturally. Through this application, I gained some experience with both of them and also got a lot more comfortable with react hooks as opposed to writing classes for all of my components like I had done in the past."
+                  individualTech="HTML, CSS, React, Heroku"
                 />
               </Route>
               <Route path="/workout">
                 {" "}
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/WorkoutTracker"
+                  individualTitle="Workout Tracker"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application allows you to track your workouts whether it be cardio or resistance training. Upon completing your workout it displays all of your statistics in a pie graph in terms of sets, time, and weight."
+                  individualTrials="This application gave me some troubles in terms of setting up the data visualization, as well as getting the mongo database deployed to the server. In the end it really helped me mostly with deployment and brushing up on some basic react concepts."
+                  individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
                 />
               </Route>
               <Route path="/blog">
@@ -255,62 +255,62 @@ function App() {
               </Route>
               <Route path="/twitter">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/TwitterClone"
+                  individualTitle="Twitter Clone"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This is a clone of Twitters UI, it also allows the user to make tweets from my account and have them displayed in the feed box. Also there is a portion on the right side where you can view my actual tweets, as well as click the tweet button(same one that is below all the photos on each project), and have a tweet drafted from your account that you can see before posting."
+                  individualTrials="This application gave me some troubles in terms of using firebase for the first time. Also implementing the widgets on the right side was a bit of a challenge. In the end i learned how to deploy from firebase, as well as send and get information from your database which was really nice as it allows for a really rapid development cycle."
+                  individualTech="HTML, CSS, React, MaterialUI, Firebase"
                 />
               </Route>
               <Route path="/employee">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/EmployeeTracker3.0"
+                  individualTitle="Employee Tracker"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This is a very basic application that would be used by corporations in order to track a list of employees and show some of their statistics, you can also type in to search through the database of employees."
+                  individualTrials="This application gave me some troubles in terms of searching through the API data, as well as getting the users rendered everytime you type a letter as opposed to when you directly search for their entire name. This was a fantastic skill to learn and this project really taught me to think through react applications in a different sense."
+                  individualTech="HTML, CSS, React"
                 />
               </Route>
               <Route path="/book">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/Books"
+                  individualTitle="Books"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application uses googles book api in order to search and find any book through many different parameters. This is really helpful as it can also allow you to add books to your favorites, and then go back to see them and hopefully read them in the future!"
+                  individualTrials="Honestly this application didnt give me much trouble. In the end it just allowed me to brush up on the back end concepts such as the routes, schema, and most importantly the controllers. "
+                  individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
                 />
               </Route>
               <Route path="/budget">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/BudgetTrackerPWA"
+                  individualTitle="Budget Tracker"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application allows a user to track their budget by adding and subtracting funds. It also displays the data in a nice graph for the user to see."
+                  individualTrials="The back end of this project was the portion that gave me the most troubles, getting the routes, and database working in order to display the data to the user was a little bit of a task. Yet another great project to brush up and improve my node and database skills."
+                  individualTech="HTML, CSS, Javascript, Node, Express, Mongo, Heroku"
                 />
               </Route>
               <Route path="/password">
                 <IndividualProject
-                  individualGHLink=""
+                  individualGHLink="https://github.com/EDowning2000/password-generator"
                   individualTitle=""
                   image1=""
                   image2=""
                   image3=""
                   individualDescription=""
                   individualTrials=""
-                  individualTech=""
+                  individualTech="HTML, CSS, Javascript"
                 />
               </Route>
               <Route path="/weather">
