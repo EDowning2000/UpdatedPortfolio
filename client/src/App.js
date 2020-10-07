@@ -304,12 +304,12 @@ function App() {
               <Route path="/password">
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/password-generator"
-                  individualTitle=""
+                  individualTitle="Password Generator"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
+                  individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
+                  individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password"
                   individualTech="HTML, CSS, Javascript"
                 />
               </Route>
