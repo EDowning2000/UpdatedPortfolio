@@ -309,7 +309,7 @@ function App() {
                   image2=""
                   image3=""
                   individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
-                  individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password"
+                  individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password, I also dabbled in trying to get a click to copy to clipboard function but it was too much for my noob brain to handle. In the end this taught me quite a bit about basic JS in terms of arrays, loops, and if statements."
                   individualTech="HTML, CSS, Javascript"
                 />
               </Route>
