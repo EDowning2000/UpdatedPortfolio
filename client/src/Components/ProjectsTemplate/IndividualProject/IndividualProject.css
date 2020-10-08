@@ -22,6 +22,9 @@
 .darken:hover {
   filter: brightness(80%);
 }
+.projectsColumn{
+  display: flex;
+}
 .twitterShare {
   margin-left: 15px;
   margin-top: 5px;
@@ -30,9 +33,10 @@
 .projectsColumn2 {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   margin-left: 500px;
   width: 350px;
+  margin-top: -325px;
 }
 .individualTitle {
   color: rgba(180, 170, 170, 1);
