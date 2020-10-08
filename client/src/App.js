@@ -327,14 +327,14 @@ function App() {
               </Route>
               <Route path="/note">
                 <IndividualProject
-                  individualGHLink=""
-                  individualTitle=""
+                  individualGHLink="https://github.com/EDowning2000/Note-Taker"
+                  individualTitle="Note Taker"
                   image1=""
                   image2=""
                   image3=""
-                  individualDescription=""
-                  individualTrials=""
-                  individualTech=""
+                  individualDescription="This application allows the user to take, as well as edit notes for them to use at a different time. It saves the notes and allows them to be accessed later."
+                  individualTrials="This application gave me troubles specifically in terms of the get, put, and update requests to the server. In the end it helped me brush up on that knowledge but wasnt the most helpful project in the world if im being honest. "
+                  individualTech="HTML, CSS, Javascript, Node, Express"
                 />
               </Route>
               <Route path="/burger">
