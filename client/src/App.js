@@ -195,14 +195,9 @@ function App() {
         <div className="app_me">
           <div className={show}>
             <Switch>
-              <Route exact path="/" exact component={AboutMe} />
-              <Route
-                exact
-                path="/technologies"
-                exact
-                component={Technologies}
-              />
-              <Route exact path="/projects" exact component={Projects} />
+              <Route exact path="/" component={AboutMe} />
+              <Route exact path="/technologies" component={Technologies} />
+              <Route exact path="/projects" component={Projects} />
               {/* <Route exact path='/proj1' exact component={IndividualProject}></Route> */}
               <Route path="/grouped">
                 <IndividualProject

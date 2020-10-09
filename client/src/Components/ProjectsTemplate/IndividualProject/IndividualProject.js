@@ -1,6 +1,6 @@
 import React from "react";
 import "./IndividualProject.css";
-import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterShareButton } from "react-twitter-embed";
 import ghIcon from "../../../Images/githubPic.png";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "react-awesome-slider/src/styles";
@@ -29,7 +29,7 @@ function IndividualProject({
         {/* <img className="projectPhoto" src={individualPic} /> */}
 
         <a classname="individualGH " href={individualGHLink} target="blank">
-          <img className="ghIcon darken" src={ghIcon} />
+          <img className="ghIcon darken" src={ghIcon} alt="github icon" />
         </a>
         <div className="twitterShare">
           <TwitterShareButton

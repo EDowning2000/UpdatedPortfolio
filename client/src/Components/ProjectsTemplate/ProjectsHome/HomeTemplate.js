@@ -5,7 +5,7 @@ function HomeTemplate({homepagePic, title}) {
   return (
     <div className="container">
       {/* <div className="header"><span className="first"></span><span className="second"></span><span className="third"></span></div> */}
-      <img src={homepagePic}/>
+      <img src={homepagePic} alt={title+" homescreen"}/>
       <h3 className='title'>{title}</h3>
     </div>
   )

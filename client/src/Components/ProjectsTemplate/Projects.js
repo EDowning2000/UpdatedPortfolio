@@ -4,7 +4,6 @@ import "./Projects.css";
 import anime from "animejs/lib/anime.es.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import placeholderPic from "../../Images/placeholderPic.webp";
 import HomeTemplate from "./ProjectsHome/HomeTemplate";
 import covidHome from "../../Images/covidHome.png";
 import groupedHome from "../../Images/groupedHome.png";
