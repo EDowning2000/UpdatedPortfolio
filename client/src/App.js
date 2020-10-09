@@ -16,6 +16,20 @@ import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/ProjectsTemplate/Projects";
 import IndividualProject from "./Components/ProjectsTemplate/IndividualProject/IndividualProject";
 
+import covidHome from "./Images/covidHome.png";
+import groupedHome from "./Images/groupedHome.png";
+import workoutHome from "./Images/workoutHome.png";
+import noteHome from "./Images/noteHome.png";
+import burgerHome from "./Images/burgerHome.png";
+import budgetHome from "./Images/budgetHome.png";
+import passwordHome from "./Images/passwordHome.png";
+import employeeHome from "./Images/employeeHome.png";
+import twitterHome from "./Images/twitterHome.png";
+import booksHome from "./Images/booksHome.png";
+import weatherHome from "./Images/weatherHome.png";
+import blogHome from "./Images/blogHome.png";
+import teamHome from "./Images/teamHome.png";
+
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
@@ -203,7 +217,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/Grouped"
                   individualTitle="Grouped"
-                  image1=""
+                  image1={groupedHome}
                   image2=""
                   image3=""
                   individualDescription="This application allows for the user to find and create meetups and parties in their area. It is ideal for people moving to new areas and searching for people with common interests or just things to do!"
@@ -215,7 +229,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/Covid19Tracker"
                   individualTitle="Covid 19 Tracker"
-                  image1=""
+                  image1={covidHome}
                   image2=""
                   image3=""
                   individualDescription="This is an application that gets all of the most recent covid 19 data and displayss it in multiple different ways that are easy for the user to take in and digest. It shows it on a map, chart, as well as you are able to switch between different countries or just do the entire world if that is what the user desires."
@@ -228,7 +242,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/WorkoutTracker"
                   individualTitle="Workout Tracker"
-                  image1=""
+                  image1={workoutHome}
                   image2=""
                   image3=""
                   individualDescription="This application allows you to track your workouts whether it be cardio or resistance training. Upon completing your workout it displays all of your statistics in a pie graph in terms of sets, time, and weight."
@@ -240,7 +254,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/BlogApp"
                   individualTitle="Blog App"
-                  image1=""
+                  image1={blogHome}
                   image2=""
                   image3=""
                   individualDescription="This is a really basic application that allows you to make blog posts, as well as filter them by category."
@@ -252,7 +266,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/TwitterClone"
                   individualTitle="Twitter Clone"
-                  image1=""
+                  image1={twitterHome}
                   image2=""
                   image3=""
                   individualDescription="This is a clone of Twitters UI, it also allows the user to make tweets from my account and have them displayed in the feed box. Also there is a portion on the right side where you can view my actual tweets, as well as click the tweet button(same one that is below all the photos on each project), and have a tweet drafted from your account that you can see before posting."
@@ -264,7 +278,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/EmployeeTracker3.0"
                   individualTitle="Employee Tracker"
-                  image1=""
+                  image1={employeeHome}
                   image2=""
                   image3=""
                   individualDescription="This is a very basic application that would be used by corporations in order to track a list of employees and show some of their statistics, you can also type in to search through the database of employees."
@@ -276,7 +290,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/Books"
                   individualTitle="Books"
-                  image1=""
+                  image1={booksHome}
                   image2=""
                   image3=""
                   individualDescription="This application uses googles book api in order to search and find any book through many different parameters. This is really helpful as it can also allow you to add books to your favorites, and then go back to see them and hopefully read them in the future!"
@@ -288,7 +302,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/BudgetTrackerPWA"
                   individualTitle="Budget Tracker"
-                  image1=""
+                  image1={budgetHome}
                   image2=""
                   image3=""
                   individualDescription="This application allows a user to track their budget by adding and subtracting funds. It also displays the data in a nice graph for the user to see."
@@ -300,7 +314,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/password-generator"
                   individualTitle="Password Generator"
-                  image1=""
+                  image1={passwordHome}
                   image2=""
                   image3=""
                   individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
@@ -312,7 +326,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/weather-dashboard"
                   individualTitle="Weather Dashboard"
-                  image1=""
+                  image1={weatherHome}
                   image2=""
                   image3=""
                   individualDescription="This application allows you to see the weather for any given city for the day, as well as in 5 hour incriments"
@@ -324,7 +338,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/Note-Taker"
                   individualTitle="Note Taker"
-                  image1=""
+                  image1={noteHome}
                   image2=""
                   image3=""
                   individualDescription="This application allows the user to take, as well as edit notes for them to use at a different time. It saves the notes and allows them to be accessed later."
@@ -336,7 +350,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/burger"
                   individualTitle="Burger Tracker"
-                  image1=""
+                  image1={burgerHome}
                   image2=""
                   image3=""
                   individualDescription="This is an application where you can add a burger to the queue and then you can devour it and then it is put into a different section of the application. "
@@ -348,7 +362,7 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/TeamProfileGenerator"
                   individualTitle="Team Profile Generator"
-                  image1=""
+                  image1={teamHome}
                   image2=""
                   image3=""
                   individualDescription="This is a node CLI application that allows for a user to input information about their working team in the terminal when running the application and then the information that they submit to node will then populate the HTML file based on the several templates that have been created."
