@@ -10,7 +10,7 @@ function IndividualProject({
   individualTitle,
   image1,
   image2,
-  image3,
+  // image3,
   individualDescription,
   individualTrials, 
   individualTech
@@ -22,7 +22,7 @@ function IndividualProject({
           <AwesomeSlider cssModule={AwesomeSliderStyles}>
             <div data-src={image1} />
             <div data-src={image2} />
-            <div data-src={image3} />
+            {/* <div data-src={image3} /> */}
           </AwesomeSlider>
         </div>
 
