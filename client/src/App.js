@@ -247,8 +247,8 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/Grouped"
                   individualTitle="Grouped"
                   image1={groupedHome}
-                  image2=""
-                  image3=""
+                  image2={groupedHome2}
+                  image3={groupedHome3}
                   individualDescription="This application allows for the user to find and create meetups and parties in their area. It is ideal for people moving to new areas and searching for people with common interests or just things to do!"
                   individualTrials="This application gave me some pretty big problems as it was my first really large react application. I wasnt great with components, moving around data, or being able to figure out things like a filter function in order to make the searching of events possible. However it did teach me about how powerful react can be, routing, a bit about components, and styling."
                   individualTech="HTML, SCSS, React, Node, Express, Mongo, Sketch, Heroku"
@@ -259,7 +259,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/Covid19Tracker"
                   individualTitle="Covid 19 Tracker"
                   image1={covidHome}
-                  image2={covidRecording}
+                  image2={covidHome2}
                   individualDescription="This is an application that gets all of the most recent covid 19 data and displayss it in multiple different ways that are easy for the user to take in and digest. It shows it on a map, chart, as well as you are able to switch between different countries or just do the entire world if that is what the user desires."
                   individualTrials="This application gave me quite a few troubles when it came to the graphs, as well as the map that i used via leaflet. Both were new technologies to me and didnt come super naturally. Through this application, I gained some experience with both of them and also got a lot more comfortable with react hooks as opposed to writing classes for all of my components like I had done in the past."
                   individualTech="HTML, CSS, React, Heroku"
@@ -271,8 +271,8 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/WorkoutTracker"
                   individualTitle="Workout Tracker"
                   image1={workoutHome}
-                  image2=""
-                  image3=""
+                  image2={workoutHome2}
+                  
                   individualDescription="This application allows you to track your workouts whether it be cardio or resistance training. Upon completing your workout it displays all of your statistics in a pie graph in terms of sets, time, and weight."
                   individualTrials="This application gave me some troubles in terms of setting up the data visualization, as well as getting the mongo database deployed to the server. In the end it really helped me mostly with deployment and brushing up on some basic react concepts."
                   individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
@@ -283,8 +283,8 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/BlogApp"
                   individualTitle="Blog App"
                   image1={blogHome}
-                  image2=""
-                  image3=""
+                  image2={blogHome2}
+                  
                   individualDescription="This is a really basic application that allows you to make blog posts, as well as filter them by category."
                   individualTrials="This application gave me some troubles with the Context API portion as it was really difficult to wrap my head around the global state thought process. In the end it showed me about a good structured react app, as well as served as a nice intro to global state in a pretty basic way"
                   individualTech="HTML, CSS, React, Express, Node, Mongo"
@@ -295,7 +295,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/TwitterClone"
                   individualTitle="Twitter Clone"
                   image1={twitterHome}
-                  image2=""
+                  image2={twitterHome2}
                   individualDescription="This is a clone of Twitters UI, it also allows the user to make tweets from my account and have them displayed in the feed box. Also there is a portion on the right side where you can view my actual tweets, as well as click the tweet button(same one that is below all the photos on each project), and have a tweet drafted from your account that you can see before posting."
                   individualTrials="This application gave me some troubles in terms of using firebase for the first time. Also implementing the widgets on the right side was a bit of a challenge. In the end i learned how to deploy from firebase, as well as send and get information from your database which was really nice as it allows for a really rapid development cycle."
                   individualTech="HTML, CSS, React, MaterialUI, Firebase"
@@ -306,7 +306,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/EmployeeTracker3.0"
                   individualTitle="Employee Tracker"
                   image1={employeeHome}
-                  image2=""
+                  image2={employeeHome2}
                   individualDescription="This is a very basic application that would be used by corporations in order to track a list of employees and show some of their statistics, you can also type in to search through the database of employees."
                   individualTrials="This application gave me some troubles in terms of searching through the API data, as well as getting the users rendered everytime you type a letter as opposed to when you directly search for their entire name. This was a fantastic skill to learn and this project really taught me to think through react applications in a different sense."
                   individualTech="HTML, CSS, React"
@@ -317,7 +317,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/Books"
                   individualTitle="Books"
                   image1={booksHome}
-                  image2=""
+                  image2={booksHome2}
                   individualDescription="This application uses googles book api in order to search and find any book through many different parameters. This is really helpful as it can also allow you to add books to your favorites, and then go back to see them and hopefully read them in the future!"
                   individualTrials="Honestly this application didnt give me much trouble. In the end it just allowed me to brush up on the back end concepts such as the routes, schema, and most importantly the controllers. "
                   individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
@@ -328,7 +328,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/BudgetTrackerPWA"
                   individualTitle="Budget Tracker"
                   image1={budgetHome}
-                  image2=""
+                  image2={budgetHome2}
                   individualDescription="This application allows a user to track their budget by adding and subtracting funds. It also displays the data in a nice graph for the user to see."
                   individualTrials="The back end of this project was the portion that gave me the most troubles, getting the routes, and database working in order to display the data to the user was a little bit of a task. Yet another great project to brush up and improve my node and database skills."
                   individualTech="HTML, CSS, Javascript, Node, Express, Mongo, Heroku"
@@ -338,8 +338,9 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/password-generator"
                   individualTitle="Password Generator"
-                  image1={passwordHome}
-                  image2=""
+                  image1={passwordHome2}
+                  image2={passwordHome3}
+                  
                   individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
                   individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password, I also dabbled in trying to get a click to copy to clipboard function but it was too much for my noob brain to handle. In the end this taught me quite a bit about basic JS in terms of arrays, loops, and if statements."
                   individualTech="HTML, CSS, Javascript"
@@ -350,7 +351,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/weather-dashboard"
                   individualTitle="Weather Dashboard"
                   image1={weatherHome}
-                  image2=""
+                  image2={weatherHome2}
                   individualDescription="This application allows you to see the weather for any given city for the day, as well as in 5 hour incriments"
                   individualTrials="This was one of my first JS sites and the whole process of appending cards to the html file as well as drilling into an API was tricky at first, luckily after this i became really comfortable with both of those."
                   individualTech="HTML, CSS, Javascript"
@@ -361,7 +362,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/Note-Taker"
                   individualTitle="Note Taker"
                   image1={noteHome}
-                  image2=""
+                  image2={noteHome2}
                   individualDescription="This application allows the user to take, as well as edit notes for them to use at a different time. It saves the notes and allows them to be accessed later."
                   individualTrials="This application gave me troubles specifically in terms of the get, put, and update requests to the server. In the end it helped me brush up on that knowledge but wasnt the most helpful project in the world if im being honest. "
                   individualTech="HTML, CSS, Javascript, Node, Express"
@@ -372,18 +373,19 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/burger"
                   individualTitle="Burger Tracker"
                   image1={burgerHome}
-                  image2=""
+                  image2={burgerHome2}
                   individualDescription="This is an application where you can add a burger to the queue and then you can devour it and then it is put into a different section of the application. "
                   individualTrials="This applicatoin gave me troubles in terms of learning how to render the data with handlebars as well as getting situated with the MVC mentality that you need in order to use a front end templating engine. I struggled quite a bit with the syntax of handlebars and found the setup to be a bit difficult. In the end it was a good skill to learn but showed me also how powerful and feature rich react can be as opposed to something like this. "
                   individualTech="HTML, CSS, Javascript, Handlebars, Node, Express, mySql"
                 />
               </Route>
               <Route path="/team">
-                <IndividualProject
+                <IndividualProject3
                   individualGHLink="https://github.com/EDowning2000/TeamProfileGenerator"
                   individualTitle="Team Profile Generator"
                   image1={teamHome}
-                  image2=""
+                  image2={teamHome2}
+                  image3={teamHome3}
                   individualDescription="This is a node CLI application that allows for a user to input information about their working team in the terminal when running the application and then the information that they submit to node will then populate the HTML file based on the several templates that have been created."
                   individualTrials="This application gave me troubles in terms of getting all the different npm packages properly installed and used. Having to read through the documentation of all of them was tricky but this project proved how powerful of a skill that can be."
                   individualTech="HTML, CSS, Node, Javascript"
