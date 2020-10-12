@@ -15,20 +15,49 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/ProjectsTemplate/Projects";
 import IndividualProject from "./Components/ProjectsTemplate/IndividualProject/IndividualProject";
+import IndividualProject3 from "./Components/ProjectsTemplate/IndividualProject3/IndividualProject3";
 
 import covidHome from "./Images/covidHome.png";
+import covidHome2 from "./Images/covidHome2.png";
+
 import groupedHome from "./Images/groupedHome.png";
+import groupedHome2 from "./Images/groupedHome2.png";
+import groupedHome3 from "./Images/groupedHome3.png";
+
 import workoutHome from "./Images/workoutHome.png";
+import workoutHome2 from "./Images/workoutHome2.png";
+
 import noteHome from "./Images/noteHome.png";
+import noteHome2 from "./Images/noteHome2.png";
+
 import burgerHome from "./Images/burgerHome.png";
+import burgerHome2 from "./Images/burgerHome2.png";
+
 import budgetHome from "./Images/budgetHome.png";
+import budgetHome2 from "./Images/budgetHome2.png";
+
 import passwordHome from "./Images/passwordHome.png";
+import passwordHome2 from "./Images/passwordHome2.png";
+import passwordHome3 from "./Images/passwordHome3.png";
+
 import employeeHome from "./Images/employeeHome.png";
+import employeeHome2 from "./Images/employeeHome2.png";
+
 import twitterHome from "./Images/twitterHome.png";
+import twitterHome2 from "./Images/twitterHome2.png";
+
 import booksHome from "./Images/booksHome.png";
+import booksHome2 from "./Images/booksHome2.png";
+
 import weatherHome from "./Images/weatherHome.png";
+import weatherHome2 from "./Images/weatherHome2.png";
+
 import blogHome from "./Images/blogHome.png";
+import blogHome2 from "./Images/blogHome2.png";
+
 import teamHome from "./Images/teamHome.png";
+import teamHome2 from "./Images/teamHome2.png";
+import teamHome3 from "./Images/teamHome3.png";
 
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
@@ -214,7 +243,7 @@ function App() {
               <Route exact path="/projects" component={Projects} />
               {/* <Route exact path='/proj1' exact component={IndividualProject}></Route> */}
               <Route path="/grouped">
-                <IndividualProject
+                <IndividualProject3
                   individualGHLink="https://github.com/EDowning2000/Grouped"
                   individualTitle="Grouped"
                   image1={groupedHome}
@@ -230,8 +259,7 @@ function App() {
                   individualGHLink="https://github.com/EDowning2000/Covid19Tracker"
                   individualTitle="Covid 19 Tracker"
                   image1={covidHome}
-                  image2=""
-                  image3=""
+                  image2={covidRecording}
                   individualDescription="This is an application that gets all of the most recent covid 19 data and displayss it in multiple different ways that are easy for the user to take in and digest. It shows it on a map, chart, as well as you are able to switch between different countries or just do the entire world if that is what the user desires."
                   individualTrials="This application gave me quite a few troubles when it came to the graphs, as well as the map that i used via leaflet. Both were new technologies to me and didnt come super naturally. Through this application, I gained some experience with both of them and also got a lot more comfortable with react hooks as opposed to writing classes for all of my components like I had done in the past."
                   individualTech="HTML, CSS, React, Heroku"
@@ -268,7 +296,6 @@ function App() {
                   individualTitle="Twitter Clone"
                   image1={twitterHome}
                   image2=""
-                  image3=""
                   individualDescription="This is a clone of Twitters UI, it also allows the user to make tweets from my account and have them displayed in the feed box. Also there is a portion on the right side where you can view my actual tweets, as well as click the tweet button(same one that is below all the photos on each project), and have a tweet drafted from your account that you can see before posting."
                   individualTrials="This application gave me some troubles in terms of using firebase for the first time. Also implementing the widgets on the right side was a bit of a challenge. In the end i learned how to deploy from firebase, as well as send and get information from your database which was really nice as it allows for a really rapid development cycle."
                   individualTech="HTML, CSS, React, MaterialUI, Firebase"
@@ -280,7 +307,6 @@ function App() {
                   individualTitle="Employee Tracker"
                   image1={employeeHome}
                   image2=""
-                  image3=""
                   individualDescription="This is a very basic application that would be used by corporations in order to track a list of employees and show some of their statistics, you can also type in to search through the database of employees."
                   individualTrials="This application gave me some troubles in terms of searching through the API data, as well as getting the users rendered everytime you type a letter as opposed to when you directly search for their entire name. This was a fantastic skill to learn and this project really taught me to think through react applications in a different sense."
                   individualTech="HTML, CSS, React"
@@ -292,7 +318,6 @@ function App() {
                   individualTitle="Books"
                   image1={booksHome}
                   image2=""
-                  image3=""
                   individualDescription="This application uses googles book api in order to search and find any book through many different parameters. This is really helpful as it can also allow you to add books to your favorites, and then go back to see them and hopefully read them in the future!"
                   individualTrials="Honestly this application didnt give me much trouble. In the end it just allowed me to brush up on the back end concepts such as the routes, schema, and most importantly the controllers. "
                   individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
@@ -304,7 +329,6 @@ function App() {
                   individualTitle="Budget Tracker"
                   image1={budgetHome}
                   image2=""
-                  image3=""
                   individualDescription="This application allows a user to track their budget by adding and subtracting funds. It also displays the data in a nice graph for the user to see."
                   individualTrials="The back end of this project was the portion that gave me the most troubles, getting the routes, and database working in order to display the data to the user was a little bit of a task. Yet another great project to brush up and improve my node and database skills."
                   individualTech="HTML, CSS, Javascript, Node, Express, Mongo, Heroku"
@@ -316,7 +340,6 @@ function App() {
                   individualTitle="Password Generator"
                   image1={passwordHome}
                   image2=""
-                  image3=""
                   individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
                   individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password, I also dabbled in trying to get a click to copy to clipboard function but it was too much for my noob brain to handle. In the end this taught me quite a bit about basic JS in terms of arrays, loops, and if statements."
                   individualTech="HTML, CSS, Javascript"
@@ -328,7 +351,6 @@ function App() {
                   individualTitle="Weather Dashboard"
                   image1={weatherHome}
                   image2=""
-                  image3=""
                   individualDescription="This application allows you to see the weather for any given city for the day, as well as in 5 hour incriments"
                   individualTrials="This was one of my first JS sites and the whole process of appending cards to the html file as well as drilling into an API was tricky at first, luckily after this i became really comfortable with both of those."
                   individualTech="HTML, CSS, Javascript"
@@ -340,7 +362,6 @@ function App() {
                   individualTitle="Note Taker"
                   image1={noteHome}
                   image2=""
-                  image3=""
                   individualDescription="This application allows the user to take, as well as edit notes for them to use at a different time. It saves the notes and allows them to be accessed later."
                   individualTrials="This application gave me troubles specifically in terms of the get, put, and update requests to the server. In the end it helped me brush up on that knowledge but wasnt the most helpful project in the world if im being honest. "
                   individualTech="HTML, CSS, Javascript, Node, Express"
@@ -352,7 +373,6 @@ function App() {
                   individualTitle="Burger Tracker"
                   image1={burgerHome}
                   image2=""
-                  image3=""
                   individualDescription="This is an application where you can add a burger to the queue and then you can devour it and then it is put into a different section of the application. "
                   individualTrials="This applicatoin gave me troubles in terms of learning how to render the data with handlebars as well as getting situated with the MVC mentality that you need in order to use a front end templating engine. I struggled quite a bit with the syntax of handlebars and found the setup to be a bit difficult. In the end it was a good skill to learn but showed me also how powerful and feature rich react can be as opposed to something like this. "
                   individualTech="HTML, CSS, Javascript, Handlebars, Node, Express, mySql"
@@ -364,7 +384,6 @@ function App() {
                   individualTitle="Team Profile Generator"
                   image1={teamHome}
                   image2=""
-                  image3=""
                   individualDescription="This is a node CLI application that allows for a user to input information about their working team in the terminal when running the application and then the information that they submit to node will then populate the HTML file based on the several templates that have been created."
                   individualTrials="This application gave me troubles in terms of getting all the different npm packages properly installed and used. Having to read through the documentation of all of them was tricky but this project proved how powerful of a skill that can be."
                   individualTech="HTML, CSS, Node, Javascript"
