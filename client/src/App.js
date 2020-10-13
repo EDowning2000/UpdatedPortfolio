@@ -372,20 +372,20 @@ function App() {
                 <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/burger"
                   individualTitle="Burger Tracker"
-                  image1={burgerHome}
-                  image2={burgerHome2}
+                  image1={burgerHome2}
+                  image2={burgerHome}
                   individualDescription="This is an application where you can add a burger to the queue and then you can devour it and then it is put into a different section of the application. "
                   individualTrials="This applicatoin gave me troubles in terms of learning how to render the data with handlebars as well as getting situated with the MVC mentality that you need in order to use a front end templating engine. I struggled quite a bit with the syntax of handlebars and found the setup to be a bit difficult. In the end it was a good skill to learn but showed me also how powerful and feature rich react can be as opposed to something like this. "
                   individualTech="HTML, CSS, Javascript, Handlebars, Node, Express, mySql"
                 />
               </Route>
               <Route path="/team">
-                <IndividualProject3
+                <IndividualProject
                   individualGHLink="https://github.com/EDowning2000/TeamProfileGenerator"
                   individualTitle="Team Profile Generator"
-                  image1={teamHome}
-                  image2={teamHome2}
-                  image3={teamHome3}
+                  image1={teamHome2}
+                  image2={teamHome3}
+                  // image3={teamHome3}
                   individualDescription="This is a node CLI application that allows for a user to input information about their working team in the terminal when running the application and then the information that they submit to node will then populate the HTML file based on the several templates that have been created."
                   individualTrials="This application gave me troubles in terms of getting all the different npm packages properly installed and used. Having to read through the documentation of all of them was tricky but this project proved how powerful of a skill that can be."
                   individualTech="HTML, CSS, Node, Javascript"
