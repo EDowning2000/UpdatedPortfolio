@@ -6,11 +6,11 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import igPic from "../src/Images/instagramPic.jpg";
-import ghPic from "../src/Images/githubPic.png";
-import gmailPic from "../src/Images/gmailPic.jpeg";
-import twitterPic from "../src/Images/twitterPic.jpg";
-import linkedInPic from "../src/Images/LinkedInPic.png";
+import Clipboard from "react-clipboard.js";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
+import anime from "animejs/lib/anime.es.js";
+
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/ProjectsTemplate/Projects";
@@ -36,7 +36,6 @@ import burgerHome2 from "./Images/burgerHome2.png";
 import budgetHome from "./Images/budgetHome.png";
 import budgetHome2 from "./Images/budgetHome2.png";
 
-import passwordHome from "./Images/passwordHome.png";
 import passwordHome2 from "./Images/passwordHome2.png";
 import passwordHome3 from "./Images/passwordHome3.png";
 
@@ -55,14 +54,14 @@ import weatherHome2 from "./Images/weatherHome2.png";
 import blogHome from "./Images/blogHome.png";
 import blogHome2 from "./Images/blogHome2.png";
 
-import teamHome from "./Images/teamHome.png";
 import teamHome2 from "./Images/teamHome2.png";
 import teamHome3 from "./Images/teamHome3.png";
 
-import Clipboard from "react-clipboard.js";
-import Tippy from "@tippyjs/react";
-import "tippy.js/dist/tippy.css";
-import anime from "animejs/lib/anime.es.js";
+import igPic from "../src/Images/instagramPic.jpg";
+import ghPic from "../src/Images/githubPic.png";
+import gmailPic from "../src/Images/gmailPic.jpeg";
+import twitterPic from "../src/Images/twitterPic.jpg";
+import linkedInPic from "../src/Images/LinkedInPic.png";
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");
@@ -272,7 +271,6 @@ function App() {
                   individualTitle="Workout Tracker"
                   image1={workoutHome}
                   image2={workoutHome2}
-                  
                   individualDescription="This application allows you to track your workouts whether it be cardio or resistance training. Upon completing your workout it displays all of your statistics in a pie graph in terms of sets, time, and weight."
                   individualTrials="This application gave me some troubles in terms of setting up the data visualization, as well as getting the mongo database deployed to the server. In the end it really helped me mostly with deployment and brushing up on some basic react concepts."
                   individualTech="HTML, CSS, React, Node, Express, Mongo, Heroku"
@@ -284,7 +282,6 @@ function App() {
                   individualTitle="Blog App"
                   image1={blogHome}
                   image2={blogHome2}
-                  
                   individualDescription="This is a really basic application that allows you to make blog posts, as well as filter them by category."
                   individualTrials="This application gave me some troubles with the Context API portion as it was really difficult to wrap my head around the global state thought process. In the end it showed me about a good structured react app, as well as served as a nice intro to global state in a pretty basic way"
                   individualTech="HTML, CSS, React, Express, Node, Mongo"
@@ -340,7 +337,6 @@ function App() {
                   individualTitle="Password Generator"
                   image1={passwordHome2}
                   image2={passwordHome3}
-                  
                   individualDescription="This application prompts the user with popups (i was just beginning and this seemed reasonable), in order to see what parameters their password needs to include. Finally it generates their password in the provided space."
                   individualTrials="This was a bit difficult in terms of sifting through the parameters and then generating a truly random password, I also dabbled in trying to get a click to copy to clipboard function but it was too much for my noob brain to handle. In the end this taught me quite a bit about basic JS in terms of arrays, loops, and if statements."
                   individualTech="HTML, CSS, Javascript"
