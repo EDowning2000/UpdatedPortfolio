@@ -22,7 +22,7 @@ import herokuPic from "../../Images/herokuIcon.png";
 
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import anime from "animejs/lib/anime.es.js";
+import anime from "animejs/lib/anime.es";
 
 function Technologies() {
   const animateTech1 = () => {

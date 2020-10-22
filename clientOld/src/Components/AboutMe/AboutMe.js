@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./AboutMe.css";
-import anime from "animejs/lib/anime.es.js";
+import anime from "animejs/lib/anime.es";
 
 function AboutMe() {
   const animateAbt = () => {

@@ -9,7 +9,7 @@ import {
 import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import anime from "animejs/lib/anime.es.js";
+import anime from "animejs/lib/anime.es";
 
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Technologies from "./Components/Technologies/Technologies";
@@ -57,11 +57,11 @@ import blogHome2 from "./Images/blogHome2.png";
 import teamHome2 from "./Images/teamHome2.png";
 import teamHome3 from "./Images/teamHome3.png";
 
-import igPic from "../src/Images/instagramPic.jpg";
-import ghPic from "../src/Images/githubPic.png";
-import gmailPic from "../src/Images/gmailPic.jpeg";
-import twitterPic from "../src/Images/twitterPic.jpg";
-import linkedInPic from "../src/Images/LinkedInPic.png";
+import igPic from "./Images/instagramPic.jpg";
+import ghPic from "./Images/githubPic.png";
+import gmailPic from "./Images/gmailPic.jpeg";
+import twitterPic from "./Images/twitterPic.jpg";
+import linkedInPic from "./Images/LinkedInPic.png";
 
 function App() {
   const [openMenu, setOpenMenu] = useState("false");

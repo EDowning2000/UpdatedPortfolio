@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Projects.css";
-import anime from "animejs/lib/anime.es.js";
+import anime from "animejs/lib/anime.es";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import HomeTemplate from "./ProjectsHome/HomeTemplate";
