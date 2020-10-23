@@ -1,0 +1,35 @@
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 10px;
+  transform:rotate(-1deg);
+}
+.myLinks{
+  display:flex;
+  margin-top: 60px;
+  margin-right: 120px;
+  
+}
+span{
+  text-align: right;
+  margin-left: 5px;
+  padding:6px;
+  font-weight: 200;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 8px;
+  color: #112d4e;
+  height: fit-content;
+}
+span:hover{
+  background:#dbe2ef;
+  transition: all .5s;
+  cursor: pointer;
+}
