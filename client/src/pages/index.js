@@ -1,10 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import './index.css'
+
 
 
 
 const IndexPage = () => (
-  
+  <div>hello world</div>
 )
 
 export default IndexPage
