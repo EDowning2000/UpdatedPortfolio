@@ -45,9 +45,14 @@
 .introThings{
   margin-left: 30%;
   margin-top: 40px;
-  filter: brightness(120%);
+  filter: brightness(110%);
   
   width: 40%;
   height: 200px;
   transform: rotate(.25deg);
+}
+.svg{
+  color: #3f72af;
+  margin-left: 30%;
+  margin-top: 40px;
 }
