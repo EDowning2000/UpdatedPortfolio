@@ -1,0 +1,25 @@
+.aboutContainer{
+  margin-top:-5px;
+  background-color: #3f72af;
+  height: 550px;
+  width: 100%;
+}
+.aboutMe{
+  padding-top: 90px;
+  font-size: 34px;
+  font-weight: 400;
+  color: #dbe2ef;
+  text-align: center;
+}
+.aboutMeContinued{
+  font-family: inherit;
+  padding-top: 20px;
+  font-size: 26px;
+  color: #dbe2ef;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  padding-left: 25%;
+  text-align: center;
+}
