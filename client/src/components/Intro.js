@@ -1,7 +1,7 @@
 import React from "react"
 import "./Intro.css"
 import emerPic from "../images/emerPic.png"
-import computerThings from "../images/computerThings.png"
+import computerThings from "../images/computerThings2.png"
 // import anime from "animejs/lib/anime.es.js"
 
 function Intro() {

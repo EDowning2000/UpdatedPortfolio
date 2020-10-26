@@ -30,7 +30,7 @@
   justify-content: center;
   text-align: center !important;
   text-align: center;
-  background: #3f72af;
+  background: #5e94d7;
   filter: brightness(110%);
   border-radius: 50%;
   width: 200px;
@@ -38,9 +38,10 @@
   box-shadow: 2px;
 }
 .introPic {
-  height: 160px;
-  width: 160px;
-  margin-left: -10%;
+  height: 180px;
+  width: 180px;
+  margin-top:-15px;
+  margin-left: -14%;
 }
 .introThings{
   margin-left: 30%;
@@ -52,7 +53,7 @@
   transform: rotate(.1deg);
 }
 .svg{
-  color: #3f72af;
+  color: #5e94d7;
   margin-left: 30%;
   margin-top: 40px;
 }

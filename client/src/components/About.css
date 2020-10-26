@@ -1,13 +1,13 @@
 .aboutContainer{
   margin-top:-5px;
-  background-color: #3f72af;
+  background-color: #5e94d7;
   height: 550px;
   width: 100%;
 }
 .aboutMe{
   padding-top: 90px;
   font-size: 34px;
-  font-weight: 400;
+  font-weight: 300;
   color: #dbe2ef;
   text-align: center;
 }
