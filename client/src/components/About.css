@@ -12,11 +12,11 @@
   text-align: center;
 }
 .aboutMeContinued{
-  font-family: inherit;
+  font-weight: lighter;
+  
   padding-top: 20px;
   font-size: 26px;
   color: #dbe2ef;
-  font-weight: 100;
   display: flex;
   justify-content: center;
   max-width: 900px;
