@@ -10,10 +10,10 @@ function Header() {
         <img src={mainLogo} alt="Emerson Downing's Logo" className="headerPic" />
 
         <div className="myLinks">
-          <span>About Me</span>
-          <span>Technologies</span>
-          <span className="headerColored">Projects</span>
-          <span>Contact Me</span>
+          <span className='myLinks1'>About Me</span>
+          <span className="myLinks2">Technologies</span>
+          <span className="myLinks3">Projects</span>
+          <span className="myLinks4">Contact Me</span>
         </div>
       </div>
     </>

@@ -28,7 +28,22 @@ span{
   color:black;
   height: fit-content;
 }
-span:hover{
+.myLinks1:hover{
+  background:#dbe2ef;
+  transition: all .5s;
+  cursor: pointer;
+}
+.myLinks2:hover{
+  background:#dbe2ef;
+  transition: all .5s;
+  cursor: pointer;
+}
+.myLinks3:hover{
+  background:#dbe2ef;
+  transition: all .5s;
+  cursor: pointer;
+}
+.myLinks4:hover{
   background:#dbe2ef;
   transition: all .5s;
   cursor: pointer;

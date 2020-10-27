@@ -34,7 +34,7 @@
 }
 .cardFrontEnd {
   padding-top: 5%;
-  
+
   justify-content: center;
   text-align: center;
   border: 0.5px solid #dbe2ef;
@@ -64,13 +64,22 @@
   width: 20%;
   background-color: #f9f7f7;
 }
-.frontEndPic{
+.frontEndPic {
   transform: rotate(0deg);
 }
-.aboutPic{
-  margin-top:-400px;
+.aboutPic {
+  margin-top: -400px;
   padding-top: 10px;
   height: 100px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+.aboutPic3 {
+  margin-top: -400px;
+  padding-top: 10px;
+  height: 95px;
   width: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -80,10 +89,43 @@
   color: black;
   font-size: 20px;
   font-weight: 400;
+  color: #5e94d7;
 }
-.cardMain2{
+.cardMain2 {
   padding-top: 20px;
-  margin:auto;
-  width: 90%;
-  
+  margin: auto;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 200;
+}
+.cardLanguages1 {
+  padding-top: 100px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardLanguages2 {
+  padding-top: 80px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardLanguages3{
+  padding-top: 80px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.separator{
+  margin-top: 5px;
+}
+.cardTech{
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+}
+.cardTools{
+  width:
 }
