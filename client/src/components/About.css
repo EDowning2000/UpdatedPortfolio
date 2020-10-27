@@ -1,28 +1,63 @@
-.aboutContainer{
-  margin-top:-5px;
+.aboutContainer {
+  margin-top: -5px;
   background-color: #5e94d7;
   height: 550px;
   width: 100%;
 }
-.aboutMe{
+.aboutMe {
   padding-top: 90px;
   font-size: 34px;
   font-weight: 300;
   color: #dbe2ef;
   text-align: center;
 }
-.aboutMeContinued{
-  width:75%;
+.aboutMeContinued {
+  width: 75%;
   padding-left: 215px;
   font-weight: lighter;
-  
+
   padding-top: 20px;
- 
-  font-size: 26px;
+
+  font-size: 24px;
   color: #dbe2ef;
   display: flex;
   justify-content: center;
   /* max-width: 900px; */
   /* padding-left: 25%; */
   text-align: center;
+}
+.aboutCards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.cardFrontEnd {
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid #dbe2ef;
+  border-radius: 10px 0px 0px 10px;
+  height: 600px;
+  width: 20%;
+  background-color: #f9f7f7;
+}
+.cardBackEnd {
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid #dbe2ef;
+  height: 600px;
+  width: 20%;
+  background-color: #f9f7f7;
+}
+.cardStudent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 0.5px solid #dbe2ef;
+  border-radius: 0px 10px 10px 0px;
+  height: 600px;
+  width: 20%;
+  background-color: #f9f7f7;
+}
+.frontEndPic{
+  transform: rotate(0deg);
 }
