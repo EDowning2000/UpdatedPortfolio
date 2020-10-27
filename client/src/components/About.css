@@ -12,14 +12,17 @@
   text-align: center;
 }
 .aboutMeContinued{
+  width:75%;
+  padding-left: 215px;
   font-weight: lighter;
   
   padding-top: 20px;
+ 
   font-size: 26px;
   color: #dbe2ef;
   display: flex;
   justify-content: center;
-  max-width: 900px;
-  padding-left: 25%;
+  /* max-width: 900px; */
+  /* padding-left: 25%; */
   text-align: center;
 }
