@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-img{
+.headerPic{
   width: 100px;
   height: 100px;
   margin-left: 100px;
@@ -25,7 +25,7 @@ span{
   font-size: 18px;
   /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
-  color: #112d4e;
+  color:black;
   height: fit-content;
 }
 span:hover{

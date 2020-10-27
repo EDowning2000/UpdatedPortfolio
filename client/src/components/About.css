@@ -13,7 +13,8 @@
 }
 .aboutMeContinued {
   width: 75%;
-  padding-left: 215px;
+  margin: auto;
+  /* padding-left: 215px; */
   font-weight: lighter;
 
   padding-top: 20px;
@@ -32,8 +33,10 @@
   justify-content: center;
 }
 .cardFrontEnd {
-  display: flex;
+  padding-top: 5%;
+  
   justify-content: center;
+  text-align: center;
   border: 0.5px solid #dbe2ef;
   border-radius: 10px 0px 0px 10px;
   height: 600px;
@@ -41,15 +44,18 @@
   background-color: #f9f7f7;
 }
 .cardBackEnd {
-  display: flex;
+  padding-top: 5%;
+
   justify-content: center;
+  text-align: center;
   border: 0.5px solid #dbe2ef;
   height: 600px;
   width: 20%;
   background-color: #f9f7f7;
 }
 .cardStudent {
-  display: flex;
+  padding-top: 5%;
+
   justify-content: center;
   text-align: center;
   border: 0.5px solid #dbe2ef;
@@ -60,4 +66,24 @@
 }
 .frontEndPic{
   transform: rotate(0deg);
+}
+.aboutPic{
+  margin-top:-400px;
+  padding-top: 10px;
+  height: 100px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+.cardMain {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardMain2{
+  padding-top: 20px;
+  margin:auto;
+  width: 90%;
+  
 }

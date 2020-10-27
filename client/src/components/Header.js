@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <div className="header">
-        <img src={mainLogo} alt="Emerson Downing's Logo" />
+        <img src={mainLogo} alt="Emerson Downing's Logo" className="headerPic" />
 
         <div className="myLinks">
           <span>About Me</span>
