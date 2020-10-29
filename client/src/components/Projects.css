@@ -1,5 +1,22 @@
 .projectsContainer{
   width: 100%;
-  
-  
+  margin: auto;
+}
+.projectsHeader{
+  color: black;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size:34px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+.projectsHeader2{
+  margin-top: 20px;
+  color: black; 
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
 }
