@@ -1,60 +1,64 @@
-
-.header{
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.headerPic{
+.headerPic {
   width: 100px;
   height: 100px;
   margin-left: 100px;
   margin-top: 15px;
-  transform:rotate(-1deg);
+  transform: rotate(-1deg);
 }
-.myLinks{
-  display:flex;
+.myLinks {
+  display: flex;
   margin-top: 60px;
   margin-right: 120px;
-  
 }
-.myLinks1{
+.myLinks1 {
   text-align: right;
   margin-left: 5px;
-  padding:6px;
+  padding: 6px;
   font-weight: 200;
   font-size: 18px;
   /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
-  color:black;
+  color: black;
   height: fit-content;
 }
-.myLinks2{text-align: right;
+.myLinks2 {
+  text-align: right;
   margin-left: 5px;
-  padding:6px;
+  padding: 6px;
   font-weight: 200;
   font-size: 18px;
   /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
-  color:black;
-  height: fit-content;}
-.myLinks3{text-align: right;
+  color: black;
+  height: fit-content;
+}
+.myLinks3 {
+  text-align: right;
   margin-left: 5px;
-  padding:6px;
+  padding: 6px;
   font-weight: 200;
   font-size: 18px;
   /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
-  color:black;
-  height: fit-content;}
-.myLinks4{text-align: right;
+  color: black;
+  height: fit-content;
+}
+.myLinks4 {
+  text-align: right;
   margin-left: 5px;
-  padding:6px;
+  padding: 6px;
   font-weight: 200;
   font-size: 18px;
   /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
-  color:black;
-  height: fit-content;}
+  color: black;
+  height: fit-content;
+}
 /* span{
   text-align: right;
   margin-left: 5px;
@@ -65,23 +69,23 @@
   color:black;
   height: fit-content;
 } */
-.myLinks1:hover{
-  background:#dbe2ef;
-  transition: all .5s;
+.myLinks1:hover {
+  background: #dbe2ef;
+  transition: all 0.5s;
   cursor: pointer;
 }
-.myLinks2:hover{
-  background:#dbe2ef;
-  transition: all .5s;
+.myLinks2:hover {
+  background: #dbe2ef;
+  transition: all 0.5s;
   cursor: pointer;
 }
-.myLinks3:hover{
-  background:#dbe2ef;
-  transition: all .5s;
+.myLinks3:hover {
+  background: #dbe2ef;
+  transition: all 0.5s;
   cursor: pointer;
 }
-.myLinks4:hover{
-  background:#dbe2ef;
-  transition: all .5s;
+.myLinks4:hover {
+  background: #dbe2ef;
+  transition: all 0.5s;
   cursor: pointer;
 }

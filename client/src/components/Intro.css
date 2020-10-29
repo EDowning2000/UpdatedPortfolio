@@ -41,18 +41,18 @@
   height: 180px;
   padding-right: 20px;
   width: 170px;
-  margin-top:-15px;
+  margin-top: -15px;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
 }
-.introThings{
+.introThings {
   margin-left: 30%;
   margin-top: 40px;
   filter: brightness(110%);
-  
+
   width: 40%;
   height: 200px;
-  transform: rotate(.1deg);
+  transform: rotate(0.1deg);
 }
 /* .svg{
   color: #5e94d7;

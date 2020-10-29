@@ -5,8 +5,10 @@ import backEndPic from "../images/backEndPic.png"
 import studentPic from "../images/studentPic2.png"
 
 function About() {
-  return (
+  return (<>
+    <div className="aboutBackground"></div>
     <div className="aboutContainer">
+      
       <div className="aboutMe">Hi, my name is Emerson Downing</div>
       <div className="aboutMeContinued">
         Since beginning my coding journey in late 2018, I have honed my skills
@@ -30,24 +32,23 @@ function About() {
           </div>
           <div className="cardLanguages1">Languages I Use</div>
           <div className="cardTech">
-            <span className='cardPadding'>HTML  </span>
-            <span className='cardPadding'>CSS  </span>
-            <span className='cardPadding'>SASS  </span>
+            <span className="cardPadding">HTML </span>
+            <span className="cardPadding">CSS </span>
+            <span className="cardPadding">SASS </span>
             <div className="separator"></div>
 
-            <span className='cardPadding'>JavaScript  </span>
-            <span className='cardPadding'>React  </span>
-            <span className='cardPadding'>HandleBars  </span>
+            <span className="cardPadding">JavaScript </span>
+            <span className="cardPadding">React </span>
+            <span className="cardPadding">HandleBars </span>
           </div>
           <div className="cardMain4">Tools I Use</div>
           <div className="cardTools1">
-          <span className='cardPadding'>BootStrap  </span>
-          <span className='cardPadding'>Figma  </span>
-          <div className="separator"></div>
-            <span className='cardPadding'>Material-UI  </span>
-            <span className='cardPadding'>Sketch  </span>
+            <span className="cardPadding">BootStrap </span>
+            <span className="cardPadding">Figma </span>
+            <div className="separator"></div>
+            <span className="cardPadding">Material-UI </span>
+            <span className="cardPadding">Sketch </span>
           </div>
-
         </div>
         <div className="cardBackEnd">
           <img src={backEndPic} className="aboutPic" />
@@ -60,23 +61,18 @@ function About() {
           </div>
           <div className="cardLanguages2">Languages I Use</div>
           <div className="cardTech">
-            <span className='cardPadding'>Node  </span>
-            <span className='cardPadding'>Express  </span>
-            <span>Mongo  </span>
-            <span className='cardPadding'>mySQL  </span>
+            <span className="cardPadding">Node </span>
+            <span className="cardPadding">Express </span>
+            <span>Mongo </span>
+            <span className="cardPadding">mySQL </span>
           </div>
-          <div className="cardMain5">
-            Tools I Use
-          </div>
+          <div className="cardMain5">Tools I Use</div>
           <div className="cardTools2">
-            <span className='cardPadding'>Postman  </span>
-            <span className='cardPadding'>Sql-WorkBench  </span>
+            <span className="cardPadding">Postman </span>
+            <span className="cardPadding">Sql-WorkBench </span>
             <div className="separator"></div>
-            <span className='cardPadding'>Robo 3T  </span>
-
-
+            <span className="cardPadding">Robo 3T </span>
           </div>
-
         </div>
 
         <div className="cardStudent">
@@ -89,25 +85,27 @@ function About() {
           </div>
           <div className="cardLanguages3">Resources I Use</div>
           <div className="cardTech">
-            <span className='cardPadding'>UCF Bootcamp  </span>
-            <span className='cardPadding'>Dev Ed  </span>
+            <span className="cardPadding">UCF Bootcamp </span>
+            <span className="cardPadding">Dev Ed </span>
             <div className="separator"></div>
-            <span className='cardPadding'>Traversy Media  </span>
-            <span className='cardPadding'>Egghead.io  </span>
+            <span className="cardPadding">Traversy Media </span>
+            <span className="cardPadding">Egghead.io </span>
             <div className="separator"></div>
-            <span className='cardPadding'>Mosh Hamedani  </span>
+            <span className="cardPadding">Mosh Hamedani </span>
           </div>
           <div className="cardMain6">How I Learn</div>
           <div className="cardTools3">
-            <span className='cardPadding'>Documentation  </span>
-            <span className='cardPadding'>Tutorials  </span>
-            <div className='separator'></div>
-            <span className='cardPadding'>Full Courses  </span>
-            <span className='cardPadding'>Problem Sets  </span>
+            <span className="cardPadding">Documentation </span>
+            <span className="cardPadding">Tutorials </span>
+            <div className="separator"></div>
+            <span className="cardPadding">Full Courses </span>
+            <span className="cardPadding">Problem Sets </span>
           </div>
         </div>
       </div>
+      
     </div>
+    </>
   )
 }
 

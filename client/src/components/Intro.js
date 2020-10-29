@@ -14,7 +14,11 @@ function Intro() {
       <div className="introAvatar">
         <img className="introPic" src={emerPic} alt="animated version of me" />
       </div>
-      <img src={computerThings} alt='various programming items' className='introThings'/>
+      <img
+        src={computerThings}
+        alt="various programming items"
+        className="introThings"
+      />
 
       {/* <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="650.000000pt" height="265.000000pt" viewBox="0 0 650.000000 265.000000" preserveAspectRatio="xMidYMid meet" className="svg">
 
