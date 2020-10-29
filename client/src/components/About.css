@@ -39,7 +39,7 @@
   text-align: center;
   border: 0.5px solid #dbe2ef;
   border-radius: 10px 0px 0px 10px;
-  height: 600px;
+  height: 570px;
   width: 20%;
   background-color: #f9f7f7;
 }
@@ -49,7 +49,7 @@
   justify-content: center;
   text-align: center;
   border: 0.5px solid #dbe2ef;
-  height: 600px;
+  height: 570px;
   width: 20%;
   background-color: #f9f7f7;
 }
@@ -60,7 +60,7 @@
   text-align: center;
   border: 0.5px solid #dbe2ef;
   border-radius: 0px 10px 10px 0px;
-  height: 600px;
+  height: 570px;
   width: 20%;
   background-color: #f9f7f7;
 }
@@ -110,22 +110,64 @@
   font-size: 20px;
   font-weight: 400;
 }
-.cardLanguages3{
+.cardLanguages3 {
   padding-top: 80px;
   color: #5e94d7;
   font-size: 20px;
   font-weight: 400;
 }
-.separator{
+.separator {
   margin-top: 5px;
 }
-.cardTech{
+.cardTech {
   text-align: center;
+  font-weight:200;
   width: 85%;
   margin: auto;
   padding-top: 20px;
   font-size: 16px;
 }
-.cardTools{
-  width:
+.cardMain4 {
+  padding-top: 110px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardMain5 {
+  padding-top: 137px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardMain6 {
+  padding-top: 86px;
+  color: #5e94d7;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cardTools1{
+  text-align: center;
+  
+  width: 86%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.cardTools2{
+  text-align: center;
+  
+  width: 86%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.cardTools3{
+  text-align: center;
+  width: 86%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 200;
 }

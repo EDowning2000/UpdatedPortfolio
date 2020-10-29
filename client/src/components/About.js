@@ -39,9 +39,13 @@ function About() {
             <span>React</span>
             <span>HandleBars</span>
           </div>
-          <div className="cardMain3">Tools I Use</div>
-          <div className="cardTools2">
-
+          <div className="cardMain4">Tools I Use</div>
+          <div className="cardTools1">
+          <span>BootStrap</span>
+          <span>Figma</span>
+          <div className="separator"></div>
+            <span>Material-UI</span>
+            <span>Sketch</span>
           </div>
 
         </div>
@@ -61,7 +65,17 @@ function About() {
             <span>Mongo</span>
             <span>mySQL</span>
           </div>
-          <div className="cardTools"></div>
+          <div className="cardMain5">
+            Tools I Use
+          </div>
+          <div className="cardTools2">
+            <span>Postman</span>
+            <span>Sql-WorkBench</span>
+            <div className="separator"></div>
+            <span>Robo 3T</span>
+
+
+          </div>
 
         </div>
 
@@ -83,7 +97,14 @@ function About() {
             <div className="separator"></div>
             <span>Mosh Hamedani</span>
           </div>
-          <div className="cardTools"></div>
+          <div className="cardMain6">How I Learn</div>
+          <div className="cardTools3">
+            <span>Documentation</span>
+            <span>Tutorials</span>
+            <div className='separator'></div>
+            <span>Full Courses</span>
+            <span>Problem Sets</span>
+          </div>
         </div>
       </div>
     </div>
