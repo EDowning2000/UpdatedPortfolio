@@ -30,22 +30,22 @@ function About() {
           </div>
           <div className="cardLanguages1">Languages I Use</div>
           <div className="cardTech">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>SASS</span>
+            <span className='cardPadding'>HTML  </span>
+            <span className='cardPadding'>CSS  </span>
+            <span className='cardPadding'>SASS  </span>
             <div className="separator"></div>
 
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>HandleBars</span>
+            <span className='cardPadding'>JavaScript  </span>
+            <span className='cardPadding'>React  </span>
+            <span className='cardPadding'>HandleBars  </span>
           </div>
           <div className="cardMain4">Tools I Use</div>
           <div className="cardTools1">
-          <span>BootStrap</span>
-          <span>Figma</span>
+          <span className='cardPadding'>BootStrap  </span>
+          <span className='cardPadding'>Figma  </span>
           <div className="separator"></div>
-            <span>Material-UI</span>
-            <span>Sketch</span>
+            <span className='cardPadding'>Material-UI  </span>
+            <span className='cardPadding'>Sketch  </span>
           </div>
 
         </div>
@@ -60,19 +60,19 @@ function About() {
           </div>
           <div className="cardLanguages2">Languages I Use</div>
           <div className="cardTech">
-            <span>Node</span>
-            <span>Express</span>
-            <span>Mongo</span>
-            <span>mySQL</span>
+            <span className='cardPadding'>Node  </span>
+            <span className='cardPadding'>Express  </span>
+            <span>Mongo  </span>
+            <span className='cardPadding'>mySQL  </span>
           </div>
           <div className="cardMain5">
             Tools I Use
           </div>
           <div className="cardTools2">
-            <span>Postman</span>
-            <span>Sql-WorkBench</span>
+            <span className='cardPadding'>Postman  </span>
+            <span className='cardPadding'>Sql-WorkBench  </span>
             <div className="separator"></div>
-            <span>Robo 3T</span>
+            <span className='cardPadding'>Robo 3T  </span>
 
 
           </div>
@@ -89,21 +89,21 @@ function About() {
           </div>
           <div className="cardLanguages3">Resources I Use</div>
           <div className="cardTech">
-            <span>UCF Bootcamp</span>
-            <span>Dev Ed</span>
+            <span className='cardPadding'>UCF Bootcamp  </span>
+            <span className='cardPadding'>Dev Ed  </span>
             <div className="separator"></div>
-            <span>Traversy Media</span>
-            <span>Egghead.io</span>
+            <span className='cardPadding'>Traversy Media  </span>
+            <span className='cardPadding'>Egghead.io  </span>
             <div className="separator"></div>
-            <span>Mosh Hamedani</span>
+            <span className='cardPadding'>Mosh Hamedani  </span>
           </div>
           <div className="cardMain6">How I Learn</div>
           <div className="cardTools3">
-            <span>Documentation</span>
-            <span>Tutorials</span>
+            <span className='cardPadding'>Documentation  </span>
+            <span className='cardPadding'>Tutorials  </span>
             <div className='separator'></div>
-            <span>Full Courses</span>
-            <span>Problem Sets</span>
+            <span className='cardPadding'>Full Courses  </span>
+            <span className='cardPadding'>Problem Sets  </span>
           </div>
         </div>
       </div>

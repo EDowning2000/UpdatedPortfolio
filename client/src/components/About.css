@@ -34,7 +34,6 @@
 }
 .cardFrontEnd {
   padding-top: 5%;
-
   justify-content: center;
   text-align: center;
   border: 0.5px solid #dbe2ef;
@@ -125,7 +124,7 @@
   width: 85%;
   margin: auto;
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 .cardMain4 {
   padding-top: 110px;
@@ -170,4 +169,7 @@
   padding-top: 20px;
   font-size: 16px;
   font-weight: 200;
+}
+.cardPadding{
+  padding-right: 5px;
 }

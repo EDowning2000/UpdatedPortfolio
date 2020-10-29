@@ -17,7 +17,7 @@
   margin-right: 120px;
   
 }
-span{
+.myLinks1{
   text-align: right;
   margin-left: 5px;
   padding:6px;
@@ -28,6 +28,43 @@ span{
   color:black;
   height: fit-content;
 }
+.myLinks2{text-align: right;
+  margin-left: 5px;
+  padding:6px;
+  font-weight: 200;
+  font-size: 18px;
+  /* font-family: 'Inter', sans-serif; */
+  border-radius: 8px;
+  color:black;
+  height: fit-content;}
+.myLinks3{text-align: right;
+  margin-left: 5px;
+  padding:6px;
+  font-weight: 200;
+  font-size: 18px;
+  /* font-family: 'Inter', sans-serif; */
+  border-radius: 8px;
+  color:black;
+  height: fit-content;}
+.myLinks4{text-align: right;
+  margin-left: 5px;
+  padding:6px;
+  font-weight: 200;
+  font-size: 18px;
+  /* font-family: 'Inter', sans-serif; */
+  border-radius: 8px;
+  color:black;
+  height: fit-content;}
+/* span{
+  text-align: right;
+  margin-left: 5px;
+  padding:6px;
+  font-weight: 200;
+  font-size: 18px;
+  border-radius: 8px;
+  color:black;
+  height: fit-content;
+} */
 .myLinks1:hover{
   background:#dbe2ef;
   transition: all .5s;
