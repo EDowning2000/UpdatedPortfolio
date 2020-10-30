@@ -8,7 +8,7 @@ function singleProject({ image1, description, title, tech, repo }) {
   return (
     <div className="singleMainContainer">
       <img src={image1} className="singleImage" />
-      <hr/>
+      {/* <hr/> */}
       <div className="singleContainer">
         <div className="singleTitle">{title}</div>
         <div className="singleDescription">{description}</div>
