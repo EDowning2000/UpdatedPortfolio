@@ -1,12 +1,51 @@
 .singleMainContainer{
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   max-width: 20%;
-  height: 400px;
+  height: 410px;
+  border: .5px #dbe2ef solid;
   /* border: 0.5px solid #dbe2ef; */
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .singleImage{
-  width: 300px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  /* border-bottom: .1px solid #5e94d7; */
+}
+.singleTitle{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 450;
+  color: #5e94d7;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.singleDescription{
+  padding:0px 5% 20px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  /* padding-bottom: 20px; */
+}
+.singleTech{
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.repoPic{
+  width: 60px;
+  padding-left: 15%;
+ 
+}
+.twitterPic{
+  width: 60px;
+  padding-right: 15%;
+}
+.repoInfo{
+  display: flex;
+  justify-content: center;
+  padding: 0px 5% 0px;
 }
