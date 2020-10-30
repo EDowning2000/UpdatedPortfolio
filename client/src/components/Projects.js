@@ -23,7 +23,7 @@ function Projects() {
         <br />
         Note: I am <span className="projectsColor">not</span> a UI/UX designer
       </div>
-      <div className="singleProjectContainer"></div>
+      <div className="singleProjectContainer">
       <SingleProject
         image1={blog1}
         title="Blog App"
@@ -31,6 +31,58 @@ function Projects() {
         tech="HTML, css, javascript, react"
         repo="asdlfkjlasjdf"
       />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      <SingleProject
+        image1={blog1}
+        title="Blog App"
+        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
+        tech="HTML, css, javascript, react"
+        repo="asdlfkjlasjdf"
+      />
+      
+      
+      </div>
     </div>
   )
 }
