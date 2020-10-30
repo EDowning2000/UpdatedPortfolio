@@ -18,7 +18,7 @@ function Projects() {
   return (
     <div className="projectsContainer">
       <div className="projectsHeader">My Recent Works</div>
-      <div className="projectsHeader2">I feel these works are an accurate description of what I am capable of. <br/>Note: I am not a UI/UX designer</div>
+      <div className="projectsHeader2">I feel these works are an accurate description of what I am capable of. <br/>Note: I am <span className='projectsColor'>not</span> a UI/UX designer</div>
 
 
 
