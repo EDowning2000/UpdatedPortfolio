@@ -3,7 +3,7 @@ import "./Projects.css"
 
 import SingleProject from "./singleProject"
 
-import blog1 from "../images/blogHome.png"
+import blog from "../images/blogHome.png"
 import blog2 from "../images/blogHome2.png"
 import books from "../images/booksHome.png"
 import books2 from "../images/booksHome2.png"
@@ -41,34 +41,85 @@ function Projects() {
       </div>
       <div className="singleProjectContainer">
       <SingleProject
-        image1={blog1}
+        image1={blog}
         title="Blog App"
-        description="Application that allows users to read, create, and delete blog posts. Super simple but showed me alot about context API"
+        description="Application that allows users to read, create, and delete blog posts. Super simple but showed me alot about context API and how global state works in general"
         tech="React, Javascript, CSS"
         repo="https://github.com/EDowning2000/BlogApp"
       />
       <SingleProject
         image1={covid}
         title="Covid 19 Tracker"
-        description="Application that displays real time Covid data and displays it either by country or worldwide, as well as shows you tons of metrics on the specific data."
+        description="Application that displays real time Covid data and displays it either by country or worldwide, as well as shows you tons of metrics on the specific data such as new cases and recovered."
         tech="React, Javascript, Firebase, Css"
         repo="https://github.com/EDowning2000/Covid19Tracker"
       />
       <SingleProject
         image1={grouped}
         title="Grouped"
-        description="Application that allows for people to make events and have other people view or join them online. Very beneficial for people moving to a new area and trying to find people with similar interests. My first large react application and its not the best ever but im proud of the old girl, a monumental stepping stone for me."
+        description="Application that allows for users to sign in to make events, as well as browse events that other people have posted based off of a zip code that you enter into your posting."
         tech="React, SCSS, Mongoose, Express, Node"
         repo="https://github.com/EDowning2000/Grouped"
       />
 
       <SingleProject image1={twitter}
       title="Twitter Clone"
-      description='This is a working clone of twitter, that allows a user to make and read posts on my twitter feed. It looks and behaves very similar, and the right section has a real twitter timeline and some tweets I pinned. Finally I actually used a portion of that code for the tweet button that is found on all of these cards, I personally think its a super cool little feature 🐦'
+      description='This is a working clone of twitter, that allows a user to make and read posts on my twitter feed. PS: check out the tweet button on these cards, its the same one i used in this app.'
       tech="React, Firebase, Css"
       repo="https://github.com/EDowning2000/TwitterClone"
+      /> 
+      <SingleProject image1={weather}
+      title="Weather Dashboard"
+      description="An basic weather application, it allows you to search, save, and the view the weather for any city you please. This application helped me to get familiar with the use of API's"
+      tech="Javascript, HTML, Css"
+      repo="https://github.com/EDowning2000/weather-dashboard"
       />
-      
+      <SingleProject image1={books}
+      title="Book Finder"
+      description="Application that allows the user to search google's book api, see a description and other information about the books, and save them to a virtual library"
+      tech="React, Mongoose, Node, Express, Css"
+      repo="https://github.com/EDowning2000/Books"
+      />
+      <SingleProject image1={budget}
+      title="Budget Tracker"
+      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+      tech="Javascript, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      />
+      <SingleProject image1={employee}
+      title="Employee Tracker"
+      description="This application allows the user to search through a database of employees, the user can search by first name, last name, or phone number in this app."
+      tech="React, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/EmployeeTracker3.0"
+      />
+      <SingleProject image1={workout}
+      title="Workout Tracker"
+      description="This application allows a user to define what type of exercise they are doing, input the stats of the exercise, and then shows them the breakdown in two different graphs"
+      tech="React, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/WorkoutTracker"
+      />
+      <SingleProject image1={note}
+      title="Budget Tracker"
+      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+      tech="Javascript, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      />
+      <SingleProject image1={burger}
+      title="Budget Tracker"
+      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+      tech="Javascript, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      /><SingleProject image1={password}
+      title="Budget Tracker"
+      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+      tech="Javascript, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      /><SingleProject image1={team}
+      title="Budget Tracker"
+      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+      tech="Javascript, Node, Express, Mongo, Css"
+      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      />
       
       </div>
     </div>
