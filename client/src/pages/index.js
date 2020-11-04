@@ -6,13 +6,20 @@ import About from "../components/About"
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet'
+import mainLogo from "../images/emerLogo.png"
 
 const IndexPage = () => (
   <div className="main">
 
 <Helmet>
+<script src="https://kit.fontawesome.com/e47e81ddf8.js" crossorigin="anonymous"></script>
+<link
+      rel="icon"
+      href={mainLogo}
+      type="image/png"
+    />
+    <title>Emerson Downing</title>
 
-  
 </Helmet>
 
     <Header />
