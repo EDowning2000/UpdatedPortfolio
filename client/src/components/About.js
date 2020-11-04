@@ -7,7 +7,7 @@ import studentPic from "../images/studentPic2.png"
 function About() {
   return (<>
     <div className="aboutBackground"></div>
-    <div className="aboutContainer">
+    <div className="aboutContainer" id='about'>
       
       <div className="aboutMe">Hi, my name is Emerson Downing</div>
       <div className="aboutMeContinued">
@@ -21,7 +21,7 @@ function About() {
         helpful!
       </div>
 
-      <div className="aboutCards">
+      <div className="aboutCards" id="technologies">
         <div className="cardFrontEnd">
           <img src={frontEndPic} className="aboutPic" />
           <div className="cardMain">Front-end Developer</div>

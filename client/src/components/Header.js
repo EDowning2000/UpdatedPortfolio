@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import mainLogo from "../images/emerLogo.png"
+import { Link, animateScroll as scroll } from "react-scroll"
 import "./Header.css"
 
 function Header() {
@@ -14,10 +14,56 @@ function Header() {
         />
 
         <div className="myLinks">
-          <span className="myLinks1">About Me</span>
+
+          <Link
+            className="myLinks1"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About Me
+          </Link>
+          <Link
+            className="myLinks2"
+            activeClass="active"
+            to="technologies"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Technologies
+          </Link>
+          <Link
+            className="myLinks3"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Projects
+          </Link>
+          <Link
+            className="myLinks4"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact Me
+          </Link>
+
+          {/* <span className="myLinks1">About Me</span>
           <span className="myLinks2">Technologies</span>
           <span className="myLinks3">Projects</span>
-          <span className="myLinks4">Contact Me</span>
+          <span className="myLinks4">Contact Me</span> */}
         </div>
       </div>
     </>

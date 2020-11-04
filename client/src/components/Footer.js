@@ -4,7 +4,7 @@ import mainLogo from "../images/emerLogo.png"
 
 function Footer() {
   return (
-    <div className="footerContainer">
+    <div className="footerContainer" id="contact">
       <img className="footerLogo" src={mainLogo} />
       <div className="footerMotto">Making lives easier with software.</div>
 

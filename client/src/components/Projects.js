@@ -32,7 +32,7 @@ import workout2 from '../images/workoutHome2.png'
 
 function Projects() {
   return (
-    <div className="projectsContainer">
+    <div className="projectsContainer" id="projects">
       <div className="projectsHeader">My Recent Works</div>
       <div className="projectsHeader2">
         I feel these works are an accurate description of what I am capable of.{" "}

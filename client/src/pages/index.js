@@ -13,11 +13,7 @@ const IndexPage = () => (
 
 <Helmet>
 <script src="https://kit.fontawesome.com/e47e81ddf8.js" crossorigin="anonymous"></script>
-<link
-      rel="icon"
-      href={mainLogo}
-      type="image/png"
-    />
+
     <title>Emerson Downing</title>
 
 </Helmet>
