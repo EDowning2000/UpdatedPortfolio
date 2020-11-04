@@ -28,7 +28,7 @@ function Footer() {
         </a>
       </div>
 
-      <div className="footerMade">Made with love by Emerson Downing</div>
+      <div className="footerMade">Made with 🖤 by Emerson Downing</div>
     </div>
   )
 }

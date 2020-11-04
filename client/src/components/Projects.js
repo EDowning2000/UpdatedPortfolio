@@ -99,26 +99,28 @@ function Projects() {
       repo="https://github.com/EDowning2000/WorkoutTracker"
       />
       <SingleProject image1={note}
-      title="Budget Tracker"
-      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
-      tech="Javascript, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      title="Note Taker"
+      description="In this application, the user is able to create notes with titles and descriptions of the notes, you also are able to delete the notes or view them at any time from the database."
+      tech="Javascript, Node, Express, Mongoose, Css"
+      repo="https://github.com/EDowning2000/Note-Taker"
       />
-      <SingleProject image1={burger}
+      {/* <SingleProject image1={burger}
       title="Budget Tracker"
       description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
       tech="Javascript, Node, Express, Mongo, Css"
       repo="https://github.com/EDowning2000/BudgetTrackerPWA"
-      /><SingleProject image1={password}
-      title="Budget Tracker"
-      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
-      tech="Javascript, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
-      /><SingleProject image1={team}
-      title="Budget Tracker"
-      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
-      tech="Javascript, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+      /> */}
+      <SingleProject image1={password}
+      title="Random Password Generator"
+      description="In this application, the user is given different prompts to verify if they want capital letters, numbers, symbols, and how many characters. Then the app gives them a random password"
+      tech="Javascript, HTML, Css"
+      repo="https://github.com/EDowning2000/password-generator"
+      />
+      <SingleProject image1={team}
+      title="Team Profile Generator"
+      description="This is a node CLI application that gives you prompts about your team, and upon finishing the prompts will generate an html document with all the info given in the console."
+      tech="Javascript, Node, HTML, Css"
+      repo="https://github.com/EDowning2000/TeamProfileGenerator"
       />
       
       </div>
