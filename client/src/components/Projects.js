@@ -51,50 +51,22 @@ function Projects() {
         image1={covid}
         title="Covid 19 Tracker"
         description="Application that displays real time Covid data and displays it either by country or worldwide, as well as shows you tons of metrics on the specific data."
-        tech="React, Javascript, Firebase, CSS"
+        tech="React, Javascript, Firebase, Css"
         repo="https://github.com/EDowning2000/Covid19Tracker"
       />
       <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
+        image1={grouped}
+        title="Grouped"
+        description="Application that allows for people to make events and have other people view or join them online. Very beneficial for people moving to a new area and trying to find people with similar interests. My first large react application and its not the best ever but im proud of the old girl, a monumental stepping stone for me."
+        tech="React, SCSS, Mongoose, Express, Node"
+        repo="https://github.com/EDowning2000/Grouped"
       />
-      <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
-      />
-      <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
-      />
-      <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
-      />
-      <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
-      />
-      <SingleProject
-        image1={blog1}
-        title="Blog App"
-        description="this applicaton is an application that allows you to create, read, delete blog posts through your own website. Its pretty nifty i must say."
-        tech="HTML, css, javascript, react"
-        repo="asdlfkjlasjdf"
+
+      <SingleProject image1={twitter}
+      title="Twitter Clone"
+      description='This is a working clone of twitter, that allows a user to make and read posts on my twitter feed. It looks and behaves very similar, and the right section has a real twitter timeline and some tweets I pinned. Finally I actually used a portion of that code for the tweet button that is found on all of these cards, I personally think its a super cool little feature 🐦'
+      tech="React, Firebase, Css"
+      repo="https://github.com/EDowning2000/TwitterClone"
       />
       
       
@@ -104,3 +76,10 @@ function Projects() {
 }
 
 export default Projects
+
+{/* <SingleProject image1={}
+      title=""
+      description=''
+      tech=""
+      repo=""
+      /> */}
