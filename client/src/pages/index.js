@@ -19,10 +19,10 @@ const IndexPage = () => (
 </Helmet>
 
     <Header />
-    <Intro />
+    {/* <Intro />
     <About/>
     <Projects/>
-    <Footer/>
+    <Footer/> */}
   </div>
 )
 
