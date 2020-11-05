@@ -14,7 +14,6 @@ function Header() {
         />
 
         <div className="myLinks">
-
           <Link
             className="myLinks1"
             activeClass="active"

@@ -13,22 +13,22 @@ import burger from "../images/burgerHome.png"
 import burger2 from "../images/burgerHome2.png"
 import covid from "../images/covidHome.png"
 import covid2 from "../images/covidHome2.png"
-import employee from '../images/employeeHome.png'
-import employee2 from '../images/employeeHome2.png'
-import grouped from '../images/groupedHome.png'
-import grouped2 from '../images/groupedHome2.png'
-import note from '../images/noteHome.png'
-import note2 from '../images/noteHome.png'
-import password from '../images/passwordHome.png'
-import password2 from '../images/passwordHome2.png'
-import team from '../images/teamHome.png'
-import team2 from '../images/teamHome2.png'
-import twitter from '../images/twitterHome.png'
-import twiter2 from '../images/twitterHome2.png'
-import weather from '../images/weatherHome.png'
-import weather2 from '../images/weatherHome2.png'
-import workout from '../images/workoutHome.png'
-import workout2 from '../images/workoutHome2.png'
+import employee from "../images/employeeHome.png"
+import employee2 from "../images/employeeHome2.png"
+import grouped from "../images/groupedHome.png"
+import grouped2 from "../images/groupedHome2.png"
+import note from "../images/noteHome.png"
+import note2 from "../images/noteHome.png"
+import password from "../images/passwordHome.png"
+import password2 from "../images/passwordHome2.png"
+import team from "../images/teamHome.png"
+import team2 from "../images/teamHome2.png"
+import twitter from "../images/twitterHome.png"
+import twiter2 from "../images/twitterHome2.png"
+import weather from "../images/weatherHome.png"
+import weather2 from "../images/weatherHome2.png"
+import workout from "../images/workoutHome.png"
+import workout2 from "../images/workoutHome2.png"
 
 function Projects() {
   return (
@@ -40,89 +40,97 @@ function Projects() {
         Note: I am <span className="projectsColor">not</span> a UI/UX designer
       </div>
       <div className="singleProjectContainer">
-      <SingleProject
-        image1={blog}
-        title="Blog App"
-        description="Application that allows users to read, create, and delete blog posts. Super simple but showed me alot about context API and how global state works in general"
-        tech="React, Javascript, CSS"
-        repo="https://github.com/EDowning2000/BlogApp"
-      />
-      <SingleProject
-        image1={covid}
-        title="Covid 19 Tracker"
-        description="Application that displays real time Covid data and displays it either by country or worldwide, as well as shows you tons of metrics on the specific data such as new cases and recovered."
-        tech="React, Javascript, Firebase, Css"
-        repo="https://github.com/EDowning2000/Covid19Tracker"
-      />
-      <SingleProject
-        image1={grouped}
-        title="Grouped"
-        description="Application that allows for users to sign in to make events, as well as browse events that other people have posted based off of a zip code that you enter into your posting."
-        tech="React, SCSS, Mongoose, Express, Node"
-        repo="https://github.com/EDowning2000/Grouped"
-      />
+        <SingleProject
+          image1={blog}
+          title="Blog App"
+          description="Application that allows users to read, create, and delete blog posts. Super simple but showed me alot about context API and how global state works in general"
+          tech="React, Javascript, CSS"
+          repo="https://github.com/EDowning2000/BlogApp"
+        />
+        <SingleProject
+          image1={covid}
+          title="Covid 19 Tracker"
+          description="Application that displays real time Covid data and displays it either by country or worldwide, as well as shows you tons of metrics on the specific data such as new cases and recovered."
+          tech="React, Javascript, Firebase, Css"
+          repo="https://github.com/EDowning2000/Covid19Tracker"
+        />
+        <SingleProject
+          image1={grouped}
+          title="Grouped"
+          description="Application that allows for users to sign in to make events, as well as browse events that other people have posted based off of a zip code that you enter into your posting."
+          tech="React, SCSS, Mongoose, Express, Node"
+          repo="https://github.com/EDowning2000/Grouped"
+        />
 
-      <SingleProject image1={twitter}
-      title="Twitter Clone"
-      description='This is a working clone of twitter, that allows a user to make and read posts on my twitter feed. PS: check out the tweet button on these cards, its the same one i used in this app.'
-      tech="React, Firebase, Css"
-      repo="https://github.com/EDowning2000/TwitterClone"
-      /> 
-      <SingleProject image1={weather}
-      title="Weather Dashboard"
-      description="An basic weather application, it allows you to search, save, and the view the weather for any city you please. This application helped me to get familiar with the use of API's"
-      tech="Javascript, HTML, Css"
-      repo="https://github.com/EDowning2000/weather-dashboard"
-      />
-      <SingleProject image1={books}
-      title="Book Finder"
-      description="Application that allows the user to search google's book api, see a description and other information about the books, and save them to a virtual library"
-      tech="React, Mongoose, Node, Express, Css"
-      repo="https://github.com/EDowning2000/Books"
-      />
-      <SingleProject image1={budget}
-      title="Budget Tracker"
-      description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
-      tech="Javascript, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/BudgetTrackerPWA"
-      />
-      <SingleProject image1={employee}
-      title="Employee Tracker"
-      description="This application allows the user to search through a database of employees, the user can search by first name, last name, or phone number in this app."
-      tech="React, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/EmployeeTracker3.0"
-      />
-      <SingleProject image1={workout}
-      title="Workout Tracker"
-      description="This application allows a user to define what type of exercise they are doing, input the stats of the exercise, and then shows them the breakdown in two different graphs"
-      tech="React, Node, Express, Mongo, Css"
-      repo="https://github.com/EDowning2000/WorkoutTracker"
-      />
-      <SingleProject image1={note}
-      title="Note Taker"
-      description="In this application, the user is able to create notes with titles and descriptions of the notes, you also are able to delete the notes or view them at any time from the database."
-      tech="Javascript, Node, Express, Mongoose, Css"
-      repo="https://github.com/EDowning2000/Note-Taker"
-      />
-      {/* <SingleProject image1={burger}
+        <SingleProject
+          image1={twitter}
+          title="Twitter Clone"
+          description="This is a working clone of twitter, that allows a user to make and read posts on my twitter feed. PS: check out the tweet button on these cards, its the same one i used in this app."
+          tech="React, Firebase, Css"
+          repo="https://github.com/EDowning2000/TwitterClone"
+        />
+        <SingleProject
+          image1={weather}
+          title="Weather Dashboard"
+          description="An basic weather application, it allows you to search, save, and the view the weather for any city you please. This application helped me to get familiar with the use of API's"
+          tech="Javascript, HTML, Css"
+          repo="https://github.com/EDowning2000/weather-dashboard"
+        />
+        <SingleProject
+          image1={books}
+          title="Book Finder"
+          description="Application that allows the user to search google's book api, see a description and other information about the books, and save them to a virtual library"
+          tech="React, Mongoose, Node, Express, Css"
+          repo="https://github.com/EDowning2000/Books"
+        />
+        <SingleProject
+          image1={budget}
+          title="Budget Tracker"
+          description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
+          tech="Javascript, Node, Express, Mongo, Css"
+          repo="https://github.com/EDowning2000/BudgetTrackerPWA"
+        />
+        <SingleProject
+          image1={employee}
+          title="Employee Tracker"
+          description="This application allows the user to search through a database of employees, the user can search by first name, last name, or phone number in this app."
+          tech="React, Node, Express, Mongo, Css"
+          repo="https://github.com/EDowning2000/EmployeeTracker3.0"
+        />
+        <SingleProject
+          image1={workout}
+          title="Workout Tracker"
+          description="This application allows a user to define what type of exercise they are doing, input the stats of the exercise, and then shows them the breakdown in two different graphs"
+          tech="React, Node, Express, Mongo, Css"
+          repo="https://github.com/EDowning2000/WorkoutTracker"
+        />
+        <SingleProject
+          image1={note}
+          title="Note Taker"
+          description="In this application, the user is able to create notes with titles and descriptions of the notes, you also are able to delete the notes or view them at any time from the database."
+          tech="Javascript, Node, Express, Mongoose, Css"
+          repo="https://github.com/EDowning2000/Note-Taker"
+        />
+        {/* <SingleProject image1={burger}
       title="Budget Tracker"
       description="The user can either input, or withdraw money from a virtual account, and then their saving and spending habits are displayed in a nice graph to make it easier to visualize."
       tech="Javascript, Node, Express, Mongo, Css"
       repo="https://github.com/EDowning2000/BudgetTrackerPWA"
       /> */}
-      <SingleProject image1={password}
-      title="Random Password Generator"
-      description="In this application, the user is given different prompts to verify if they want capital letters, numbers, symbols, and how many characters. Then the app gives them a random password"
-      tech="Javascript, HTML, Css"
-      repo="https://github.com/EDowning2000/password-generator"
-      />
-      <SingleProject image1={team}
-      title="Team Profile Generator"
-      description="This is a node CLI application that gives you prompts about your team, and upon finishing the prompts will generate an html document with all the info given in the console."
-      tech="Javascript, Node, HTML, Css"
-      repo="https://github.com/EDowning2000/TeamProfileGenerator"
-      />
-      
+        <SingleProject
+          image1={password}
+          title="Random Password Generator"
+          description="In this application, the user is given different prompts to verify if they want capital letters, numbers, symbols, and how many characters. Then the app gives them a random password"
+          tech="Javascript, HTML, Css"
+          repo="https://github.com/EDowning2000/password-generator"
+        />
+        <SingleProject
+          image1={team}
+          title="Team Profile Generator"
+          description="This is a node CLI application that gives you prompts about your team, and upon finishing the prompts will generate an html document with all the info given in the console."
+          tech="Javascript, Node, HTML, Css"
+          repo="https://github.com/EDowning2000/TeamProfileGenerator"
+        />
       </div>
     </div>
   )
@@ -130,9 +138,11 @@ function Projects() {
 
 export default Projects
 
-{/* <SingleProject image1={}
+{
+  /* <SingleProject image1={}
       title=""
       description=''
       tech=""
       repo=""
-      /> */}
+      /> */
+}
