@@ -179,3 +179,192 @@
 .cardPadding {
   padding-right: 5px;
 }
+
+
+
+
+@media all and (max-width: 500px){
+  .aboutContainer {
+    margin-top: -560px;
+    /* background-color: #5e94d7; */
+    height: fit-content;
+    width: 100%;
+  }
+  .aboutBackground {
+    margin-top: -5px;
+    background-color: #5e94d7;
+    height: 550px;
+    width: 100%;
+  }
+  .aboutMe {
+    padding-top: 90px;
+    font-size: 2.7vh;
+    font-weight: 300;
+    color: #dbe2ef;
+    text-align: center;
+  }
+  .aboutMeContinued {
+    width: 75%;
+    margin: auto;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 1.8vh;
+    color: #dbe2ef;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .aboutCards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .cardFrontEnd {
+    padding-top: 5%;
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid #dbe2ef;
+    border-radius: 10px 0px 0px 10px;
+    height: 360px;
+    width: 20%;
+    background-color: #f9f7f7;
+  }
+  .cardBackEnd {
+    padding-top: 5%;
+  
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid #dbe2ef;
+    height: 360px;
+    width: 20%;
+    background-color: #f9f7f7;
+  }
+  .cardStudent {
+    padding-top: 5%;
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid #dbe2ef;
+    border-radius: 0px 10px 10px 0px;
+    height: 360px;
+    width: 20%;
+    background-color: #f9f7f7;
+  }
+  .frontEndPic {
+    transform: rotate(0deg);
+  }
+  .aboutPic {
+    margin-top: -390px;
+    padding-top: 20px;
+    height: 40px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+  }
+  .aboutPic3 {
+    margin-top: -390px;
+    padding-top:20px;
+    height: 38px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+  }
+  .cardMain {
+    color: black;
+    font-size: .8vh;
+    font-weight: 400;
+    height: fit-content;
+    width: auto;
+    color: #5e94d7;
+  }
+  .cardMain2 {
+    height: 100px;
+    padding-top: 20px;
+    margin: auto;
+    width: 85%;
+    font-size: .75vh;
+    font-weight: 200;
+  }
+  .cardLanguages1 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .8vh;
+    font-weight: 400;
+  }
+  .cardLanguages2 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .75vh;
+    font-weight: 400;
+  }
+  .cardLanguages3 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .8vh;
+    font-weight: 400;
+  }
+  .separator {
+    margin-top: 5px;
+  }
+  .cardTech {
+    text-align: center;
+    font-weight: 200;
+    width: 85%;
+    margin: auto;
+    height: 100px;
+    padding-top: 20px;
+    font-size:.75vh !important;
+  }
+  .cardMain4 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .8vh;
+    font-weight: 400;
+  }
+  .cardMain5 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .8vh;
+    font-weight: 400;
+  }
+  .cardMain6 {
+    padding-top: 0px;
+    color: #5e94d7;
+    font-size: .8vh;
+    font-weight: 400;
+  }
+  .cardTools1 {
+    text-align: center;
+  
+    width: 86%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: .75vh;
+    font-weight: 200;
+  }
+  .cardTools2 {
+    text-align: center;
+  
+    width: 86%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: .75vh;
+    font-weight: 200;
+  }
+  .cardTools3 {
+    text-align: center;
+    width: 86%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: .75vh;
+    font-weight: 200;
+  }
+  .cardPadding {
+    font-size: .75vh;
+    margin: 0;
+    padding-right: 5px;
+  }
+  
+}

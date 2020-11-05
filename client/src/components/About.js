@@ -32,21 +32,25 @@ function About() {
             </div>
             <div className="cardLanguages1">Languages I Use</div>
             <div className="cardTech">
-              <span className="cardPadding">HTML </span>
-              <span className="cardPadding">CSS </span>
-              <span className="cardPadding">SASS </span>
+              <span className="cardPadding">HTM</span>
+              <span className="cardPadding">CSS</span>
+              <div className="separator"></div>
+              <span className="cardPadding">SASS</span>
               <div className="separator"></div>
 
-              <span className="cardPadding">JavaScript </span>
-              <span className="cardPadding">React </span>
-              <span className="cardPadding">HandleBars </span>
+              <span className="cardPadding">JavaScript</span>
+              <span className="cardPadding">React</span>
+              <div className="separator"></div>
+              <span className="cardPadding">HandleBars</span>
             </div>
             <div className="cardMain4">Tools I Use</div>
             <div className="cardTools1">
-              <span className="cardPadding">BootStrap </span>
-              <span className="cardPadding">Figma </span>
+              <span className="cardPadding">BootStrap</span>
               <div className="separator"></div>
-              <span className="cardPadding">Material-UI </span>
+              <span className="cardPadding">Figma</span>
+              <div className="separator"></div>
+              <span className="cardPadding">Material-UI</span>
+              <div className="separator"></div>
               <span className="cardPadding">Sketch </span>
             </div>
           </div>
@@ -62,13 +66,17 @@ function About() {
             <div className="cardLanguages2">Languages I Use</div>
             <div className="cardTech">
               <span className="cardPadding">Node </span>
+              <div className="separator"></div>
               <span className="cardPadding">Express </span>
-              <span>Mongo </span>
+              <div className="separator"></div>
+              <span className="cardPadding">MongoDB </span>
+              <div className="separator"></div>
               <span className="cardPadding">mySQL </span>
             </div>
             <div className="cardMain5">Tools I Use</div>
             <div className="cardTools2">
               <span className="cardPadding">Postman </span>
+              <div className="separator"></div>
               <span className="cardPadding">Sql-WorkBench </span>
               <div className="separator"></div>
               <span className="cardPadding">Robo 3T </span>
@@ -86,6 +94,7 @@ function About() {
             <div className="cardLanguages3">Resources I Use</div>
             <div className="cardTech">
               <span className="cardPadding">UCF Bootcamp </span>
+              <div className="separator"></div>
               <span className="cardPadding">Dev Ed </span>
               <div className="separator"></div>
               <span className="cardPadding">Traversy Media </span>
@@ -96,9 +105,11 @@ function About() {
             <div className="cardMain6">How I Learn</div>
             <div className="cardTools3">
               <span className="cardPadding">Documentation </span>
+              <div className="separator"></div>
               <span className="cardPadding">Tutorials </span>
               <div className="separator"></div>
               <span className="cardPadding">Full Courses </span>
+              <div className="separator"></div>
               <span className="cardPadding">Problem Sets </span>
             </div>
           </div>
