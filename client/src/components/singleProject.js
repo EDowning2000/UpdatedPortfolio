@@ -24,7 +24,7 @@ function singleProject({ image1, description, title, tech, repo }) {
               via: "EmersonDowning1",
             }}
           /></div>
-          <a href={repo} target="blank">
+          <a href={repo} target="blank" className="repoPic">
             <img src={ghPic} className="repoPic" />
           </a>
         </div>

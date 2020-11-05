@@ -119,14 +119,14 @@ function Projects() {
       /> */}
         <SingleProject
           image1={password}
-          title="Random Password Generator"
+          title="Password Generator"
           description="In this application, the user is given different prompts to verify if they want capital letters, numbers, symbols, and how many characters. Then the app gives them a random password"
           tech="Javascript, HTML, Css"
           repo="https://github.com/EDowning2000/password-generator"
         />
         <SingleProject
           image1={team}
-          title="Team Profile Generator"
+          title="Team Generator"
           description="This is a node CLI application that gives you prompts about your team, and upon finishing the prompts will generate an html document with all the info given in the console."
           tech="Javascript, Node, HTML, Css"
           repo="https://github.com/EDowning2000/TeamProfileGenerator"

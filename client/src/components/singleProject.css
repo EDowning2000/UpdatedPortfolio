@@ -66,3 +66,76 @@
   justify-content: center;
   padding-top: 20px;
 }
+
+
+@media all and (max-width: 500px){
+  .singleMainContainer{
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 220px;
+    border: .5px #dbe2ef solid;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .singleImage{
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: .5px solid #5e94d7;
+
+  }
+  .singleTitle{
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0 !important;
+    font-size: .8vh;
+    font-weight: 450;
+    color: #5e94d7;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .singleDescription{
+    height: 20%;
+    width: 80%;
+    font-size: .75vh;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 0 !important;
+  }
+  .singleTech{
+    margin: auto;
+    height: 10px;
+    width: 80%;
+    font-size: .75vh;
+    margin-top: 50px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    /* padding-bottom: 30px; */
+  }
+  .repoPic{
+    padding-right: 10px;
+   margin-top: -10px !important;
+    width: 70%;
+    height: auto;
+  }
+  .twitterPic{
+    display: none;
+    width: 10% !important;
+    height: auto;
+    padding-right: 15%;
+  }
+  .repoInfo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+}

@@ -22,7 +22,7 @@ const IndexPage = () => (
     <Intro />
     <About/>
     <Projects/>
-    {/* <Footer/> */}
+    <Footer/>
   </div>
 )
 
