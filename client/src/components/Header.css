@@ -92,6 +92,54 @@
   cursor: pointer;
 }
 
+
+
+
+
+/* smartphones portrait and landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+
 @media (max-width: 500px) {
   .header {
     display: flex;
@@ -168,78 +216,7 @@
   }
 }
 
-@media(max-width: 750px){
-  .header {
-    display: flex;
-    flex-direction: row;
-  }
-  .headerPic {
-    height: 100px;
-    width: auto;
-    margin-left: 5px;
-    margin-top: 5px;
-    transform: rotate(-1deg);
-  }
-  .myLinks {
-    display: flex;
-    margin-top: 30px;
-    margin-right: 0px;
-  }
-  .myLinks1 {
-    text-align: right;
-    margin-left: 5px;
-    padding: 6px;
-    font-weight: 200;
-    font-size: 7px;
-    width: fit-content;
-    /* font-family: 'Inter', sans-serif; */
-    border-radius: 8px;
-    color: black;
-    height: fit-content;
-  }
-  .myLinks2 {
-    text-align: right;
-    margin-left: 5px;
-    padding: 6px;
-    font-weight: 200;
-    font-size: 8px;
-    /* font-family: 'Inter', sans-serif; */
-    border-radius: 8px;
-    color: black;
-    height: fit-content;
-  }
-  .myLinks3 {
-    text-align: right;
-    margin-left: 5px;
-    padding: 6px;
-    font-weight: 200;
-    font-size: 8px;
-    /* font-family: 'Inter', sans-serif; */
-    border-radius: 8px;
-    color: black;
-    height: fit-content;
-  }
-  .myLinks4 {
-    text-align: right;
-    margin-left: 5px;
-    padding: 6px;
-    font-weight: 200;
-    font-size: 8px;
-    /* font-family: 'Inter', sans-serif; */
-    border-radius: 8px;
-    color: black;
-    height: fit-content;
-  }
-  .active {
-    text-align: right !important;
-    margin-left: 5px !important;
-    padding: 6px !important;
-    font-weight: 200 !important;
-    font-size: 8px !important;
-    /* font-family: 'Inter', sans-serif; */
-    border-radius: 8px !important;
-    color: black !important;
-    height: fit-content !important;
-    text-decoration: none !important;
-  }
-}
+
+
+
+
