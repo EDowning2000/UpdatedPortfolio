@@ -21,7 +21,6 @@
   padding: 6px;
   font-weight: 200;
   font-size: 1.7vh;
-  /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
   color: black;
   height: fit-content;
@@ -32,7 +31,6 @@
   padding: 6px;
   font-weight: 200;
   font-size: 1.7vh;
-  /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
   color: black;
   height: fit-content;
@@ -43,7 +41,6 @@
   padding: 6px;
   font-weight: 200;
   font-size: 1.7vh;
-  /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
   color: black;
   height: fit-content;
@@ -54,7 +51,6 @@
   padding: 6px;
   font-weight: 200;
   font-size: 1.7vh;
-  /* font-family: 'Inter', sans-serif; */
   border-radius: 8px;
   color: black;
   height: fit-content;
@@ -65,7 +61,6 @@
   padding: 6px !important;
   font-weight: 200 !important;
   font-size: 1.7vh !important;
-  /* font-family: 'Inter', sans-serif; */
   border-radius: 8px !important;
   color: black !important;
   height: fit-content !important;
@@ -99,48 +94,7 @@
 /* smartphones portrait and landscape */
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-/* Styles */
-}/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-/* Styles */
-}
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-/* Styles */
-}
-
-
-@media (max-width: 500px) {
+and (max-device-width : 500px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -148,14 +102,14 @@ and (min-width : 1824px) {
   .headerPic {
     height: 60px;
     width: auto;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 5px;
     transform: rotate(-1deg);
   }
   .myLinks {
     display: flex;
     margin-top: 30px;
-    margin-right: 0px;
+    margin-right: 5px;
   }
   .myLinks1 {
     text-align: right;
@@ -215,8 +169,325 @@ and (min-width : 1824px) {
     text-decoration: none !important;
   }
 }
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+  .headerPic {
+    height: 60px;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 5px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .myLinks1 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 8px;
+    width: fit-content;
+    /* font-family: 'Inter', sans-serif; */
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks2 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 8px;
+    /* font-family: 'Inter', sans-serif; */
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks3 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 8px;
+    /* font-family: 'Inter', sans-serif; */
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks4 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 8px;
+    /* font-family: 'Inter', sans-serif; */
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .active {
+    text-align: right !important;
+    margin-left: 5px !important;
+    padding: 6px !important;
+    font-weight: 200 !important;
+    font-size: 8px !important;
+    /* font-family: 'Inter', sans-serif; */
+    border-radius: 8px !important;
+    color: black !important;
+    height: fit-content !important;
+    text-decoration: none !important;
+  }}
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .headerPic {
+    height: 70px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 5px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 35px;
+    margin-right: 55px;
+  }
+}
 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .headerPic {
+    height: 70px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 5px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 35px;
+    margin-right: 55px;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .headerPic {
+    height: 70px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 5px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 35px;
+    margin-right: 55px;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .headerPic {
+    width: 5%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 15px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 120px;
+  }
+  .myLinks1 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks2 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks3 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks4 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .active {
+    text-align: right !important;
+    margin-left: 5px !important;
+    padding: 6px !important;
+    font-weight: 200 !important;
+    font-size: 1.7vh !important;
+    border-radius: 8px !important;
+    color: black !important;
+    height: fit-content !important;
+    text-decoration: none !important;
+  }
+  .myLinks1:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks2:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks3:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks4:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .headerPic {
+    width: 5%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 15px;
+    transform: rotate(-1deg);
+  }
+  .myLinks {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 120px;
+  }
+  .myLinks1 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks2 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks3 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .myLinks4 {
+    text-align: right;
+    margin-left: 5px;
+    padding: 6px;
+    font-weight: 200;
+    font-size: 1.7vh;
+    border-radius: 8px;
+    color: black;
+    height: fit-content;
+  }
+  .active {
+    text-align: right !important;
+    margin-left: 5px !important;
+    padding: 6px !important;
+    font-weight: 200 !important;
+    font-size: 1.7vh !important;
+    border-radius: 8px !important;
+    color: black !important;
+    height: fit-content !important;
+    text-decoration: none !important;
+  }
+  .myLinks1:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks2:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks3:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .myLinks4:hover {
+    background: #dbe2ef;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+}
 
 
