@@ -87,14 +87,8 @@
   cursor: pointer;
 }
 
-
-
-
-
 /* smartphones portrait and landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -170,8 +164,7 @@ and (max-device-width : 500px) {
   }
 }
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
+@media only screen and (min-width: 321px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -244,13 +237,16 @@ and (min-width : 321px) {
     color: black !important;
     height: fit-content !important;
     text-decoration: none !important;
-  }}
-
+  }
+}
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .headerPic {
     height: 70px;
     width: auto;
@@ -266,10 +262,12 @@ and (max-device-width : 1024px) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .headerPic {
     height: 70px;
     width: auto;
@@ -285,10 +283,12 @@ and (orientation : landscape) {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .headerPic {
     height: 70px;
     width: auto;
@@ -303,10 +303,8 @@ and (orientation : portrait) {
   }
 }
 
-
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
+@media only screen and (min-width: 1224px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -398,8 +396,7 @@ and (min-width : 1224px) {
 }
 
 /* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
+@media only screen and (min-width: 1824px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -489,5 +486,3 @@ and (min-width : 1824px) {
     cursor: pointer;
   }
 }
-
-

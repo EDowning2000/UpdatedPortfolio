@@ -48,14 +48,75 @@
 
 
 
-@media all and (max-width: 500px){
+
+
+/* smartphones portrait and landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
   .introMe {
     justify-content: center;
     display: flex;
     margin-top: 100px;
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 3.3vh;
+    font-size: 1.7vh;
+    color: black;
+  }
+  .introMeAbout {
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: black;
+    font-size: 1.5vh;
+  }
+  .introAvatar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center !important;
+    text-align: center;
+    background: #5e94d7;
+    filter: brightness(110%);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   
+  }
+  .introPic {
+    height: 90%;
+    padding-right: 15px;
+    width: auto;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .introThings {
+    margin:auto;
+    margin-top: 40px;
+    filter: brightness(110%);
+    width: auto;
+    transform: rotate(0.1deg);
+    height: auto;
+    width: 100%;
+  }
+  
+
+}
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) 
+and (orientation : landscape){
+  .introMe {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 3.5vh;
     color: black;
   }
   .introMeAbout {
@@ -77,53 +138,103 @@
     background: #5e94d7;
     filter: brightness(110%);
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
    
   }
   .introPic {
     height: 90%;
-    padding-right: 20px;
+    padding-right: 15px;
     width: auto;
     margin-top: -15px;
     margin-right: auto;
     margin-left: auto;
   }
   .introThings {
-    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
     margin-top: 40px;
     filter: brightness(110%);
     width: auto;
     transform: rotate(0.1deg);
     height: auto;
-    width: 100%;
+    width: 400px;
   }
-  
-}
-
-
-/* smartphones portrait and landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
-}
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-/* Styles */
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-/* Styles */
-}/* iPads (landscape) ----------- */
+  .introMe {
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 2.5vh;
+    color: black;
+  }
+  .introMeAbout {
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: black;
+    font-size: 2vh;
+  }
+  .introAvatar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center !important;
+    text-align: center;
+    background: #5e94d7;
+    filter: brightness(110%);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+   
+  }
+  .introPic {
+    height: 90%;
+    padding-right: 15px;
+    width: auto;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .introThings {
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 40px;
+    filter: brightness(110%);
+    width: auto;
+    transform: rotate(0.1deg);
+    height: auto;
+    width: 500px;
+  }
+}
+
+/* iPads (landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-/* Styles */
+  .introThings {
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 40px;
+    filter: brightness(110%);
+    width: auto;
+    transform: rotate(0.1deg);
+    height: auto;
+    width: 500px;
+  }
 }
 
 /* iPads (portrait) ----------- */
@@ -136,11 +247,62 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
-/* Styles */
+  .introMe {
+    justify-content: center;
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 3.3vh;
+    color: black;
+  }
+  .introMeAbout {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: black;
+    font-size: 2.5vh;
+  }
+  .introAvatar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center !important;
+    text-align: center;
+    background: #5e94d7;
+    filter: brightness(110%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .introPic {
+    height: 90%;
+    padding-right: 20px;
+    width: auto;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .introThings {
+    margin-left: 25%;
+    margin-top: 40px;
+    filter: brightness(110%);
+    width: auto;
+    height: 70%;
+    transform: rotate(0.1deg);
+  }
 }
 
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
-/* Styles */
+  .introThings {
+    margin-left: 33%;
+    margin-top: 40px;
+    filter: brightness(110%);
+    width: auto;
+    height: 70%;
+    transform: rotate(0.1deg);
+  }
 }
