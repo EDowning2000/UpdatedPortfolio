@@ -2,13 +2,12 @@ import React from "react"
 import "./singleProject.css"
 import ghPic from "../images/githubPic2.png"
 
-import { TwitterShareButton, TwitterTweetEmbed } from "react-twitter-embed"
+import TwitterShareButton from "react-twitter-embed"
 
 function singleProject({ image1, description, title, tech, repo }) {
   return (
     <div className="singleMainContainer">
       <img src={image1} className="singleImage" />
-      {/* <hr/> */}
       <div className="singleContainer">
         <div className="singleTitle">{title}</div>
         <div className="singleDescription">{description}</div>
